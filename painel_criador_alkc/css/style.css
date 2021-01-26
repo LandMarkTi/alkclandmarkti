@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+a.menu:link {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+    font-weight: bold;
+	color: #fff;
+	text-decoration: none
+}
+a.menu:visited {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+    font-weight: bold;
+	color: #fff;
+	text-decoration: none
+}
+a.menu:hover {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+    font-weight: bold;
+	color: #fff;
+	text-decoration: underline;
+}
+a.menu:active {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+    font-weight: bold;
+	color: #fff;
+	text-decoration: none
+}
+
+.botao { display: inline-block; background: url(../images/botao.gif) no-repeat; text-align: center; line-height: 24px; border: none; font-size: 15px; font-weight: bold; color: black; cursor: pointer; -moz-opacity:.85; filter:alpha(opacity=85); opacity:.85; }
+.botao:hover { -moz-opacity:1; filter:alpha(opacity=100); opacity:1; color: black; text-decoration: none; }
+.botao:active { -moz-opacity:.80; filter:alpha(opacity=80); opacity:.80; position: relative; top: 1px; }
+
+.textos_contato2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    font-weight: bold;
+	color: #423B1A;
+}
+
+.textos_principal{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+}
+
+.fundo_topo {
+	background-image: url(images/fundo_topo.jpg);
+	background-repeat:repeat-x;
+}
+
+.fundo_banner {
+	background-image: url(images/fundo_banner.jpg);
+	background-repeat:repeat-x;
+}
+
+.fundo_footer {
+	background-image: url(images/fundo_footer.jpg);
+	background-repeat:repeat-x;
+}
+
+#forms_label_p {
+	width:35px; 
+	float:left; 
+	margin-top:8px; 
+	margin-right:10px; 
+	text-align:right;
+}
+
+.forms{
+	font-family: Arial, Verdana;
+	font-size: 15px;
+	padding: 7px;
+	border: 1px solid #b9bdc1;
+	color: #999;
+	background-color: #fff;
+	border-radius: 7px;
+	height: 28px;
+	padding-left: 16px;
+	margin-left: 10px;
+		}
+	
+.forms_list{
+	font-family: Arial, Verdana; 
+	font-size: 15px; 
+	padding: 4px; 
+	border: 1px solid #b9bdc1; 
+	color: #797979;	
+}
+
+
+.fundo_tabela{
+	background-color:#EEE;	
+}
+
+.fundo_tabela:hover{
+	background-color:#549ABE;
+	color:#FFF;	
+}
+
+.box_caixa_restrito{ 
+	width: 192px;
+	height: 213px;
+
+	background-image:url(images/layout/fundo_area_reservada.jpg);
+	background-repeat:no-repeat;
+}

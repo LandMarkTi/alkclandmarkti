@@ -1,0 +1,473 @@
+#topo{
+    width: 100%;
+    height: 706px;
+    float: left;
+    background: #4ec1ea url('../../img/site/banner_home.jpg') top center no-repeat;
+    font-size: 32px;
+    font-weight: lighter;
+    line-height: 44px;
+    color: #fff;
+}
+#topo .health{
+    width: 812px;
+    height: 268px;
+    float: left;
+    margin: 57px 0 0;
+}
+#topo .health p{
+    margin: 0;
+}
+#topo .logo_health{
+    width: 267px;
+    height: 267px;
+    float: left;
+    margin-top: 52px;
+    background-image: url('../../img/site/health_for_pet.png');
+    position: relative;
+    z-index: 1;
+}
+/*Conteúdo da home*/
+.content{
+    width: 100%;
+    float: left;
+    /*background: #ffffff url('../../img/site/faixa_animais.jpg') bottom center repeat-x;*/
+}
+.content h1{
+    margin: 50px 0 42px 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    color: #03acdb;
+}
+.content .plano{
+    width: 219px;
+    height: 309px;
+    float: left;
+    margin-left: 26px;
+    border-radius: 5px;
+    color: #fff;
+}
+.content .plano.primeiro{
+    margin-left: 0;
+}
+.content .plano .topo{
+    width: 100%;
+    height: 161px;
+    float: left;
+}
+.content .plano .pata{
+    width: 100%;
+    height: 73px;
+    float: left;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    line-height: 100px;
+}
+.content .plano .pata i{
+    width: 37px;
+    height: 34px;
+    display: inline-block;
+    background: url('../../img/site/icones.png') top left no-repeat;
+}
+.content .plano .descricao{
+    width: 100%;
+    height: 87px;
+    float: left;
+}
+.content .plano .a_partir{
+    width: 100%;
+    height: 47px;
+    float: left;
+    line-height: 70px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+.content .plano .valor{
+    width: 100%;
+    height: 47px;
+    margin: 0;
+    float: left;
+    text-align: center;
+    font-size: 34px;
+}
+.content .plano .btn_detalhes{
+    width: 195px;
+    height: 42px;
+    float: left;
+    margin-left: 12px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn_detalhes{
+    text-decoration: none;
+    color: #fff;
+}
+.content .plano .base{
+    width: 100%;
+    height: 148px;
+    float: left;
+    background-color: #f0f0f0;
+    border-radius: 0 0 5px 5px;
+}
+.content .plano .icone i{
+    background-image: url('../../img/site/icones.png');
+    display: inline-block;
+}
+.content .plano .descricao.unico{
+    height: 71px;
+    padding-top: 16px;
+}
+.content .plano .descricao.unico .icone{
+    width: 51px;
+    height: 54px;
+    float: left;
+    margin: 0 16px 0 29px;
+    text-align: center;
+    line-height: 51px;
+}
+.content .plano .descricao.dois{
+    height: 62px;
+    padding-top: 25px;
+}
+.content .plano .descricao.dois .icones{
+    width: 82px;
+    height: 40px;
+    float: left;
+    margin-right: 11px;
+    line-height: 40px;
+}
+.content .plano .descricao.dois .icone{
+    width: 34px;
+    height: 38px;
+    float: left;
+    text-align: center;
+}
+.content .plano .descricao.dois .nome_plano{
+    margin: 0 0 3px;
+}
+
+.content .plano .descricao.tres .nome_plano{
+    width: 100%;
+    height: 15px;
+    text-align: center;
+    margin: 10px 0 9px 0;
+}
+.content .plano .descricao.tres .tipo{
+    width: 100%;
+    height: 13px;
+    margin-bottom: 6px;
+    text-align: center;
+}
+.content .plano .descricao.tres .icones{
+    width: 100%;
+    line-height: 23px;
+    text-align: center;
+}
+.content .plano .descricao.tres .icone{
+    display: inline-block;
+}
+.content .plano .descricao.tres .mais{
+    line-height: 5px;
+}
+
+.content .nome_plano{
+    font-size: 20px;
+    font-weight: normal;
+    float: left;
+    margin: 8px 0 9px 0;
+}
+.content .plano .tipo{
+    font-size: 14px;
+    float: left;
+}
+.ambulatorio.grande i{
+    width: 34px;
+    height: 50px;
+    background-position: -1px -35px; 
+}
+.ambulatorio.pequeno i{
+    width: 16px;
+    height: 23px;
+    background-position: -105px -37px;
+}
+.ambulatorio.medio i{
+    width: 24px;
+    height: 35px;
+    background-position: right top;
+}
+.hospitalar.grande i{
+    width: 53px;
+    height: 51px;
+    background-position: -46px top;
+}
+.hospitalar.pequeno i{
+    width: 22px;
+    height: 23px;
+    background-position: -73px -53px;
+}
+.reembolso.pequeno i{
+    width: 21px;
+    height: 24px;
+    background-position: -100px -61px;
+}
+.content .plano .descricao .hospitalar.medio{
+    float: right;
+}
+.hospitalar.medio i{
+    width: 34px;
+    height: 35px;
+    background-position: -37px -53px;
+}
+.content .plano.light{
+    background-color: #8dcb46;
+}
+.content .plano.light .valor{
+    color: #8dcb46;
+}
+.content .plano.light .btn_detalhes{
+    background-color: #8dcb46;
+}
+
+    .content .plano.plus{
+        background-color: #8560a8;
+    }
+    .content .plano.plus .valor{
+        color: #8560a8;
+    }
+    .content .plano.plus .btn_detalhes{
+        background-color: #8560a8;
+    }
+    
+        .content .plano.total{
+            background-color: #f7941d;
+        }
+        .content .plano.total .valor{
+            color: #f7941d;
+        }
+        .content .plano.total .btn_detalhes{
+            background-color: #f7941d;
+        }
+.content .plano.premium{
+    background-color: #4384c1;
+}
+.content .plano.premium .valor{
+    color: #4384c1;
+}
+.content .plano.premium .btn_detalhes{
+    background-color: #4384c1;
+}
+
+/*formulário de detalhes*/
+.quero_detalhes{
+    width: 783px;
+    height: 518px;
+    float: left;
+    margin: -10px;
+    background: url('../../img/site/lightbox.jpg') left bottom no-repeat;
+    border-radius: 8px;
+}
+.quero_detalhes h1{
+    width: 732px;
+    float: left;
+    margin: 20px 0 0 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: normal;
+    color: #4384c1;
+}
+.quero_detalhes .linha{
+    width: 100%;
+    float: left;
+    margin-bottom: 9px;
+}
+.quero_detalhes .campos{
+    width: 726px;
+    height: 274px;
+    float: left;
+    margin: 14px 0 0 30px;
+}
+.quero_detalhes .campo{
+    float: left;
+    margin-right: 15px;
+}
+.quero_detalhes label{
+    width: 100%;
+    height: 18px;
+    float: left;
+    font-size: 12px;
+    font-style: italic;
+    color: #bfbfbf;
+}
+.quero_detalhes input, .quero_detalhes textarea{
+    width: 98%;
+    height: 26px;
+    float: left;
+    padding: 0 1%;
+    border: 1px solid #e9e9e9;
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 26px;
+    color: #03acdb;
+}
+.quero_detalhes input.invalido, .quero_detalhes textarea.invalido{
+    border-color: #f00;
+}
+.quero_detalhes .campo.nome{
+    width: 360px;
+}
+.quero_detalhes .campo.email{
+    width: 346px;
+    float: right;
+    margin-right: 0;
+}
+.quero_detalhes .campo.tipo_plano{
+    width: 138px;
+}
+.quero_detalhes .campo.seu_pet{
+    width: 139px;
+}
+.quero_detalhes .campo.qtd_animais{
+    width: 192px;
+    margin-right: -10px;
+}
+.quero_detalhes .campo.qtd_animais input{
+    width: 76px;
+}
+.quero_detalhes .campo.raca{
+    width: 160px;
+    height: 46px;
+}
+.quero_detalhes .campo.mensagem{
+    width: 100%;
+}
+.quero_detalhes .campo.mensagem textarea{
+    height: 86px;
+    resize: none;
+    line-height: 17px;
+}
+.quero_detalhes .linha.btns{
+    margin-top: 47px;
+    text-align: center;
+}
+.quero_detalhes .btn{
+    width: 245px;
+}
+.quero_detalhes .selectboxit-container{
+    width: 100%;
+}
+.quero_detalhes .selectboxit-container .selectboxit{
+    width: 100% !important;
+    height: 26px !important;
+}
+.quero_detalhes .selectboxit-btn{
+    background: #fff;
+}
+.quero_detalhes .selectboxit-btn:hover{
+    background-color: #fff;
+}
+.quero_detalhes .selectboxit-arrow-container{
+    background-color: #e6e6e6;
+    border-radius: 5px;
+}
+.quero_detalhes .selectboxit-default-arrow{
+    border-top-color: #03acdb;
+    border-top-width: 9px;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+.quero_detalhes .selectboxit-btn.selectboxit-enabled:hover, .quero_detalhes .selectboxit-btn.selectboxit-enabled:focus{
+    color: #4384c1;
+}
+.quero_detalhes .selectboxit-container, .quero_detalhes .selectboxit-list .selectboxit-option-anchor{
+    color: #03acdb;
+}
+.quero_detalhes .selectboxit-container span, .quero_detalhes .selectboxit-container .selectboxit-options a{
+    height: 26px;
+    line-height: 26px;
+}
+#destaques{
+    background-color: #ededed;
+    padding-bottom: 56px;
+}
+#destaques h1{
+    width: 100%;
+    height: 126px;
+    float: left;
+    margin: 0;
+    text-align: center;
+    line-height: 126px;
+    font-size: 32px;
+    font-weight: normal;
+    color: #03acdb;
+}
+#destaques h1 strong{
+    color: #ec5878;
+}
+.destaques{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.destaques .destaque{
+    width: 299px;
+    height: 486px;
+    float: left;
+    margin-right: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    line-height: 17px;
+    font-size: 12px;
+    color: #777;
+}
+.destaques .destaque.ultimo{
+    margin-right: 0;
+}
+.destaques .destaque .photo{
+    width: 100%;
+    height: 195px;
+    float: left;
+}
+.destaques .destaque img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.destaques .destaque .chamada{
+    width: 100%;
+    height: 60px;
+    float: left;
+    background-color: #4ec1ea;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+.destaques .destaque .pontos{
+    width: 100%;
+    height: auto;
+}
+.destaques ul{
+    width: 262px;
+    height: auto;
+    float: left;
+    padding: 0 12px;
+    margin-left: 20px;
+    list-style-image: url('../../img/site/destaques/dot.png');
+}
+.destaques ul li{
+    width: 237px;
+    float: left;
+    padding-left: 6px;
+    padding-bottom: 15px;
+}
+.content.planos{
+    padding-bottom: 53px;
+}

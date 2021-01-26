@@ -1,0 +1,667 @@
+﻿.paginate_button{font-size:15px;padding-left: 3px;}
+
+/* Arial Branco */
+
+.arial_branco10{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#FFF;
+	text-decoration:none;
+}
+a.arial_branco10:link, a.arial_branco10:visited, a.arial_branco10:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#FFF;
+	text-decoration:none;
+	}
+a.arial_branco10:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#CCC;
+	text-decoration:none;
+}
+
+.arial_branco11{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#FFF;
+	text-decoration:none;
+}
+a.arial_branco11:link, a.arial_branco11:visited, a.arial_branco11:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#FFF;
+	text-decoration:none;
+	}
+a.arial_branco11:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#CCC;
+	text-decoration:none;
+}
+
+.arial_branco12{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color:#FFF;
+	text-decoration:none;
+}
+a.arial_branco12:link, a.arial_branco12:visited, a.arial_branco12:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color:#FFF;
+	text-decoration:none;
+	}
+a.arial_branco12:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color:#CCC;
+	text-decoration:none;
+}
+
+.arial_branco14{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    color:#FFF;
+	text-decoration:none;
+}
+a.arial_branco14:link, a.arial_branco14:visited, a.arial_branco14:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    color:#FFF;
+	text-decoration:none;
+	}
+a.arial_branco14:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    color:#CCC;
+	text-decoration:none;
+}
+
+.arial_branco20{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    color:#FFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+a.arial_branco20:link, a.arial_branco20:visited, a.arial_branco20:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    color:#FFF;
+	font-weight:bold;
+	text-decoration:none;
+	}
+a.arial_branco20:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    color:#CCC;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+/* Arial Cinza*/
+
+.arial_cinza10{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#999;
+	text-decoration:none;
+}
+a.arial_cinza10:link, a.arial_cinza10:visited, a.arial_cinza10:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#999;
+	text-decoration:none;
+	}
+a.arial_cinza10:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#666;
+	text-decoration:none;
+}
+
+.arial_cinza11{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#999;
+	text-decoration:none;
+		line-height: 10px;
+}
+a.arial_cinza11:link, a.arial_cinza11:visited, a.arial_cinza11:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#999;
+	text-decoration:none;
+		line-height: 10px;
+	}
+a.arial_cinza11:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#666;
+	text-decoration:none;
+	line-height: 10px;
+}
+
+.arial_cinza12{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color:#999;
+	text-decoration:none;
+}
+a.arial_cinza12:link, a.arial_cinza12:visited, a.arial_cinza12:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color:#999;
+	text-decoration:none;
+	}
+a.arial_cinza12:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color:#666;
+	text-decoration:none;
+}
+
+/* Arial Cinza 1 */
+
+.arial_cinza1_10{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#666666;
+	text-decoration:none;
+}
+a.arial_cinza1_10:link, a.arial_cinza1_10:visited, a.arial_cinza1_10:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#666666;
+	text-decoration:none;
+	}
+a.arial_cinza1_10:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#333;
+	text-decoration:none;
+}
+
+.arial_cinza1_11{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#666666;
+	text-decoration:none;
+}
+a.arial_cinza1_11:link, a.arial_cinza1_11:visited, a.arial_cinza1_11:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#666666;
+	text-decoration:none;
+	}
+a.arial_cinza1_11:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#333;
+	text-decoration:none;
+}
+
+.arial_cinza1_12{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color:#666666;
+	text-decoration:none;
+}
+a.arial_cinza1_12:link, a.arial_cinza1_12:visited, a.arial_cinza1_12:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color:#666666;
+	text-decoration:none;
+	}
+a.arial_cinza1_12:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color:#333;
+	text-decoration:none;
+}
+
+/* Arial Cinza 2 */
+
+.arial_cinza2_10{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#333;
+	text-decoration:none;
+}
+a.arial_cinza2_10:link, a.arial_cinza2_10:visited, a.arial_cinza2_10:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#333;
+	text-decoration:none;
+	}
+a.arial_cinza2_10:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color: #000;
+	text-decoration:none;
+}
+
+.arial_cinza2_11{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#333;
+	text-decoration:none;
+}
+a.arial_cinza2_11:link, a.arial_cinza2_11:visited, a.arial_cinza2_11:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#333;
+	text-decoration:none;
+	}
+a.arial_cinza2_11:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#000;
+	text-decoration:none;
+}
+
+.arial_cinza2_12{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color:#333;
+	text-decoration:none;
+}
+a.arial_cinza2_12:link, a.arial_cinza2_12:visited, a.arial_cinza2_12:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color:#333;
+	text-decoration:none;
+	}
+a.arial_cinza2_12:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color:#000;
+	text-decoration:none;
+}
+
+.arial_cinza2_13{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    color:#333;
+	text-decoration:none;
+}
+a.arial_cinza2_13:link, a.arial_cinza2_13:visited, a.arial_cinza2_13:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    color:#333;
+	text-decoration:none;
+	}
+a.arial_cinza2_13:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    color:#000;
+	text-decoration:none;
+}
+
+.arial_cinza2_14{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    color:#333;
+	text-decoration:none;
+}
+a.arial_cinza2_14:link, a.arial_cinza2_14:visited, a.arial_cinza2_14:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    color:#333;
+	text-decoration:none;
+	}
+a.arial_cinza2_14:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    color:#000;
+	text-decoration:none;
+}
+
+/* Arial Azul */
+
+.arial_azul10{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#30859a;
+	text-decoration:none;
+}
+a.arial_azul10:link, a.arial_azul10:visited, a.arial_azul10:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#30859a;
+	text-decoration:none;
+	}
+a.arial_azul10:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color: #254222;
+	text-decoration:none;
+}
+
+.arial_azul11{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#30859a;
+	text-decoration:none;
+}
+a.arial_azul11:link, a.arial_azul11:visited, a.arial_azul11:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#30859a;
+	text-decoration:none;
+	}
+a.arial_azul11:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#254222;
+	text-decoration:none;
+}
+
+.arial_azul12{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color:#30859a;
+	text-decoration:none;
+}
+a.arial_azul12:link, a.arial_azul12:visited, a.arial_azul12:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color:#30859a;
+	text-decoration:none;
+	}
+a.arial_azul12:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color:#254222;
+	text-decoration:none;
+}
+
+.arial_azul13{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    color:#30859a;
+	text-decoration:none;
+}
+a.arial_azul13:link, a.arial_azul13:visited, a.arial_azul13:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    color:#30859a;
+	text-decoration:none;
+	}
+a.arial_azul13:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    color:#254222;
+	text-decoration:none;
+}
+
+.arial_azul14{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    color:#30859a;
+	text-decoration:none;
+}
+a.arial_azul14:link, a.arial_azul14:visited, a.arial_azul14:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    color:#30859a;
+	text-decoration:none;
+	}
+a.arial_azul14:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    color:#254222;
+	text-decoration:none;
+}
+
+.arial_azul18{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+    color:#30859a;
+	text-decoration:none;
+}
+a.arial_azul18:link, a.arial_azul18:visited, a.arial_azul18:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+    color:#30859a;
+	text-decoration:none;
+	}
+a.arial_azul18:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+    color:#254222;
+	text-decoration:none;
+}
+
+.arial_azul20{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    color:#30859a;
+	text-decoration:none;
+}
+a.arial_azul20:link, a.arial_azul20:visited, a.arial_azul20:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    color:#30859a;
+	text-decoration:none;
+	}
+a.arial_azul20:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    color:#254222;
+	text-decoration:none;
+}
+
+.arial_azul24{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+    color:#30859a;
+	text-decoration:none;
+}
+a.arial_azul24:link, a.arial_azul24:visited, a.arial_azul24:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+    color:#30859a;
+	text-decoration:none;
+	}
+a.arial_azul24:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+    color:#254222;
+	text-decoration:none;
+}
+
+/* Arial Verde */
+
+.arial_verde10{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#4B9737;
+	text-decoration:none;
+}
+a.arial_verde10:link, a.arial_verde10:visited, a.arial_verde10:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#4B9737;
+	text-decoration:none;
+	}
+a.arial_verde10:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#306123;
+	text-decoration:none;
+}
+
+.arial_verde11{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#4B9737;
+	text-decoration:none;
+}
+a.arial_verde11:link, a.arial_verde11:visited, a.arial_verde11:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#4B9737;
+	text-decoration:none;
+	}
+a.arial_verde11:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#306123;
+	text-decoration:none;
+}
+
+.arial_verde12{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#4B9737;
+	text-decoration:none;
+}
+a.arial_verde12:link, a.arial_verde12:visited, a.arial_verde12:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#4B9737;
+	text-decoration:none;
+	}
+a.arial_verde12:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#306123;
+	text-decoration:none;
+}
+
+.arial_verde13{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    color:#4B9737;
+	text-decoration:none;
+}
+a.arial_verde13:link, a.arial_verde13:visited, a.arial_verde13:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    color:#4B9737;
+	text-decoration:none;
+	}
+a.arial_verde13:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    color:#306123;
+	text-decoration:none;
+}
+
+.arial_verde14{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    color:#4B9737;
+	text-decoration:none;
+}
+a.arial_verde14:link, a.arial_verde14:visited, a.arial_verde14:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    color:#4B9737;
+	text-decoration:none;
+	}
+a.arial_verde14:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    color:#306123;
+	text-decoration:none;
+}
+
+/* Arial Vermelho */
+
+.arial_vermelho10{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#FF0000;
+	text-decoration:none;
+}
+a.arial_vermelho10:link, a.arial_vermelho10:visited, a.arial_vermelho10:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#FF0000;
+	text-decoration:none;
+	}
+a.arial_vermelho10:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color:#880000;
+	text-decoration:none;
+}
+
+.arial_vermelho11{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#FF0000;
+	text-decoration:none;
+}
+a.arial_vermelho11:link, a.arial_vermelho11:visited, a.arial_vermelho11:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#FF0000;
+	text-decoration:none;
+	}
+a.arial_vermelho11:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#880000;
+	text-decoration:none;
+}
+
+.arial_vermelho12{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#FF0000;
+	text-decoration:none;
+}
+a.arial_vermelho12:link, a.arial_vermelho12:visited, a.arial_vermelho12:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#FF0000;
+	text-decoration:none;
+	}
+a.arial_vermelho12:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    color:#880000;
+	text-decoration:none;
+}
+
+.arial_vermelho13{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    color:#FF0000;
+	text-decoration:none;
+}
+a.arial_vermelho13:link, a.arial_vermelho13:visited, a.arial_vermelho13:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    color:#FF0000;
+	text-decoration:none;
+	}
+a.arial_vermelho13:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    color:#880000;
+	text-decoration:none;
+}
+
+.arial_vermelho14{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    color:#FF0000;
+	text-decoration:none;
+}
+a.arial_vermelho14:link, a.arial_vermelho14:visited, a.arial_vermelho14:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    color:#FF0000;
+	text-decoration:none;
+	}
+a.arial_vermelho14:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    color:#880000;
+	text-decoration:none;
+}

@@ -1,0 +1,761 @@
+
+reparar 1469059223
+
+Array
+(
+    [id] => 238
+    [categoria] => 10
+    [subcategoria] => Pointer Inglês
+    [regra] => <p>ASPECTO GERAL: todo simetricamente constru&iacute;do; contorno descrevendo uma s&eacute;rie de curvas harmoniosas. Uma apar&ecirc;ncia forte mas, &aacute;gil. COMPORTAMENTO / TEMPERAMENTO: aristocr&aacute;tico. Alerta de apar&ecirc;ncia robusta, com resist&ecirc;ncia e velocidade. Gentil e sempre disposto. CABE&Ccedil;A REGI&Atilde;O CRANIANA: Cr&acirc;nio: de largura moderada, em propor&ccedil;&atilde;o ao comprimento do focinho. Crista occipital pronunciada. Stop: bem definido. PESCO&Ccedil;O: longo, musculoso, ligeiramente arqueado, bem articulado ao t&oacute;rax, sem barbelas. TRONCO: Lombo: Forte, musculado e ligeiramente arqueado. Articula&ccedil;&atilde;o curta. Peito: espa&ccedil;oso o suficiente para boa acomoda&ccedil;&atilde;o do cora&ccedil;&atilde;o. Antepeito bem profundo atingindo o n&iacute;vel dos cotovelos. Costelas bem arqueadas e bem anguladas, para tr&aacute;s; linha superior descendente em dire&ccedil;&atilde;o o lombo. CAUDA: de comprimento m&eacute;dio, grossa na raiz, afinando suavemente para a ponta. Bem revestida de densa pelagem, portada no n&iacute;vel da linha superior, sem enrolar para cima. Em movimento, a cauda oscila, horizontalmente, para os lados. MEMBROS ANTERIORES: membros retos e firmes, com boa ossatura, de se&ccedil;&atilde;o oval, musculatura forte e vis&iacute;vel. Ombros: longos, inclinados e bem articulados ao t&oacute;rax. Carpos: com a face anterior, no mesmo alinhamento dos membros e uma leve proemin&ecirc;ncia na face medial. Metacarpos: fortes, resistentes, alongados e ligeiramente inclinados. MEMBROS POSTERIORES: bem musculados. Garupa: com il&iacute;acos bem espa&ccedil;ados e proeminentes, sem ser acima do n&iacute;vel da linha superior. Joelhos: bem angulados. Coxas: de bom comprimento. Pernas: de bom comprimento. Jarretes: curtos. PATAS: ovais, compactas, d&iacute;gitos bem arqueados e bem acolchoados, pelas almofadas plantares. MOVIMENTA&Ccedil;&Atilde;O: suave, com boa cobertura de solo. Forte propuls&atilde;o dos posteriores, cotovelos trabalhando bem ajustados, rente ao t&oacute;rax e corretamente direcionados para a frente. Jamais faz a movimenta&ccedil;&atilde;o Hackney. PELAGEM P&Ecirc;LOS: curta, refinada, dura, uniformemente distribu&iacute;da, perfeitamente lisa e reta, com brilho inconteste. COR: lim&atilde;o e branco, laranja e branco, f&iacute;gado e branco e preto e branco s&atilde;o as mais comuns. Unicolor e tricolor, tamb&eacute;m, s&atilde;o cores corretas. TALHE: altura desej&aacute;vel na cernelha: machos 63 a 69 cm. f&ecirc;meas 61 a 66 cm.&nbsp;</p>
+    [conteudo] => <p><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Ra&ccedil;a:&nbsp;</span><span style="font-family: Verdana, sans-serif;">Pointer Ingl&ecirc;s</span></p>
+<p class="MsoNormal"><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Grupo: C&atilde;es de Ca&ccedil;a e Tiro &nbsp;&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Fun&ccedil;&atilde;o: C&atilde;o de aponte</span></p>
+<p class="MsoNormal"><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Pa&iacute;s de origem: Gr&atilde;-Bretanha</span></p>
+<p>Aprovado por: Osmir Moraes Bastos - presidente<span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">&nbsp;</span></p>
+<div>&nbsp;</div>
+<div>APAR&Ecirc;NCIA GERAL:O esp&eacute;cime ideal d&aacute; a impress&atilde;o imediata do poder, &eacute; compacto e &aacute;gil gra&ccedil;a.</div>
+<p>Cabe&ccedil;a nobre, portada orgulhosamente , express&atilde;o inteligente e alerta. O corpo musculoso revela</p>
+<p>energia e agilidade. &Eacute; um animal cujo movimento mostra que ele &eacute; um c&atilde;o de ca&ccedil;a "hard-motriz".Bem</p>
+<p>resistente, corajoso e disposto ao trabalho. Sua express&atilde;o demonstra lealdade e devo&ccedil;&atilde;o de um</p>
+<p>verdadeiro amigo do homem.</p>
+<p>COMPORTAMENTO e TEMPERAMENTO: aristocr&aacute;tico. Alerta com apar&ecirc;ncia de for&ccedil;a, resist&ecirc;ncia e rapidez.</p>
+<p>Agrad&aacute;vel e equilibrado.</p>
+<p>CABE&Ccedil;A</p>
+<p>REGI&Atilde;O CRANIANA</p>
+<p>Cr&acirc;nio: de largura m&eacute;dia em propor&ccedil;&atilde;o ao comprimento do focinho. Osso occipital pronunciado.</p>
+<p>Stop: bem definido.</p>
+<p>REGI&Atilde;O FACIAL</p>
+<p>Trufa:Nas cores mais escuras, o nariz deve ser preto ou marrom escuro, nos tons mais claros, pode ser</p>
+<p>mais claro.</p>
+<p>Narinas largas, macias e &uacute;midas.</p>
+<p>Focinho: ligeiramente c&ocirc;ncavo, terminando no n&iacute;vel das narinas, dando uma apar&ecirc;ncia ligeiramente</p>
+<p>arrebitada (dish-face). Ligeira depress&atilde;o sob os olhos.</p>
+<p>L&aacute;bios: bem desenvolvidos, macios.</p>
+<p>Maxilares e Dentes: fortes, perfeita, regular e completa mordedura em tesoura.</p>
+<p>Bochechas: ossos das bochechas n&atilde;o proeminentes.</p>
+<p>Olhos: inseridos no meio da dist&acirc;ncia do occipital &agrave; ponta da trufa, brilhantes e express&atilde;o doce.</p>
+<p>Pode ser de cor avel&atilde; ou marrom, de acordo com a cor da pelagem. N&atilde;o s&atilde;o nem salientes, nem</p>
+<p>arregalados, nem olhando para baixo em dire&ccedil;&atilde;o &agrave; trufa. Borda dos olhos escura, por&eacute;m pode ser</p>
+<p>mais clara nos exemplares de cor lim&atilde;o e branco.</p>
+<p>Orelhas: couro fino e macio, inseridas altas, caindo pr&oacute;ximas &agrave; cabe&ccedil;a; de comprimento m&eacute;dio,</p>
+<p>ligeiramente pontudas nas extremidades, jamais arredondadas.</p>
+<p>PESCO&Ccedil;O: longo, musculoso e ligeiramente arqueado, bem articulado aos ombros e livre de barbelas.</p>
+<p>TRONCO</p>
+<p>Lombo: forte, musculoso e ligeiramente arqueado. Curto.</p>
+<p>Peito:mais profundo do que largo, n&atilde;o deve impedir a livre a&ccedil;&atilde;o dos anteriores. . Costelas bem</p>
+<p>arqueadas, descem at&eacute; a altura dos cotovelos, e a linha superior tem uma suave inclina&ccedil;&atilde;o at&eacute; o</p>
+<p>lombo.</p>
+<p>CAUDA: tamanho m&eacute;dio, grossa na raiz, afinando gradualmente para a ponta. Revestidas por pelos</p>
+<p>bem fechados, portada no n&iacute;vel do dorso, sem curvar para cima. Em movimento, a cauda deve abanar</p>
+<p>de um lado para outro.</p>
+<p>MEMBROS</p>
+<p>Anteriores: retos, firmes, ossos ovais e fortes, com tend&atilde;o forte e vis&iacute;vel.</p>
+<p>Ombros: longos, inclinados e bem colocados para tr&aacute;s.</p>
+<p>Carpo: plano, na parte anterior das pernas e muito pouco proeminente na parte interna.</p>
+<p>Metacarpos: compridos, fortes e resistentes. Ligeiramente inclinados.</p>
+<p>Patas: ovais, bem fechadas, dedos arqueados e bem almofadados.</p>
+<p>Posteriores: muito musculosos. Os ossos do quadril bem espa&ccedil;ados, proeminentes, mas n&atilde;o</p>
+<p>ultrapassando a linha do dorso.</p>
+<p>Coxas: bem desenvolvidas.</p>
+<p>Joelhos: bem angulados.</p>
+<p>Pernas: bem desenvolvidas.</p>
+<p>Jarretes: curtos.</p>
+<p>Patas: ovais, bem fechadas, dedos arqueados e bem almofadados.</p>
+<p>MOVIMENTA&Ccedil;&Atilde;O:suave, sem atrito, com poderosa propuls&atilde;o traseira. A cabe&ccedil;a deve ser portada alta, a</p>
+<p>cauda movimentando-se de um lado para outro, dando a impress&atilde;o de um c&atilde;o de ca&ccedil;a fortemente</p>
+<p>constru&iacute;do bem equilibrado capaz de alta velocidade, combinada com grande resist&ecirc;ncia. Anteriores com&nbsp;</p>
+<p>bom alcance. A movimenta&ccedil;&atilde;o fazendo &nbsp;Hackney &eacute; altamente indesejada e deve ser penalizada.</p>
+<div>PELAGEM</div>
+<p>Pelo: fino, curto, duro e uniformemente distribu&iacute;do, perfeitamente liso, reto e com brilho .</p>
+<p>COR: as cores mais comuns s&atilde;o lim&atilde;o e branco, laranja e branco, f&iacute;gado e branco e preto e branco.</p>
+<p>Unicolor (s&oacute;lidos) e tricolor tamb&eacute;m s&atilde;o corretas.</p>
+<p>TAMANHO</p>
+<p>Altura na cernelha: machos: 63 - 69 cm.</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; f&ecirc;meas: 61 - 66cm.</p>
+<p>FALTAS: qualquer desvio dos termos deste padr&atilde;o deve ser considerado como falta e penalizado na</p>
+<p>exata propor&ccedil;&atilde;o de sua gravidade e seus efeitos na sa&uacute;de e bem estar do c&atilde;o e em suas habilidades</p>
+<p>para executar seu trabalho tradicional.</p>
+<p>FALTAS DESQUALIFICANTES</p>
+<p>- agressividade ou timidez excessiva.</p>
+<p>- todo c&atilde;o que apresentar qualquer sinal de anomalia f&iacute;sica ou de comportamento deve ser</p>
+<p>desqualificado.</p>
+<p>NOTAS:</p>
+<p>- os machos devem apresentar os dois test&iacute;culos, de apar&ecirc;ncia normal, bem descidos e acomodados na</p>
+<p>bolsa escrotal.</p>
+    [opcao] => Array
+        (
+            [0] => Branco e Limão
+            [1] => Limão
+            [2] => Laranja
+            [3] => Limão e Branco
+            [4] => Laranja e Branco
+            [5] => Fígado e Branco
+            [6] => Preto e Branco
+            [7] => Preto
+            [8] => Fígado
+            [9] => Branco
+            [10] => 
+        )
+
+    [pais_raca] => Grã-Bretanha2
+    [Submit] => Atualizar
+    [lock] => 0.8823306984833834
+)
+
+
+reparar 1469059243
+
+Array
+(
+    [id] => 238
+    [categoria] => 10
+    [subcategoria] => Pointer Inglês
+    [regra] => <p>ASPECTO GERAL: todo simetricamente constru&iacute;do; contorno descrevendo uma s&eacute;rie de curvas harmoniosas. Uma apar&ecirc;ncia forte mas, &aacute;gil. COMPORTAMENTO / TEMPERAMENTO: aristocr&aacute;tico. Alerta de apar&ecirc;ncia robusta, com resist&ecirc;ncia e velocidade. Gentil e sempre disposto. CABE&Ccedil;A REGI&Atilde;O CRANIANA: Cr&acirc;nio: de largura moderada, em propor&ccedil;&atilde;o ao comprimento do focinho. Crista occipital pronunciada. Stop: bem definido. PESCO&Ccedil;O: longo, musculoso, ligeiramente arqueado, bem articulado ao t&oacute;rax, sem barbelas. TRONCO: Lombo: Forte, musculado e ligeiramente arqueado. Articula&ccedil;&atilde;o curta. Peito: espa&ccedil;oso o suficiente para boa acomoda&ccedil;&atilde;o do cora&ccedil;&atilde;o. Antepeito bem profundo atingindo o n&iacute;vel dos cotovelos. Costelas bem arqueadas e bem anguladas, para tr&aacute;s; linha superior descendente em dire&ccedil;&atilde;o o lombo. CAUDA: de comprimento m&eacute;dio, grossa na raiz, afinando suavemente para a ponta. Bem revestida de densa pelagem, portada no n&iacute;vel da linha superior, sem enrolar para cima. Em movimento, a cauda oscila, horizontalmente, para os lados. MEMBROS ANTERIORES: membros retos e firmes, com boa ossatura, de se&ccedil;&atilde;o oval, musculatura forte e vis&iacute;vel. Ombros: longos, inclinados e bem articulados ao t&oacute;rax. Carpos: com a face anterior, no mesmo alinhamento dos membros e uma leve proemin&ecirc;ncia na face medial. Metacarpos: fortes, resistentes, alongados e ligeiramente inclinados. MEMBROS POSTERIORES: bem musculados. Garupa: com il&iacute;acos bem espa&ccedil;ados e proeminentes, sem ser acima do n&iacute;vel da linha superior. Joelhos: bem angulados. Coxas: de bom comprimento. Pernas: de bom comprimento. Jarretes: curtos. PATAS: ovais, compactas, d&iacute;gitos bem arqueados e bem acolchoados, pelas almofadas plantares. MOVIMENTA&Ccedil;&Atilde;O: suave, com boa cobertura de solo. Forte propuls&atilde;o dos posteriores, cotovelos trabalhando bem ajustados, rente ao t&oacute;rax e corretamente direcionados para a frente. Jamais faz a movimenta&ccedil;&atilde;o Hackney. PELAGEM P&Ecirc;LOS: curta, refinada, dura, uniformemente distribu&iacute;da, perfeitamente lisa e reta, com brilho inconteste. COR: lim&atilde;o e branco, laranja e branco, f&iacute;gado e branco e preto e branco s&atilde;o as mais comuns. Unicolor e tricolor, tamb&eacute;m, s&atilde;o cores corretas. TALHE: altura desej&aacute;vel na cernelha: machos 63 a 69 cm. f&ecirc;meas 61 a 66 cm.&nbsp;</p>
+    [conteudo] => <p><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Ra&ccedil;a:&nbsp;</span><span style="font-family: Verdana, sans-serif;">Pointer Ingl&ecirc;s</span></p>
+<p class="MsoNormal"><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Grupo: C&atilde;es de Ca&ccedil;a e Tiro &nbsp;&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Fun&ccedil;&atilde;o: C&atilde;o de aponte</span></p>
+<p class="MsoNormal"><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Pa&iacute;s de origem: Gr&atilde;-Bretanha</span></p>
+<p>Aprovado por: Osmir Moraes Bastos - presidente<span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">&nbsp;</span></p>
+<div>&nbsp;</div>
+<div>APAR&Ecirc;NCIA GERAL:O esp&eacute;cime ideal d&aacute; a impress&atilde;o imediata do poder, &eacute; compacto e &aacute;gil gra&ccedil;a.</div>
+<p>Cabe&ccedil;a nobre, portada orgulhosamente , express&atilde;o inteligente e alerta. O corpo musculoso revela</p>
+<p>energia e agilidade. &Eacute; um animal cujo movimento mostra que ele &eacute; um c&atilde;o de ca&ccedil;a "hard-motriz".Bem</p>
+<p>resistente, corajoso e disposto ao trabalho. Sua express&atilde;o demonstra lealdade e devo&ccedil;&atilde;o de um</p>
+<p>verdadeiro amigo do homem.</p>
+<p>COMPORTAMENTO e TEMPERAMENTO: aristocr&aacute;tico. Alerta com apar&ecirc;ncia de for&ccedil;a, resist&ecirc;ncia e rapidez.</p>
+<p>Agrad&aacute;vel e equilibrado.</p>
+<p>CABE&Ccedil;A</p>
+<p>REGI&Atilde;O CRANIANA</p>
+<p>Cr&acirc;nio: de largura m&eacute;dia em propor&ccedil;&atilde;o ao comprimento do focinho. Osso occipital pronunciado.</p>
+<p>Stop: bem definido.</p>
+<p>REGI&Atilde;O FACIAL</p>
+<p>Trufa:Nas cores mais escuras, o nariz deve ser preto ou marrom escuro, nos tons mais claros, pode ser</p>
+<p>mais claro.</p>
+<p>Narinas largas, macias e &uacute;midas.</p>
+<p>Focinho: ligeiramente c&ocirc;ncavo, terminando no n&iacute;vel das narinas, dando uma apar&ecirc;ncia ligeiramente</p>
+<p>arrebitada (dish-face). Ligeira depress&atilde;o sob os olhos.</p>
+<p>L&aacute;bios: bem desenvolvidos, macios.</p>
+<p>Maxilares e Dentes: fortes, perfeita, regular e completa mordedura em tesoura.</p>
+<p>Bochechas: ossos das bochechas n&atilde;o proeminentes.</p>
+<p>Olhos: inseridos no meio da dist&acirc;ncia do occipital &agrave; ponta da trufa, brilhantes e express&atilde;o doce.</p>
+<p>Pode ser de cor avel&atilde; ou marrom, de acordo com a cor da pelagem. N&atilde;o s&atilde;o nem salientes, nem</p>
+<p>arregalados, nem olhando para baixo em dire&ccedil;&atilde;o &agrave; trufa. Borda dos olhos escura, por&eacute;m pode ser</p>
+<p>mais clara nos exemplares de cor lim&atilde;o e branco.</p>
+<p>Orelhas: couro fino e macio, inseridas altas, caindo pr&oacute;ximas &agrave; cabe&ccedil;a; de comprimento m&eacute;dio,</p>
+<p>ligeiramente pontudas nas extremidades, jamais arredondadas.</p>
+<p>PESCO&Ccedil;O: longo, musculoso e ligeiramente arqueado, bem articulado aos ombros e livre de barbelas.</p>
+<p>TRONCO</p>
+<p>Lombo: forte, musculoso e ligeiramente arqueado. Curto.</p>
+<p>Peito:mais profundo do que largo, n&atilde;o deve impedir a livre a&ccedil;&atilde;o dos anteriores. . Costelas bem</p>
+<p>arqueadas, descem at&eacute; a altura dos cotovelos, e a linha superior tem uma suave inclina&ccedil;&atilde;o at&eacute; o</p>
+<p>lombo.</p>
+<p>CAUDA: tamanho m&eacute;dio, grossa na raiz, afinando gradualmente para a ponta. Revestidas por pelos</p>
+<p>bem fechados, portada no n&iacute;vel do dorso, sem curvar para cima. Em movimento, a cauda deve abanar</p>
+<p>de um lado para outro.</p>
+<p>MEMBROS</p>
+<p>Anteriores: retos, firmes, ossos ovais e fortes, com tend&atilde;o forte e vis&iacute;vel.</p>
+<p>Ombros: longos, inclinados e bem colocados para tr&aacute;s.</p>
+<p>Carpo: plano, na parte anterior das pernas e muito pouco proeminente na parte interna.</p>
+<p>Metacarpos: compridos, fortes e resistentes. Ligeiramente inclinados.</p>
+<p>Patas: ovais, bem fechadas, dedos arqueados e bem almofadados.</p>
+<p>Posteriores: muito musculosos. Os ossos do quadril bem espa&ccedil;ados, proeminentes, mas n&atilde;o</p>
+<p>ultrapassando a linha do dorso.</p>
+<p>Coxas: bem desenvolvidas.</p>
+<p>Joelhos: bem angulados.</p>
+<p>Pernas: bem desenvolvidas.</p>
+<p>Jarretes: curtos.</p>
+<p>Patas: ovais, bem fechadas, dedos arqueados e bem almofadados.</p>
+<p>MOVIMENTA&Ccedil;&Atilde;O:suave, sem atrito, com poderosa propuls&atilde;o traseira. A cabe&ccedil;a deve ser portada alta, a</p>
+<p>cauda movimentando-se de um lado para outro, dando a impress&atilde;o de um c&atilde;o de ca&ccedil;a fortemente</p>
+<p>constru&iacute;do bem equilibrado capaz de alta velocidade, combinada com grande resist&ecirc;ncia. Anteriores com&nbsp;</p>
+<p>bom alcance. A movimenta&ccedil;&atilde;o fazendo &nbsp;Hackney &eacute; altamente indesejada e deve ser penalizada.</p>
+<div>PELAGEM</div>
+<p>Pelo: fino, curto, duro e uniformemente distribu&iacute;do, perfeitamente liso, reto e com brilho .</p>
+<p>COR: as cores mais comuns s&atilde;o lim&atilde;o e branco, laranja e branco, f&iacute;gado e branco e preto e branco.</p>
+<p>Unicolor (s&oacute;lidos) e tricolor tamb&eacute;m s&atilde;o corretas.</p>
+<p>TAMANHO</p>
+<p>Altura na cernelha: machos: 63 - 69 cm.</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; f&ecirc;meas: 61 - 66cm.</p>
+<p>FALTAS: qualquer desvio dos termos deste padr&atilde;o deve ser considerado como falta e penalizado na</p>
+<p>exata propor&ccedil;&atilde;o de sua gravidade e seus efeitos na sa&uacute;de e bem estar do c&atilde;o e em suas habilidades</p>
+<p>para executar seu trabalho tradicional.</p>
+<p>FALTAS DESQUALIFICANTES</p>
+<p>- agressividade ou timidez excessiva.</p>
+<p>- todo c&atilde;o que apresentar qualquer sinal de anomalia f&iacute;sica ou de comportamento deve ser</p>
+<p>desqualificado.</p>
+<p>NOTAS:</p>
+<p>- os machos devem apresentar os dois test&iacute;culos, de apar&ecirc;ncia normal, bem descidos e acomodados na</p>
+<p>bolsa escrotal.</p>
+    [opcao] => Array
+        (
+            [0] => Branco
+            [1] => Fígado
+            [2] => Preto
+            [3] => Preto e Branco
+            [4] => Fígado e Branco
+            [5] => Laranja e Branco
+            [6] => Limão e Branco
+            [7] => Laranja
+            [8] => Limão
+            [9] => Branco e Limão
+            [10] => 
+        )
+
+    [pais_raca] => Grã-Bretanha
+    [Submit] => Atualizar
+    [lock] => 0.5500819692253094
+)
+
+
+reparar 1469199122
+
+Array
+(
+    [id] => 239
+    [categoria] => 14
+    [subcategoria] => Pinscher Miniatura
+    [regra] => <p>APAR&Ecirc;NCIA GERAL: o Pinscher Miniatura &eacute; a imagem reduzida do Pinscher Alem&atilde;o, sem os defeitos da apar&ecirc;ncia de nanismo. Sua elegante constru&ccedil;&atilde;o quadrada &eacute; nitidamente vis&iacute;vel atrav&eacute;s do seu pelo curto e liso. PROPOR&Ccedil;&Otilde;ES IMPORTANTES a rela&ccedil;&atilde;o do comprimento com a altura, faz com que a sua constru&ccedil;&atilde;o pare&ccedil;a t&atilde;o quadrada quanto poss&iacute;vel.comprimento da cabe&ccedil;a (medido da trufa ao occipital) corresponde a &nbsp;metade do comprimento da linha superior (medido da cernelha &agrave; raiz da cauda). COMPORTAMENTO / TEMPERAMENTO: vivo, en&eacute;rgico, seguro e equilibrado. Essas qualidades fazem dele um agrad&aacute;vel c&atilde;o de fam&iacute;lia e de companhia. MOVIMENTA&Ccedil;&Atilde;O: o Pinscher miniatura &eacute; um trotador. O dorso permanece firme e relativamente est&aacute;vel em movimento. A movimenta&ccedil;&atilde;o &eacute; harmoniosa, segura, poderosa e desinibida, com bom alcance. T&iacute;pico do trote &eacute; uma movimenta&ccedil;&atilde;o cobrindo bem o terreno, relaxada e fluente com uma forte propuls&atilde;o e com uma livre extens&atilde;o dianteira. PELE: ajustada sobre todo o corpo. PELAGEM Pelo: curto e denso, liso, assentado e brilhante, sem regi&otilde;es peladas. COR Unicolor: vermelho cor&ccedil;a, do marrom-avermelhado at&eacute; o marrom avermelhado escuro. Preto e castanho: pelo preto-laca com manchas vermelhas ou marrons. O objetivo &eacute; que se obtenha as manchas mais escuras poss&iacute;veis, saturadas e bem definidas. As manchas s&atilde;o distribu&iacute;das da seguinte maneira: &nbsp;acima dos olhos, abaixo do pesco&ccedil;o, nos metacarpos, nas patas, na parte interna dos posteriores e abaixo da cauda. Dois tri&acirc;ngulos de igual tamanho nitidamente separados no peito. TAMANHO / PESO Altura na cernelha: machos e f&ecirc;meas: 25 a 30 cm. Peso: machos e f&ecirc;meas: &nbsp; 4 &nbsp;a &nbsp;6 kg.</p>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+    [conteudo] => <p><span style="font-family: Verdana, sans-serif; font-size: 7.5pt;">Ra&ccedil;a: Pinscher Miniatura</span></p>
+<p class="MsoNormal"><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Grupo: C&atilde;es de Luxo</span></p>
+<p class="MsoNormal"><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Fun&ccedil;&atilde;o: C&atilde;o de Colo e Companhia</span></p>
+<p class="MsoNormal"><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Pa&iacute;s de origem: Alemanha</span></p>
+<p class="MsoNormal"><span style="font-family: Verdana, sans-serif; font-size: 7.5pt;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif;">Aprovado por: Osmir Moraes Bastos - presidente</span></span></p>
+<p>&nbsp;</p>
+<p>APAR&Ecirc;NCIA GERAL: o Pinscher Miniatura &eacute; a imagem reduzida do Pinscher Alem&atilde;o, sem os defeitos da</p>
+<p>apar&ecirc;ncia de nanismo. Sua elegante constru&ccedil;&atilde;o quadrada &eacute; nitidamente vis&iacute;vel atrav&eacute;s do seu pelo</p>
+<p>curto e liso.</p>
+<p>PROPOR&Ccedil;&Otilde;ES IMPORTANTES</p>
+<p>&bull; a rela&ccedil;&atilde;o do comprimento com a altura, faz com que a sua constru&ccedil;&atilde;o pare&ccedil;a t&atilde;o quadrada quanto</p>
+<p>poss&iacute;vel.</p>
+<p>&bull; comprimento da cabe&ccedil;a (medido da trufa ao occipital) corresponde a &nbsp;metade do comprimento da</p>
+<p>linha superior (medido da cernelha &agrave; raiz da cauda).</p>
+<p>COMPORTAMENTO / TEMPERAMENTO: vivo, en&eacute;rgico, seguro e equilibrado. Essas qualidades fazem dele</p>
+<p>um agrad&aacute;vel c&atilde;o de fam&iacute;lia e de companhia.</p>
+<p>CABE&Ccedil;A</p>
+<p>REGI&Atilde;O CRANIANA</p>
+<p>Cr&acirc;nio: forte, alongado com o occipital pouco marcado. A testa &eacute; plana, sem rugas, paralela &agrave; cana</p>
+<p>nasal.</p>
+<p>Stop: leve, mas nitidamente definido.</p>
+<p>REGI&Atilde;O FACIAL</p>
+<p>Trufa: bem desenvolvida e preta.</p>
+<p>Focinho: terminando em cunha. A cana nasal &eacute; reta.</p>
+<p>L&aacute;bios: pretos, finos e aderentes aos maxilares. Comissura &nbsp;labial fechada.</p>
+<p>Maxilares / Dentes: maxilares fortes. A completa mordedura em tesoura (42 dentes de acordo com a</p>
+<p>f&oacute;rmula dent&aacute;ria) &eacute; forte e bem fechada. Os m&uacute;sculos da mastiga&ccedil;&atilde;o s&atilde;o fortemente desenvolvidos,</p>
+<p>sem formar bochechas salientes que interfiram no contorno.</p>
+<p>Olhos: escuros, ovais, com p&aacute;lpebras bem aderentes e pretas.</p>
+<p>Orelhas: eretas; inseridas altas, dobradas para frente em forma de V, com as bordas interiores rentes</p>
+<p>&nbsp;&agrave;s bochechas. As dobras n&atilde;o devem estar acima da linha do cr&acirc;nio.</p>
+<p>PESCO&Ccedil;O: de porte nobre, n&atilde;o muito curto. Deve fundir-se harmoniosamente na cernelha sem ser</p>
+<p>marcado. Seco, sem barbelas ou papadas. A pele da garganta &eacute; seca, sem dobras.</p>
+<p>TRONCO</p>
+<p>Linha superior: ligeiramente inclinada da cernelha &agrave; garupa.</p>
+<p>Cernelha: formando o ponto mais alto da linha superior.</p>
+<p>Dorso: forte, curto e firme.</p>
+<p>Lombo: forte. A dist&acirc;ncia da &uacute;ltima costela at&eacute; a anca &eacute; curta fazendo o c&atilde;o parecer</p>
+<p>compacto.</p>
+<p>Garupa: ligeiramente arredondada, fundindo-se imperceptivelmente na inser&ccedil;&atilde;o da cauda.</p>
+<p>Peito: moderadamente largo, de di&acirc;metro oval, alcan&ccedil;ando os cotovelos. O antepeito &eacute; nitidamente</p>
+<p>marcado pela ponta do esterno.</p>
+<p>Linha inferior e ventre: flancos n&atilde;o muito esgalgados, formando uma bonita curva com a parte inferior</p>
+<p>do t&oacute;rax.</p>
+<p>CAUDA: natural; busca-se que seja portada em forma de sabre ou foice.</p>
+<p>MEMBROS</p>
+<p>ANTERIORES: vistos de frente, s&atilde;o fortes, retos e n&atilde;o demasiadamente juntos.</p>
+<p>Vistos de perfil, &nbsp;os membros anteriores s&atilde;o retos.</p>
+<p>Ombros: a esc&aacute;pula &eacute; colocada rente &agrave; caixa tor&aacute;cica e &eacute; bem musculosa em ambos os lados do osso</p>
+<p>do ombro, saindo acima do ponto da v&eacute;rtebra. Os mais inclinados poss&iacute;veis e bem colocados para tr&aacute;s,</p>
+<p>formando um &acirc;ngulo de aproximadamente 50&deg; com a horizontal.</p>
+<p>Bra&ccedil;os: bem rentes ao corpo, fortes e bem musculosos, formando um &acirc;ngulo de 95&deg; a 105&deg; com a</p>
+<p>esc&aacute;pula.</p>
+<p>Cotovelos: corretamente ajustados, n&atilde;o virados nem para dentro nem para fora.</p>
+<p>Antebra&ccedil;os: fortemente desenvolvidos e bem musculosos. Completamente retos, vistos de frente e de</p>
+<p>perfil.</p>
+<p>Articula&ccedil;&atilde;o do carpo: forte e firme.</p>
+<p>Metacarpos: fortes e el&aacute;sticos. Vistos de frente, verticais; vistos de perfil, ligeiramente inclinados para o</p>
+<p>ch&atilde;o.</p>
+<p>Patas: curtas e redondas; dedos bem firmes e arqueados (pata de gato), almofadas resistentes, unhas</p>
+<p>curtas, pretas e fortes.</p>
+<p>POSTERIORES: colocados obliquamente, quando vistos de perfil; vistos por tr&aacute;s, colocados</p>
+<p>paralelamente, mas n&atilde;o muito pr&oacute;ximos um da outro.</p>
+<p>Coxas: moderadamente longas, largas e fortemente musculosas.</p>
+<p>Joelhos: n&atilde;o virando nem para dentro nem para fora.</p>
+<p>Pernas: longas e fortes, resistente, encontrando um forte jarrete.</p>
+<p>Jarretes: muito bem angulados, fortes, firmes, n&atilde;o virando nem para dentro nem para fora.</p>
+<p>Metatarsos: verticais com o solo.</p>
+<p>Patas: ligeiramente mais longas do que as anteriores. Dedos bem firmes e arqueados.</p>
+<p>Unhas curtas e pretas.</p>
+<p>MOVIMENTA&Ccedil;&Atilde;O: o Pinscher miniatura &eacute; um trotador. O dorso permanece firme e relativamente est&aacute;vel</p>
+<p>em movimento. A movimenta&ccedil;&atilde;o &eacute; harmoniosa, segura, poderosa e desinibida, com bom alcance.</p>
+<p>T&iacute;pico do trote &eacute; uma movimenta&ccedil;&atilde;o cobrindo bem o terreno, relaxada e fluente com uma forte</p>
+<p>propuls&atilde;o e com uma livre extens&atilde;o dianteira.</p>
+<p>PELE: ajustada sobre todo o corpo.</p>
+<p>PELAGEM</p>
+<p>Pelo: curto e denso, liso, assentado e brilhante, sem regi&otilde;es peladas.</p>
+<p>COR</p>
+<p>Unicolor: vermelho cor&ccedil;a, do marrom-avermelhado at&eacute; o marrom avermelhado escuro.</p>
+<p>Preto e castanho: pelo preto-laca com manchas vermelhas ou marrons. O objetivo &eacute; que se obtenha as</p>
+<p>manchas mais escuras poss&iacute;veis, saturadas e bem definidas. As manchas s&atilde;o distribu&iacute;das da seguinte</p>
+<p>maneira: &nbsp;acima dos olhos, abaixo do pesco&ccedil;o, nos metacarpos, nas patas, na parte interna dos</p>
+<p>posteriores e abaixo da cauda. Dois tri&acirc;ngulos de igual tamanho nitidamente separados no peito.</p>
+<p>TAMANHO / PESO</p>
+<p>Altura na cernelha:</p>
+<p>machos e f&ecirc;meas: 25 a 30 cm.</p>
+<p>Peso:</p>
+<p>machos e f&ecirc;meas: &nbsp; 4 &nbsp;a &nbsp;6 kg.</p>
+<p>FALTAS: qualquer desvio dos termos deste padr&atilde;o deve ser considerado como falta e penalizado na</p>
+<p>exata propor&ccedil;&atilde;o de sua gravidade e seus efeitos na sa&uacute;de e bem estar do c&atilde;o.</p>
+<p>Particularmente:</p>
+<p>&bull; constru&ccedil;&atilde;o grosseira ou leve. De pernas muito baixas ou muito altas.</p>
+<p>&bull; cr&acirc;nio pesado ou redondo.</p>
+<p>&bull; rugas na testa.</p>
+<p>&bull; focinho curto, estreito ou pontudo.</p>
+<p>&bull; mordedura em torqu&ecirc;s.</p>
+<p>&bull; olhos claros, muito pequenos ou muito grandes.</p>
+<p>&bull; orelhas inseridas baixas, muito longas, portadas irregularmente.</p>
+<p>&bull; barbelas.</p>
+<p>&bull; dorso muito longo, esgalgado ou selado.</p>
+<p>&bull; dorso carpeado.</p>
+<p>&bull; garupa ca&iacute;da.</p>
+<p>&bull; patas compridas.</p>
+<p>&bull; passo de camelo.</p>
+<p>&bull; movimenta&ccedil;&atilde;o hackney.</p>
+<p>&bull; pelo fino.</p>
+<p>&bull; cor ru&atilde;o; linha preta no dorso, sela escura no dorso, pelagem clara ou p&aacute;lida.</p>
+<p>&bull; tamanho 1cm acima ou abaixo do admitido.</p>
+<p>FALTAS GRAVES</p>
+<p>&bull; falta de tipicidade sexual &nbsp;(ex: f&ecirc;meas masculinizadas).</p>
+<p>&bull; apar&ecirc;ncia fraca.</p>
+<p>&bull; cabe&ccedil;a em forma de ma&ccedil;&atilde;.</p>
+<p>&bull; falta de paralelismo na cabe&ccedil;a.</p>
+<p>&bull; cotovelos virados para fora.</p>
+<p>&bull; posteriores encolhidos embaixo do corpo.</p>
+<p>&bull; posteriores retos ou em barril.</p>
+<p>&bull; jarretes virados para fora.</p>
+<p>&bull; tamanho acima ou abaixo em mais de 1cm e menos de 2 cm.</p>
+<p>FALTAS DESQUALIFICANTES</p>
+<p>&bull; t&iacute;mido, agressivo, violento, desconfiado demais ou de comportamento nervoso.</p>
+<p>&bull; deforma&ccedil;&atilde;o de qualquer tipo.</p>
+<p>&bull; falta de tipicidade da ra&ccedil;a.</p>
+<p>&bull; faltas na boca, como prognatismo superior ou inferior ou tor&ccedil;&atilde;o de mand&iacute;bula.</p>
+<p>&bull; faltas graves em partes individuais, como de estrutura, pelagem e cores.</p>
+<p>&bull; tamanho acima ou abaixo em mais de 2 cm.</p>
+<p>&bull; todo c&atilde;o que apresentar qualquer sinal de anomalia f&iacute;sica ou de comportamento deve ser</p>
+<p>desqualificado.</p>
+<p>NOTA:</p>
+<p>&bull; os machos devem apresentar os dois test&iacute;culos, de apar&ecirc;ncia normal, bem desenvolvidos e</p>
+<p>acomodados na bolsa escrotal.</p>
+    [opcao] => Array
+        (
+            [0] => Chocolate
+            [1] => Prata e Canela
+            [2] => Black and Tan
+            [3] => Chocolate e Canela
+            [4] => Arlequim
+            [5] => Preto e Canela
+            [6] => Castanho
+            [7] => Dourado
+            [8] => Vermelho Corça
+            [9] => Isabela
+            [10] => Preto
+            [11] => Marrom Avermelhado
+            [12] => Cervo
+            [13] => PRETO / CASTANHO
+        )
+
+    [pais_raca] => Alemanha
+    [Submit] => Atualizar
+    [lock] => 0.5431623550543658
+)
+
+
+reparar 1469199169
+
+Array
+(
+    [id] => 239
+    [categoria] => 14
+    [subcategoria] => Pinscher Miniatura
+    [regra] => <p>APAR&Ecirc;NCIA GERAL: o Pinscher Miniatura &eacute; a imagem reduzida do Pinscher Alem&atilde;o, sem os defeitos da apar&ecirc;ncia de nanismo. Sua elegante constru&ccedil;&atilde;o quadrada &eacute; nitidamente vis&iacute;vel atrav&eacute;s do seu pelo curto e liso. PROPOR&Ccedil;&Otilde;ES IMPORTANTES a rela&ccedil;&atilde;o do comprimento com a altura, faz com que a sua constru&ccedil;&atilde;o pare&ccedil;a t&atilde;o quadrada quanto poss&iacute;vel.comprimento da cabe&ccedil;a (medido da trufa ao occipital) corresponde a &nbsp;metade do comprimento da linha superior (medido da cernelha &agrave; raiz da cauda). COMPORTAMENTO / TEMPERAMENTO: vivo, en&eacute;rgico, seguro e equilibrado. Essas qualidades fazem dele um agrad&aacute;vel c&atilde;o de fam&iacute;lia e de companhia. MOVIMENTA&Ccedil;&Atilde;O: o Pinscher miniatura &eacute; um trotador. O dorso permanece firme e relativamente est&aacute;vel em movimento. A movimenta&ccedil;&atilde;o &eacute; harmoniosa, segura, poderosa e desinibida, com bom alcance. T&iacute;pico do trote &eacute; uma movimenta&ccedil;&atilde;o cobrindo bem o terreno, relaxada e fluente com uma forte propuls&atilde;o e com uma livre extens&atilde;o dianteira. PELE: ajustada sobre todo o corpo. PELAGEM Pelo: curto e denso, liso, assentado e brilhante, sem regi&otilde;es peladas. COR Unicolor: vermelho cor&ccedil;a, do marrom-avermelhado at&eacute; o marrom avermelhado escuro. Preto e castanho: pelo preto-laca com manchas vermelhas ou marrons. O objetivo &eacute; que se obtenha as manchas mais escuras poss&iacute;veis, saturadas e bem definidas. As manchas s&atilde;o distribu&iacute;das da seguinte maneira: &nbsp;acima dos olhos, abaixo do pesco&ccedil;o, nos metacarpos, nas patas, na parte interna dos posteriores e abaixo da cauda. Dois tri&acirc;ngulos de igual tamanho nitidamente separados no peito. TAMANHO / PESO Altura na cernelha: machos e f&ecirc;meas: 25 a 30 cm. Peso: machos e f&ecirc;meas: &nbsp; 4 &nbsp;a &nbsp;6 kg.</p>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+    [conteudo] => <p><span style="font-family: Verdana, sans-serif; font-size: 7.5pt;">Ra&ccedil;a: Pinscher Miniatura</span></p>
+<p class="MsoNormal"><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Grupo: C&atilde;es de Luxo</span></p>
+<p class="MsoNormal"><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Fun&ccedil;&atilde;o: C&atilde;o de Colo e Companhia</span></p>
+<p class="MsoNormal"><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Pa&iacute;s de origem: Alemanha</span></p>
+<p class="MsoNormal"><span style="font-family: Verdana, sans-serif; font-size: 7.5pt;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif;">Aprovado por: Osmir Moraes Bastos - presidente</span></span></p>
+<p>&nbsp;</p>
+<p>APAR&Ecirc;NCIA GERAL: o Pinscher Miniatura &eacute; a imagem reduzida do Pinscher Alem&atilde;o, sem os defeitos da</p>
+<p>apar&ecirc;ncia de nanismo. Sua elegante constru&ccedil;&atilde;o quadrada &eacute; nitidamente vis&iacute;vel atrav&eacute;s do seu pelo</p>
+<p>curto e liso.</p>
+<p>PROPOR&Ccedil;&Otilde;ES IMPORTANTES</p>
+<p>&bull; a rela&ccedil;&atilde;o do comprimento com a altura, faz com que a sua constru&ccedil;&atilde;o pare&ccedil;a t&atilde;o quadrada quanto</p>
+<p>poss&iacute;vel.</p>
+<p>&bull; comprimento da cabe&ccedil;a (medido da trufa ao occipital) corresponde a &nbsp;metade do comprimento da</p>
+<p>linha superior (medido da cernelha &agrave; raiz da cauda).</p>
+<p>COMPORTAMENTO / TEMPERAMENTO: vivo, en&eacute;rgico, seguro e equilibrado. Essas qualidades fazem dele</p>
+<p>um agrad&aacute;vel c&atilde;o de fam&iacute;lia e de companhia.</p>
+<p>CABE&Ccedil;A</p>
+<p>REGI&Atilde;O CRANIANA</p>
+<p>Cr&acirc;nio: forte, alongado com o occipital pouco marcado. A testa &eacute; plana, sem rugas, paralela &agrave; cana</p>
+<p>nasal.</p>
+<p>Stop: leve, mas nitidamente definido.</p>
+<p>REGI&Atilde;O FACIAL</p>
+<p>Trufa: bem desenvolvida e preta.</p>
+<p>Focinho: terminando em cunha. A cana nasal &eacute; reta.</p>
+<p>L&aacute;bios: pretos, finos e aderentes aos maxilares. Comissura &nbsp;labial fechada.</p>
+<p>Maxilares / Dentes: maxilares fortes. A completa mordedura em tesoura (42 dentes de acordo com a</p>
+<p>f&oacute;rmula dent&aacute;ria) &eacute; forte e bem fechada. Os m&uacute;sculos da mastiga&ccedil;&atilde;o s&atilde;o fortemente desenvolvidos,</p>
+<p>sem formar bochechas salientes que interfiram no contorno.</p>
+<p>Olhos: escuros, ovais, com p&aacute;lpebras bem aderentes e pretas.</p>
+<p>Orelhas: eretas; inseridas altas, dobradas para frente em forma de V, com as bordas interiores rentes</p>
+<p>&nbsp;&agrave;s bochechas. As dobras n&atilde;o devem estar acima da linha do cr&acirc;nio.</p>
+<p>PESCO&Ccedil;O: de porte nobre, n&atilde;o muito curto. Deve fundir-se harmoniosamente na cernelha sem ser</p>
+<p>marcado. Seco, sem barbelas ou papadas. A pele da garganta &eacute; seca, sem dobras.</p>
+<p>TRONCO</p>
+<p>Linha superior: ligeiramente inclinada da cernelha &agrave; garupa.</p>
+<p>Cernelha: formando o ponto mais alto da linha superior.</p>
+<p>Dorso: forte, curto e firme.</p>
+<p>Lombo: forte. A dist&acirc;ncia da &uacute;ltima costela at&eacute; a anca &eacute; curta fazendo o c&atilde;o parecer</p>
+<p>compacto.</p>
+<p>Garupa: ligeiramente arredondada, fundindo-se imperceptivelmente na inser&ccedil;&atilde;o da cauda.</p>
+<p>Peito: moderadamente largo, de di&acirc;metro oval, alcan&ccedil;ando os cotovelos. O antepeito &eacute; nitidamente</p>
+<p>marcado pela ponta do esterno.</p>
+<p>Linha inferior e ventre: flancos n&atilde;o muito esgalgados, formando uma bonita curva com a parte inferior</p>
+<p>do t&oacute;rax.</p>
+<p>CAUDA: natural; busca-se que seja portada em forma de sabre ou foice.</p>
+<p>MEMBROS</p>
+<p>ANTERIORES: vistos de frente, s&atilde;o fortes, retos e n&atilde;o demasiadamente juntos.</p>
+<p>Vistos de perfil, &nbsp;os membros anteriores s&atilde;o retos.</p>
+<p>Ombros: a esc&aacute;pula &eacute; colocada rente &agrave; caixa tor&aacute;cica e &eacute; bem musculosa em ambos os lados do osso</p>
+<p>do ombro, saindo acima do ponto da v&eacute;rtebra. Os mais inclinados poss&iacute;veis e bem colocados para tr&aacute;s,</p>
+<p>formando um &acirc;ngulo de aproximadamente 50&deg; com a horizontal.</p>
+<p>Bra&ccedil;os: bem rentes ao corpo, fortes e bem musculosos, formando um &acirc;ngulo de 95&deg; a 105&deg; com a</p>
+<p>esc&aacute;pula.</p>
+<p>Cotovelos: corretamente ajustados, n&atilde;o virados nem para dentro nem para fora.</p>
+<p>Antebra&ccedil;os: fortemente desenvolvidos e bem musculosos. Completamente retos, vistos de frente e de</p>
+<p>perfil.</p>
+<p>Articula&ccedil;&atilde;o do carpo: forte e firme.</p>
+<p>Metacarpos: fortes e el&aacute;sticos. Vistos de frente, verticais; vistos de perfil, ligeiramente inclinados para o</p>
+<p>ch&atilde;o.</p>
+<p>Patas: curtas e redondas; dedos bem firmes e arqueados (pata de gato), almofadas resistentes, unhas</p>
+<p>curtas, pretas e fortes.</p>
+<p>POSTERIORES: colocados obliquamente, quando vistos de perfil; vistos por tr&aacute;s, colocados</p>
+<p>paralelamente, mas n&atilde;o muito pr&oacute;ximos um da outro.</p>
+<p>Coxas: moderadamente longas, largas e fortemente musculosas.</p>
+<p>Joelhos: n&atilde;o virando nem para dentro nem para fora.</p>
+<p>Pernas: longas e fortes, resistente, encontrando um forte jarrete.</p>
+<p>Jarretes: muito bem angulados, fortes, firmes, n&atilde;o virando nem para dentro nem para fora.</p>
+<p>Metatarsos: verticais com o solo.</p>
+<p>Patas: ligeiramente mais longas do que as anteriores. Dedos bem firmes e arqueados.</p>
+<p>Unhas curtas e pretas.</p>
+<p>MOVIMENTA&Ccedil;&Atilde;O: o Pinscher miniatura &eacute; um trotador. O dorso permanece firme e relativamente est&aacute;vel</p>
+<p>em movimento. A movimenta&ccedil;&atilde;o &eacute; harmoniosa, segura, poderosa e desinibida, com bom alcance.</p>
+<p>T&iacute;pico do trote &eacute; uma movimenta&ccedil;&atilde;o cobrindo bem o terreno, relaxada e fluente com uma forte</p>
+<p>propuls&atilde;o e com uma livre extens&atilde;o dianteira.</p>
+<p>PELE: ajustada sobre todo o corpo.</p>
+<p>PELAGEM</p>
+<p>Pelo: curto e denso, liso, assentado e brilhante, sem regi&otilde;es peladas.</p>
+<p>COR</p>
+<p>Unicolor: vermelho cor&ccedil;a, do marrom-avermelhado at&eacute; o marrom avermelhado escuro.</p>
+<p>Preto e castanho: pelo preto-laca com manchas vermelhas ou marrons. O objetivo &eacute; que se obtenha as</p>
+<p>manchas mais escuras poss&iacute;veis, saturadas e bem definidas. As manchas s&atilde;o distribu&iacute;das da seguinte</p>
+<p>maneira: &nbsp;acima dos olhos, abaixo do pesco&ccedil;o, nos metacarpos, nas patas, na parte interna dos</p>
+<p>posteriores e abaixo da cauda. Dois tri&acirc;ngulos de igual tamanho nitidamente separados no peito.</p>
+<p>TAMANHO / PESO</p>
+<p>Altura na cernelha:</p>
+<p>machos e f&ecirc;meas: 25 a 30 cm.</p>
+<p>Peso:</p>
+<p>machos e f&ecirc;meas: &nbsp; 4 &nbsp;a &nbsp;6 kg.</p>
+<p>FALTAS: qualquer desvio dos termos deste padr&atilde;o deve ser considerado como falta e penalizado na</p>
+<p>exata propor&ccedil;&atilde;o de sua gravidade e seus efeitos na sa&uacute;de e bem estar do c&atilde;o.</p>
+<p>Particularmente:</p>
+<p>&bull; constru&ccedil;&atilde;o grosseira ou leve. De pernas muito baixas ou muito altas.</p>
+<p>&bull; cr&acirc;nio pesado ou redondo.</p>
+<p>&bull; rugas na testa.</p>
+<p>&bull; focinho curto, estreito ou pontudo.</p>
+<p>&bull; mordedura em torqu&ecirc;s.</p>
+<p>&bull; olhos claros, muito pequenos ou muito grandes.</p>
+<p>&bull; orelhas inseridas baixas, muito longas, portadas irregularmente.</p>
+<p>&bull; barbelas.</p>
+<p>&bull; dorso muito longo, esgalgado ou selado.</p>
+<p>&bull; dorso carpeado.</p>
+<p>&bull; garupa ca&iacute;da.</p>
+<p>&bull; patas compridas.</p>
+<p>&bull; passo de camelo.</p>
+<p>&bull; movimenta&ccedil;&atilde;o hackney.</p>
+<p>&bull; pelo fino.</p>
+<p>&bull; cor ru&atilde;o; linha preta no dorso, sela escura no dorso, pelagem clara ou p&aacute;lida.</p>
+<p>&bull; tamanho 1cm acima ou abaixo do admitido.</p>
+<p>FALTAS GRAVES</p>
+<p>&bull; falta de tipicidade sexual &nbsp;(ex: f&ecirc;meas masculinizadas).</p>
+<p>&bull; apar&ecirc;ncia fraca.</p>
+<p>&bull; cabe&ccedil;a em forma de ma&ccedil;&atilde;.</p>
+<p>&bull; falta de paralelismo na cabe&ccedil;a.</p>
+<p>&bull; cotovelos virados para fora.</p>
+<p>&bull; posteriores encolhidos embaixo do corpo.</p>
+<p>&bull; posteriores retos ou em barril.</p>
+<p>&bull; jarretes virados para fora.</p>
+<p>&bull; tamanho acima ou abaixo em mais de 1cm e menos de 2 cm.</p>
+<p>FALTAS DESQUALIFICANTES</p>
+<p>&bull; t&iacute;mido, agressivo, violento, desconfiado demais ou de comportamento nervoso.</p>
+<p>&bull; deforma&ccedil;&atilde;o de qualquer tipo.</p>
+<p>&bull; falta de tipicidade da ra&ccedil;a.</p>
+<p>&bull; faltas na boca, como prognatismo superior ou inferior ou tor&ccedil;&atilde;o de mand&iacute;bula.</p>
+<p>&bull; faltas graves em partes individuais, como de estrutura, pelagem e cores.</p>
+<p>&bull; tamanho acima ou abaixo em mais de 2 cm.</p>
+<p>&bull; todo c&atilde;o que apresentar qualquer sinal de anomalia f&iacute;sica ou de comportamento deve ser</p>
+<p>desqualificado.</p>
+<p>NOTA:</p>
+<p>&bull; os machos devem apresentar os dois test&iacute;culos, de apar&ecirc;ncia normal, bem desenvolvidos e</p>
+<p>acomodados na bolsa escrotal.</p>
+    [opcao] => Array
+        (
+            [0] => PRETO / CASTANHO
+            [1] => Cervo
+            [2] => Marrom Avermelhado
+            [3] => Preto
+            [4] => Isabela
+            [5] => Vermelho Corça
+            [6] => Dourado
+            [7] => Castanho
+            [8] => Preto e Canela
+            [9] => Arlequim
+            [10] => Chocolate e Canela
+            [11] => Black and Tan
+            [12] => Prata e Canela
+            [13] => Chocolate
+            [14] => Branco / Arlequim
+        )
+
+    [pais_raca] => Alemanha
+    [Submit] => Atualizar
+    [lock] => 0.1650622078752484
+)
+
+
+reparar 1469462587
+
+Array
+(
+    [id] => 186
+    [categoria] => 13
+    [subcategoria] => American Pit Bull terrier
+    [regra] => <p class="MsoNormal"><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">APAR&Ecirc;NCIA GERAL: o American Pit Bull Terrier &eacute; um c&atilde;o de porte m&eacute;dio, de</span>&nbsp;<span style="font-family: Calibri, sans-serif; font-size: 11pt;">constru&ccedil;&atilde;o s&oacute;lida,&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">pelagem curta, musculatura bem definida. Esta ra&ccedil;a &eacute; poderosa e&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">atl&eacute;tica. O corpo &eacute; levemente&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">mais longo que alto, sendo que as f&ecirc;meas podem ser&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">um pouco mais longas que os machos. O&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">comprimento das pernas dianteiras,medidas&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">da ponta do cotovelo ao solo &eacute; aproximadamente&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">igual &agrave; metade da altura do c&atilde;o a&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">partir da cernelha. A cabe&ccedil;a &eacute; de comprimento m&eacute;dio, com o&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">cr&acirc;nio chato e o focinho&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">largo e profundo. As orelhas s&atilde;o de tamanho pequeno para m&eacute;dio,&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">inseridas altas e&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">podem ser naturais ou cortadas. A cauda relativamente curta &eacute; inserida baixa,&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">grossa&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">na base e afilando em dire&ccedil;&atilde;o &agrave; ponta. O American Pit Bull Terrier se apresenta em&nbsp;</span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">todas as cores e marca&ccedil;&otilde;es, exceto o merle. A ra&ccedil;a combina resist&ecirc;ncia e atletismo&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">com gra&ccedil;a e&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">agilidade e nunca deve ter apar&ecirc;ncia desajeitada ou com musculatura&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">saliente ou ossos finos e&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">pernalta.&nbsp;</span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">Acima de tudo, o American Pit Bull Terrier deve ter a capacidade funcional de ser um&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">c&atilde;o de&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">captura que pode controlar e derrubar a presa (empurrar e puxar) e respirar&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">facilmente,&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">enquanto faz seu trabalho. Equil&iacute;brio e harmonia de todas as partes (do&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">corpo) s&atilde;o&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">componentes cr&iacute;ticos do tipo racial.&nbsp;</span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">Faltas muito s&eacute;rias: qualquer caracter&iacute;stica desproporcional exagerada (como pernas&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">curtas,&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">osso excessivo ou cabe&ccedil;a e corpo volumosos) que interfira com sua habilidade&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">no trabalho.&nbsp;</span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">CARACTER&Iacute;STICAS: as caracter&iacute;sticas essenciais do American Pit Bull Terrier&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">s&atilde;o a for&ccedil;a, a&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">autoconfian&ccedil;a e a alegria de viver. A ra&ccedil;a gosta de agradar e &eacute; cheia de&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">entusiasmo. &Eacute; um&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">excelente c&atilde;o de companhia e &eacute; not&aacute;vel o seu amor por crian&ccedil;as.&nbsp;</span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">Pelo fato de a maioria dos American Pit Bull Terriers apresentar certo n&iacute;vel de&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">agressividade&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">contra outros c&atilde;es, bem como pelo fato de seu f&iacute;sico ser poderoso, a&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">ra&ccedil;a necessita de&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">propriet&aacute;rios que os sociabilizem cuidadosamente e que treinem&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">obedi&ecirc;ncia aos seus c&atilde;es. A&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">natural agilidade da ra&ccedil;a torna-o um dos mais capazes&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">escaladores e com frequ&ecirc;ncia usa seus&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">caninos para escalar uma cerca. O American&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">Pit Bull Terrier n&atilde;o &eacute; a melhor escolha para os que procuram c&atilde;es de guarda por ser &nbsp;</span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">extremamente amig&aacute;vel mesmo com desconhecidos. Comportamento agressivo para&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">com o ser &nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">humano n&atilde;o &eacute; caracter&iacute;stico da ra&ccedil;a e, portanto, &eacute; extremamente indesej&aacute;vel.</span></p>
+    [conteudo] => <p class="MsoNormal">Ra&ccedil;a: American Pit Bull Terrier</p>
+<p class="MsoNormal">Grupo: &nbsp;C&atilde;es do tipo T&eacute;rrier</p>
+<p class="MsoNormal">Fun&ccedil;&atilde;o: &nbsp;Companhia</p>
+<p class="MsoNormal">Pa&iacute;s de origem: Estados Unidos da Am&eacute;rica</p>
+<p class="MsoNormal">Aprovado por: Osmir Moraes Bastos &ndash; presidente</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">APAR&Ecirc;NCIA GERAL: o American Pit Bull Terrier &eacute; um c&atilde;o de porte m&eacute;dio, de</span>&nbsp;<span style="font-family: Calibri, sans-serif; font-size: 11pt;">constru&ccedil;&atilde;o s&oacute;lida,</span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">pelagem curta, musculatura bem definida. Esta ra&ccedil;a &eacute; poderosa e&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">atl&eacute;tica. O corpo &eacute; levemente </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">mais longo que alto, sendo que as f&ecirc;meas podem ser&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">um pouco mais longas que os machos. O </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">comprimento das pernas dianteiras,medidas&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">da ponta do cotovelo ao solo &eacute; aproximadamente </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">igual &agrave; metade da altura do c&atilde;o a&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">partir da cernelha. A cabe&ccedil;a &eacute; de comprimento m&eacute;dio, com o </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">cr&acirc;nio chato e o focinho&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">largo e profundo. As orelhas s&atilde;o de tamanho pequeno para m&eacute;dio, </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">inseridas altas e&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">podem ser naturais ou cortadas. A cauda relativamente curta &eacute; inserida baixa, </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">grossa&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">na base e afilando em dire&ccedil;&atilde;o &agrave; ponta. O American Pit Bull Terrier se apresenta em</span></p>
+<p><span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">todas as cores e marca&ccedil;&otilde;es, exceto o merle. A ra&ccedil;a combina resist&ecirc;ncia e atletismo&nbsp;</span></span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">com gra&ccedil;a e </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">agilidade e nunca deve ter apar&ecirc;ncia desajeitada ou com musculatura&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">saliente ou ossos finos e </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">pernalta.</span></p>
+<p><span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">Acima de tudo, o American Pit Bull Terrier deve ter a capacidade funcional de ser um&nbsp;</span></span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">c&atilde;o de </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">captura que pode controlar e derrubar a presa (empurrar e puxar) e respirar&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">facilmente, </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">enquanto faz seu trabalho. Equil&iacute;brio e harmonia de todas as partes (do&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">corpo) s&atilde;o</span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">componentes cr&iacute;ticos do tipo racial.</span></p>
+<p><span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">Faltas muito s&eacute;rias: qualquer caracter&iacute;stica desproporcional exagerada (como pernas&nbsp;</span></span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">curtas, </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">osso excessivo ou cabe&ccedil;a e corpo volumosos) que interfira com sua habilidade&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">no trabalho.</span></p>
+<p><span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">CARACTER&Iacute;STICAS: as caracter&iacute;sticas essenciais do American Pit Bull Terrier&nbsp;</span></span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">s&atilde;o a for&ccedil;a, a </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">autoconfian&ccedil;a e a alegria de viver. A ra&ccedil;a gosta de agradar e &eacute; cheia de&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">entusiasmo. &Eacute; um </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">excelente c&atilde;o de companhia e &eacute; not&aacute;vel o seu amor por crian&ccedil;as.</span></p>
+<p><span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">Pelo fato de a maioria dos American Pit Bull Terriers apresentar certo n&iacute;vel de&nbsp;</span></span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">agressividade </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">contra outros c&atilde;es, bem como pelo fato de seu f&iacute;sico ser poderoso, a&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">ra&ccedil;a necessita de </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">propriet&aacute;rios que os sociabilizem cuidadosamente e que treinem&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">obedi&ecirc;ncia aos seus c&atilde;es. A </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">natural agilidade da ra&ccedil;a torna-o um dos mais capazes&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">escaladores e com frequ&ecirc;ncia usa seus </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">caninos para escalar uma cerca. O American</span></p>
+<p><span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">Pit Bull Terrier n&atilde;o &eacute; a melhor escolha para os que procuram c&atilde;es de guarda por ser&nbsp;</span></span></p>
+<p><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">extremamente amig&aacute;vel mesmo com desconhecidos. Comportamento agressivo para&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">com o ser </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">humano n&atilde;o &eacute; caracter&iacute;stico da ra&ccedil;a e, portanto, &eacute; extremamente indesej&aacute;vel.</span></p>
+<p><span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">A ra&ccedil;a se sai muito bem em eventos de performance por seu alto grau de intelig&ecirc;ncia&nbsp;</span></span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">e sua </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">vontade de trabalhar.</span></p>
+<p><span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">CABE&Ccedil;A: &eacute; singular e &eacute; um elemento chave quanto ao tipo da ra&ccedil;a. A cabe&ccedil;a &eacute;&nbsp;</span></span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">grande e larga, </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">oferecendo uma impress&atilde;o de grande poder, mas, n&atilde;o deve ser&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">desproporcional ao tamanho </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">do corpo. Vista de frente, a cabe&ccedil;a tem o formato de&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">uma cunha r&uacute;stica e larga. Quando vistos </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">de perfil, o cr&acirc;nio e o focinho s&atilde;o paralelos&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">entre si, unidos por um stop bem definido e </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">moderadamente fundo. Os arcos supraorbitais sobre os olhos s&atilde;o bem definidos, mas n&atilde;o </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">pronunciados. A cabe&ccedil;a &eacute; bem&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">cinzelada, unindo resist&ecirc;ncia, eleg&acirc;ncia e car&aacute;ter.</span></p>
+<p><span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">Faltas muito s&eacute;rias: cabe&ccedil;a excessivamente larga ou pesada.</span></span></p>
+<p><span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">CR&Acirc;NIO: largo, plano ou levemente arredondado, profundo e largo entre as orelhas.</span></span></p>
+<p><span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">Visto de cima, o cr&acirc;nio vai afilando levemente em dire&ccedil;&atilde;o ao stop. Existe um sulco&nbsp;</span></span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">mediano </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">profundo que vai diminuindo de profundidade do stop ao occipital. Os&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">m&uacute;sculos das bochechas </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">s&atilde;o proeminentes, sem presen&ccedil;a de rugas. Quando o c&atilde;o&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">est&aacute; se concentrando, formam-se </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">rugas na sua testa, o que oferece ao American Pit&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">Bull Terrier uma express&atilde;o singular.</span></p>
+<p><span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">FOCINHO: largo, profundo, com um afilamento muito suave indo do stop para a&nbsp;</span></span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">trufa, e com </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">uma ligeira separa&ccedil;&atilde;o debaixo dos olhos. O focinho &eacute; mais curto do que&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">o comprimento do </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">cr&acirc;nio, com uma propor&ccedil;&atilde;o de aproximadamente 2 para 3. A&nbsp;</span><span style="font-family: Calibri, sans-serif; font-size: 11pt;">linha superior do focinho &eacute; reta. A </span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">mand&iacute;bula &eacute; bem desenvolvida, larga e profunda.</span></p>
+<p><span><span style="font-size: 11.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin;">Os l&aacute;bios s&atilde;o secos e bem ajustados.</span></span></p>
+<p><span style="font-family: Calibri, sans-serif; font-size: 11pt;">Faltas: focinho pontudo; comissuras labiais pendentes; mand&iacute;bula fraca.</span></p>
+    [opcao] => Array
+        (
+            [0] => Red Brindle
+            [1] => Branco e Amarelo
+            [2] => Branco e Blue Fawn
+            [3] => Red Fawn
+            [4] => Seal
+            [5] => Buckskin
+            [6] => Champanhe
+            [7] => Creme e Branco
+            [8] => BLUE NOSE
+            [9] => Vermelho
+            [10] => Cinza
+            [11] => Vermelho e Branco
+            [12] => Tigrado
+            [13] => Bege
+            [14] => Amarelo
+            [15] => Cinza e Branco
+            [16] => Amarelo e Branco
+            [17] => Azul Tigrado
+            [18] => Tigrado e Branco
+            [19] => Chocolate
+            [20] => Branco e Dourado
+            [21] => Baio e Branco
+            [22] => Preto
+            [23] => Preto e Branco
+            [24] => Marrom
+            [25] => Marrom e Branco
+            [26] => Azul
+            [27] => Azul e Branco
+            [28] => Branco
+            [29] => Branco e Preto
+            [30] => Dourado
+            [31] => Chocolate e Branco
+            [32] => Dourado e Branco
+            [33] => Champanhe e Branco
+            [34] => Tigrado e Branco
+            [35] => Branco e Marrom
+            [36] => Bege e Tigrado
+            [37] => Tricolor
+            [38] => Lilac
+            [39] => Lilac e Branco
+            [40] => Branco e Azul
+            [41] => Blue Fawn
+            [42] => Branco e Cinza
+            [43] => Branco e Lilac
+            [44] => Branco e Baio
+            [45] => Fulvo e Branco
+            [46] => Branco Pirata
+            [47] => BLACK NOSE
+        )
+
+    [pais_raca] => EUA
+    [Submit] => Atualizar
+    [lock] => 0.7337194964643114
+)
+
+
+reparar 1469715206
+
+Array
+(
+    [id] => 263
+    [categoria] => 15
+    [subcategoria] => Lhasa Apso
+    [regra] => <p>PROPOR&Ccedil;&Otilde;ES IMPORTANTES: o comprimento da ponta dos ombros at&eacute; a ponta do &iacute;squio deve ser<span style="font-size: 10px;">maior que a altura na cernelha.</span><span style="font-size: 10px;">COMPORTAMENTO / TEMPERAMENTO: alegre e seguro de si. Alerta, est&aacute;vel, mas indiferente com&nbsp;</span><span style="font-size: 10px;">estranhos.</span><span style="font-size: 10px;">CABE&Ccedil;A: pesada, guarnecida por pelos com boa queda sobre os olhos; mas que n&atilde;o interfiram na&nbsp;</span><span style="font-size: 10px;">capacidade do c&atilde;o enxergar. Bons bigodes e barba.</span><span style="font-size: 10px;">REGI&Atilde;O CRANIANA</span><span style="font-size: 10px;">Cr&acirc;nio: moderadamente estreito, caindo atr&aacute;s dos olhos, n&atilde;o totalmente plano, mas tamb&eacute;m, n&atilde;o</span><span style="font-size: 10px;">abobadado ou em forma de ma&ccedil;&atilde;.</span><span style="font-size: 10px;">Stop: m&eacute;dio.</span><span style="font-size: 10px;">REGI&Atilde;O FACIAL</span><span style="font-size: 10px;">Trufa: preta.</span><span style="font-size: 10px;">Focinho: com aproximadamente 4 cm, mas n&atilde;o quadrado; seu comprimento, a partir da ponta da trufa,</span><span style="font-size: 10px;">corresponde, a grosso modo, a 1/3 do comprimento total da trufa at&eacute; a parte posterior do cr&acirc;nio.</span><span style="font-size: 10px;">Focinho reto.</span><span style="font-size: 10px;">Maxilares / Dentes: os incisivos superiores se fecham ajustados atr&aacute;s dos incisivos inferiores, isto &eacute;,</span><span style="font-size: 10px;">mordedura em tesoura invertida. Incisivos em uma linha t&atilde;o larga e reta quanto poss&iacute;vel. &Eacute; desej&aacute;vel&nbsp;</span><span style="font-size: 10px;">uma denti&ccedil;&atilde;o completa.</span><span style="font-size: 10px;">Olhos: escuros. De tamanho m&eacute;dio, inser&ccedil;&atilde;o frontal, ovais, nem grandes, nem cheios, nem pequenos,</span><span style="font-size: 10px;">nem profundos. Nenhum branco vis&iacute;vel abaixo e acima.</span><span style="font-size: 10px;">Orelhas: pendentes e com franjas abundantes.</span><span style="font-size: 10px;">PESCO&Ccedil;O: forte e bem arqueado.</span><span style="font-size: 10px;">TRONCO: equilibrado e compacto.</span><span style="font-size: 10px;">Dorso: nivelado</span><span style="font-size: 10px;">Lombo: forte</span><span style="font-size: 10px;">Peito: costelas bem estendidas para tr&aacute;s.</span><span style="font-size: 10px;">CAUDA: inserida alta, portada bem acima do dorso, mas n&atilde;o como um gancho. Frequentemente com</span><span style="font-size: 10px;">um n&oacute; na ponta. Bem franjada.</span><span style="font-size: 10px;">MEMBROS</span><span style="font-size: 10px;">ANTERIORES</span><span style="font-size: 10px;">Ombros: bem colocadospara tr&aacute;s.</span><span style="font-size: 10px;">Antebra&ccedil;os: retos, bem guarnecidos por pelos.</span><span style="font-size: 10px;">Patas: redondas, p&eacute;s de gato, com almofadas firmes. Bem franjadas.</span><span style="font-size: 10px;">POSTERIORES</span><span style="font-size: 10px;">Apar&ecirc;ncia geral: bem desenvolvidos com bons m&uacute;sculos. Boa angula&ccedil;&atilde;o. Bem guarnecidos por pelos.</span><span style="font-size: 10px;">Jarretes: vistos por tr&aacute;s, paralelos e n&atilde;o muito pr&oacute;ximos um do outro.</span><span style="font-size: 10px;">Patas: redondas, p&eacute;s de gato, com almofadas firmes. Bem franjadas.</span><span style="font-size: 10px;">MOVIMENTA&Ccedil;&Atilde;O: livre e desenvolta.</span><span style="font-size: 10px;">PELAGEM</span><span style="font-size: 10px;">Pelo: pelagem externa longa, reta, pesada, &aacute;spera. Nem lanosa, nem sedosa. Subpelo moderado. A</span><span style="font-size: 10px;">pelagem nunca dever&aacute; impedir a movimenta&ccedil;&atilde;o.</span><span style="font-size: 10px;">COR: dourado, areia, mel, cinza escuro, ard&oacute;sia, de fuma&ccedil;a, particolor, preto, branco ou amarronzado.</span><span style="font-size: 10px;">Todas s&atilde;o igualmente aceit&aacute;veis.</span><span style="font-size: 10px;">TAMANHO</span><span style="font-size: 10px;">Altura ideal na cernelha: 25 cm para os machos; f&ecirc;meas ligeiramente menores.</span><span style="font-size: 10px;">FALTAS: qualquer desvio dos termos deste padr&atilde;o deve ser considerado como</span><span style="font-size: 10px;">falta e penalizado na exata propor&ccedil;&atilde;o de sua gravidade e seus efeitos na sa&uacute;de e bem estar do c&atilde;o.</span><span style="font-size: 10px;"><br /></span></p>
+<p>&nbsp;</p>
+    [conteudo] => <p class="MsoNormal"><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Ra&ccedil;a: Lhasa Apso</span></p>
+<p class="MsoNormal"><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Grupo: C&atilde;es de Companhia</span></p>
+<p class="MsoNormal"><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Fun&ccedil;&atilde;o: C&atilde;o de Companhia</span></p>
+<p class="MsoNormal"><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;">Pa&iacute;s de origem/Pa&iacute;s Patrono:Tibet/Gr&atilde;-Bretanha</span></p>
+<p class="MsoNormal"><span style="font-size: 7.5pt; font-family: Verdana, sans-serif;"><span style="font-size: 7.5pt;">Aprovado por: Osmir Moraes Bastos - presidente</span></span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">APAR&Ecirc;NCIA GERAL: bem balanceado, robusto com pelagem abundante, mas sem excessos.</p>
+<p>PROPOR&Ccedil;&Otilde;ES IMPORTANTES: o comprimento da ponta dos ombros at&eacute; a ponta do &iacute;squio deve ser</p>
+<p>maior que a altura na cernelha.</p>
+<p>COMPORTAMENTO / TEMPERAMENTO: alegre e seguro de si. Alerta, est&aacute;vel, mas indiferente com</p>
+<p>estranhos.</p>
+<p>CABE&Ccedil;A: pesada, guarnecida por pelos com boa queda sobre os olhos; mas que n&atilde;o interfiram na</p>
+<p>capacidade do c&atilde;o enxergar. Bons bigodes e barba.</p>
+<p>REGI&Atilde;O CRANIANA</p>
+<p>Cr&acirc;nio: moderadamente estreito, caindo atr&aacute;s dos olhos, n&atilde;o totalmente plano, mas tamb&eacute;m, n&atilde;o</p>
+<p>abobadado ou em forma de ma&ccedil;&atilde;.</p>
+<p>Stop: m&eacute;dio.</p>
+<p>REGI&Atilde;O FACIAL</p>
+<p>Trufa: preta.</p>
+<p>Focinho: com aproximadamente 4 cm, mas n&atilde;o quadrado; seu comprimento, a partir da ponta da trufa,</p>
+<p>corresponde, a grosso modo, a 1/3 do comprimento total da trufa at&eacute; a parte posterior do cr&acirc;nio.</p>
+<p>Focinho reto.</p>
+<p>Maxilares / Dentes: os incisivos superiores se fecham ajustados atr&aacute;s dos incisivos inferiores, isto &eacute;,</p>
+<p>mordedura em tesoura invertida. Incisivos em uma linha t&atilde;o larga e reta quanto poss&iacute;vel. &Eacute; desej&aacute;vel</p>
+<p>uma denti&ccedil;&atilde;o completa.</p>
+<p>Olhos: escuros. De tamanho m&eacute;dio, inser&ccedil;&atilde;o frontal, ovais, nem grandes, nem cheios, nem pequenos,</p>
+<p>nem profundos. Nenhum branco vis&iacute;vel abaixo e acima.</p>
+<p>Orelhas: pendentes e com franjas abundantes.</p>
+<p>PESCO&Ccedil;O: forte e bem arqueado.</p>
+<p>TRONCO: equilibrado e compacto.</p>
+<p>Dorso: nivelado</p>
+<p>Lombo: forte</p>
+<p>Peito: costelas bem estendidas para tr&aacute;s.</p>
+<p>CAUDA: inserida alta, portada bem acima do dorso, mas n&atilde;o como um gancho. Frequentemente com</p>
+<p>um n&oacute; na ponta. Bem franjada.</p>
+<p>MEMBROS</p>
+<p>ANTERIORES</p>
+<p>Ombros: bem colocados para tr&aacute;s.</p>
+<p>Antebra&ccedil;os: retos, bem guarnecidos por pelos.</p>
+<p>Patas: redondas, p&eacute;s de gato, com almofadas firmes. Bem franjadas.</p>
+<p>POSTERIORES</p>
+<p>Apar&ecirc;ncia geral: bem desenvolvidos com bons m&uacute;sculos. Boa angula&ccedil;&atilde;o. Bem guarnecidos por pelos.</p>
+<p>Jarretes: vistos por tr&aacute;s, paralelos e n&atilde;o muito pr&oacute;ximos um do outro.</p>
+<p>Patas: redondas, p&eacute;s de gato, com almofadas firmes. Bem franjadas.</p>
+<p>MOVIMENTA&Ccedil;&Atilde;O: livre e desenvolta.</p>
+<p>PELAGEM</p>
+<p>Pelo: pelagem externa longa, reta, pesada, &aacute;spera. Nem lanosa, nem sedosa. Subpelo moderado. A</p>
+<p>pelagem nunca dever&aacute; impedir a movimenta&ccedil;&atilde;o.</p>
+<p>COR: dourado, areia, mel, cinza escuro, ard&oacute;sia, de fuma&ccedil;a, particolor, preto, branco ou amarronzado.</p>
+<p>Todas s&atilde;o igualmente aceit&aacute;veis.</p>
+<p>TAMANHO</p>
+<p>Altura ideal na cernelha: 25 cm para os machos; f&ecirc;meas ligeiramente menores.</p>
+<p>FALTAS: qualquer desvio dos termos deste padr&atilde;o deve ser considerado como</p>
+<p>falta e penalizado na exata propor&ccedil;&atilde;o de sua gravidade e seus efeitos na sa&uacute;de e bem estar do c&atilde;o.</p>
+<p>FALTAS DESQUALIFICANTES</p>
+<p>&bull; agressividade ou timidez excessiva.</p>
+<p>&bull; todo c&atilde;o que apresentar qualquer sinal de anomalia f&iacute;sica ou de comportamento deve ser</p>
+<p>desqualificado.</p>
+<p>NOTA:</p>
+<p>&bull; os machos devem apresentar os dois test&iacute;culos, de apar&ecirc;ncia normal, bem descidos e acomodados na</p>
+<p>bolsa escrotal.</p>
+    [opcao] => Array
+        (
+            [0] => Branco e Marrom
+            [1] => Mogno
+            [2] => Branco e Preto
+            [3] => Branco
+            [4] => Bicolor
+            [5] => Vermelho
+            [6] => Preto
+            [7] => Marrom
+            [8] => Fumaça
+            [9] => Branco e Areia
+            [10] => Branco e Mel
+            [11] => Branco e Dourado
+            [12] => Ardósia
+            [13] => Cinza Escuro
+            [14] => Mel
+            [15] => Areia
+            [16] => Particolor
+            [17] => Tricolor
+            [18] => Dourado e Branco
+            [19] => Caramelo
+            [20] => Dourado
+            [21] => Branco e Cinza
+            [22] => CHOCOLATE 
+            [23] => CREME
+        )
+
+    [pais_raca] => Tibet
+    [Submit] => Atualizar
+    [lock] => 0.21988045766314857
+)
+

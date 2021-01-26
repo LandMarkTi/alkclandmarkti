@@ -1,0 +1,58 @@
+a img{
+	border:none;
+}
+
+table{
+  width:750px;
+
+}
+
+table thead th{
+  background-color:#CCCCCC;
+  padding:6px;
+  color:#000;
+  text-align:left;
+  font-size:14px;
+}
+
+table thead th.header{
+  cursor:pointer;
+  text-align:left;
+}
+
+table tbody td{
+  padding:6px;
+  text-align:left;
+  color:#333;
+}
+
+table tbody tr.odd td{
+  background-color:#CCC;
+}
+
+table tbody tr.hover td{
+  background-color:#a9d0f5;
+}
+
+table tbody tr.selected td{
+  background-color:#549ABE!important;
+}
+
+.pagedisplay{
+	width:40px;
+	text-align:center;
+	border:none;
+	background-color:#f2f2f2;
+	font-weight:900;
+}
+
+#pager span{
+	color:#666;
+	float:right;
+}
+
+#pager form{
+	text-align:left;
+	padding:10px;
+	width:680px;
+}

@@ -1,0 +1,110 @@
+<?php require_once("Connections/conexao.php");
+
+
+if($_POST){
+$tit=$_POST['titulo'];
+$bloco=$_POST['bloco'];
+mysql_query("update textos_site set titulo='$tit' ,bloco='$bloco' where pg='P' ")or die(mysql_error());
+
+
+}
+
+$dados=mysql_query("select * from textos_site where pg='P'")or die();
+$linha=mysql_fetch_array($dados);
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="Painel de Controle - NEOWARE" /> 
+<meta name="Description" content="Painel de Controle - NEOWARE"/> 
+<meta name="copyright" content="Neoware Criação e Desenvolvimento de Websites e Sistemas - www.neoware.com.br" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/style_fonts.css" />
+<link rel="stylesheet" type="text/css" href="css/style_internas.css" />
+<link rel="stylesheet" href="jquery/acord/style.css" type="text/css" />
+<link rel="shortcut icon" href="favicon.png" /> 
+<title>::. Painel de Controle - NEOWARE .::</title>
+<script type="text/javascript" src="jquery/scroll/js/jquery-1.4.2.min.js"></script>
+<link type="text/css" href="jquery/jqueryui/css/redmond/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
+<script type="text/javascript" src="jquery/jqueryui/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="jquery/jqueryui/js/jquery-ui-1.8.21.custom.min.js"></script>
+<script type="text/javascript" src="jquery/clone/reCopy.js"></script>
+
+<script type="text/javascript">
+
+</script>
+<!--Editor de Texto -->
+<!-- TinyMCE -->
+<script type="text/javascript" src="jquery/tiny_mce/tiny_mce.js"></script>
+<script type="text/javascript">
+	tinyMCE.init({
+		mode : "textareas",
+		theme : "simple"
+	});
+</script>
+<!-- /TinyMCE -->
+<script type="text/javascript">
+      
+      
+</script>
+<script type="text/javascript">
+$(function(){
+  var removeLink = ' <a class="remove" href="#" onclick="$(this).parent().slideUp(function(){ $(this).remove() }); return false"><img src="images/icons/excluir.png" /></a>';
+$('a.add').relCopy({ append: removeLink});	
+});
+</script>
+</head> 
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgproperties="fixed" background="images/fundos/bg.jpg">
+<form  method="post" enctype="multipart/form-data">
+<?php include "header.php";?>
+
+<div id="internas_full">
+ <div id="internas_margem_full">
+    <?php include "menu_esquerdo.php";?>  
+    <div id="internas_box">
+    	<div id="internas_principal">
+    	  <div class="arial_branco20" id="internas_titulo">Privacidade: 
+            <div style="float:right;"><a class="botao" onClick='history.go(-1)'><img src="images/botoes/voltar.png" width="74" height="22" border="0" title="Voltar página anterior" ></a></div>
+          </div>
+         <div style="width:750px;">
+         <div style="margin:10px; margin-top:50px;">
+            &nbsp;
+			<table width="100%" border="0" cellspacing="6" cellpadding="0">
+            
+  			  <tr>
+    				<td align="right"><label for="tituloAposta" class="arial_cinza2_12" >Titulo termos:</label></td>
+    				<td><input name="titulo" type="text" class="forms" value="<?php echo $linha['titulo'];?>" id="tituloAposta" size="85" required="required"/></td>
+			  </tr>
+              
+              
+              
+              <tr>
+    				<td align="right"><label for="descricao" class="arial_cinza2_12" >Descrição:</label></td>
+    				<td>
+   				    <textarea name="bloco" id="descricao" cols="87" rows="10" class="forms"><?php echo htmlentities($linha['bloco'],ENT_QUOTES);?></textarea></td>
+			  </tr>
+			<tr>
+    				<td align="right"><label for="descricao" class="arial_cinza2_12" ><input type="submit" value="enviar"></label></td>
+    				</tr>
+              
+             
+             
+			</table>
+           </div>
+            </div>
+         </div>
+         
+         
+         
+         
+        </div>
+    </div>
+    
+  </div>
+</div>
+<?php include "footer.php";?>
+  </form>
+</body>
+</html>

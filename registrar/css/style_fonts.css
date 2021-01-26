@@ -1,0 +1,19 @@
+﻿@import url(http://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow);
+
+/* Arial Branco */
+.arial_branco10{font-family: Arial, Helvetica, sans-serif; font-size: 10px; color:#FFF;	text-decoration:none;}
+a.arial_branco10:link, a.arial_branco10:visited, a.arial_branco10:active {}
+a.arial_branco10:hover {color:#CCC;}
+
+/* Arial Cinza*/
+.arial_cinza10{font-family: Arial, Helvetica, sans-serif; font-size: 10px; color:#999; text-decoration:none;}
+a.arial_cinza10:link, a.arial_cinza10:visited, a.arial_cinza10:active {}
+a.arial_cinza10:hover {color:#666;}
+
+/* Arial Vermelho */
+.arial_vermelho10{font-family: Arial, Helvetica, sans-serif; font-size: 10px; color:#FF0000; text-decoration:none;}
+a.arial_vermelho10:link, a.arial_vermelho10:visited, a.arial_vermelho10:active {}
+a.arial_vermelho10:hover {color:#880000;}
+
+/* Helvetica Vermelho */
+.helvetica_vermelho45{font-family: Helvetica, "Trebuchet MS", Arial, sans-serif font-size: 45px; color:#F15F76; text-decoration:none;}

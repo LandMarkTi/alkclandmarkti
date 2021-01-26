@@ -1,0 +1,2 @@
+[10-May-2016 16:02:53 UTC] PHP Fatal error:  Call to undefined function strupper() in /home/rgpet1/public_html/rgp/rgc_procurados.php on line 122
+[27-May-2016 13:14:34 UTC] PHP Fatal error:  Call to undefined function mysql_fech_assoc() in /home/rgpet1/public_html/rgp/rgc_add_vacina.php on line 11

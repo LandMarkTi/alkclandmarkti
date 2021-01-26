@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+img{ border:0px; !IMPORTANT}
+a{ margin:0; padding:0;}
+ul{ margin:0; padding:0;}
+
+/* Header */
+.header_full{width:100%; height:135px; background:#FFF;}
+.header_margem{width:1024px;height:100%; margin:auto;}
+.header_logo{width:262px; height:102px; margin-top:18px; float:left;}
+
+.menu_full{width:100%; height:46px; background:#4384C1;}
+.menu_margem{width:1024px; height:100%; margin: auto;}
+
+.menu_susp{width:680px; height:auto; margin-top:25px; float:right; display:table;}
+.menu_susp a{font-family: 'PT Sans', sans-serif; font-size: 21px; color:#4384C1; text-decoration:none; float:left; margin:28px;}
+.menu_susp a:hover {color:#F15F76;}
+.menu_susp_line{width:6px; height:52px; background:url(../images/linhas/linha_sep_menu.jpg) no-repeat center; float:left; margin-top:16px;}
+
+.menu_sec{display:table; font-family: 'PT Sans', sans-serif; font-size: 12px; color:#FFF;}
+.menu_sec a{font-family: 'PT Sans', sans-serif; font-size: 16px; color:#FFF; text-decoration:none; float:left; margin:12px;}
+.menu_sec a:hover {color:#FFFF00;}
+.menu_sec_line{width:6px; height:48px; background:url(../images/linhas/linha_sep_menusec.png) no-repeat center; float:left;}
+.menu_sec a img{margin:-4px;}
+.menu_sec a img:hover{opacity:0.8;}
+
+/* Banner Principal */
+.banner_full{width:100%; height:auto; background:url(../images/fundos/fundo_full_banner.jpg) #F2EFEA repeat-x; display:table;}
+.banner_margem{width:1024px; height:auto; margin:auto; display:table;}
+
+/* Index Principal */
+.principal_full{width:100%; height:auto; background:#F2EFEA; display:table;}
+.principal_margem{width: 1024px; height:auto; margin:auto; display:table;}
+.principal_box{max-width: 300px; height:auto; display:table; float:left; margin:18px;}
+.principal_box_title{max-width: 300px; height:auto; background-color:#4384C1; text-align:center; font-family: 'PT Sans', sans-serif; font-size: 17px; color:#FFF; font-weight:bold; padding:16px;}
+.principal_box_text{max-width: 300px; height:205px; background:#FFF; font-family: 'PT Sans Narrow', sans-serif; font-size: 14px; color:#333333; display:table;}
+.principal_box_text ul{padding:6px; list-style-type:none;}
+.principal_box_text li{background:url(../images/icons/icon-principal-csp.png) left no-repeat; margin:8px; min-height:34px;}
+.principal_box_text li p{ margin-left:42px;}
+
+.principal_banner{margin:18px;}
+
+/* Planos */
+.planos_tarja{width:100%; height:auto; background:#F7941D; text-align:center;}
+.planos_tarja h2{font-family: 'PT Sans', sans-serif; font-size: 32px; color:#FFF; font-weight:bold; padding:18px;}
+
+.planos_full{width:100%; height:auto;}
+.planos_margem{width:1024px; height:100%; margin: auto;}
+
+.container_internas{width: 1024px; margin: auto;}
+
+.content{width: 100%; float: left;font-family: Helvetica, 'Trebuchet MS', sans-serif;}
+
+.content .plano{width: 219px; height: 309px; float: left; margin-left: 26px; border-radius: 5px; color: #fff; margin:20px;}
+.content .plano.primeiro{margin-left: 0;}
+.content .plano .topo{width: 100%;height: 161px;float: left;}
+.content .plano .pata{width: 100%; height: 73px; float: left;  border-bottom: 1px solid #fff;  text-align: center; line-height: 100px;}
+.content .plano .pata i{width: 37px;  height: 34px;   display: inline-block;   background: url('../images/site/icones.png') top left no-repeat;}
+.content .plano .descricao{width: 100%; height: 87px; float: left;}
+.content .plano .a_partir{width: 100%; height: 47px; float: left; line-height: 70px; text-align: center;font-size: 14px; color: #777;}
+.content .plano .valor{width: 100%; height: 47px; margin: 0; float: left; text-align: center;  font-size: 34px;}
+.content .plano .btn_detalhes{ width: 195px; height: 42px;  float: left;  margin-left: 12px; border-radius: 4px; text-align: center;  line-height: 46px;  font-size: 18px;cursor: pointer;}
+
+.btn_detalhes{text-decoration: none;  color: #fff;}
+
+.content .plano .base{ width: 100%; height: 148px; float: left; background-color: #f0f0f0; border-radius: 0 0 5px 5px;}
+.content .plano .icone i{background-image: url('../images/site/icones.png'); display: inline-block;}
+.content .plano .descricao.unico{height: 71px; padding-top: 16px;}
+.content .plano .descricao.unico .icone{width: 51px; height: 54px; float: left; margin: 0 16px 0 29px; text-align: center; line-height: 51px;}
+.content .plano .descricao.dois{height: 62px; padding-top: 25px;}
+.content .plano .descricao.dois .icones{width: 82px; height: 40px; float: left; margin-right: 11px; line-height: 40px;}
+.content .plano .descricao.dois .icone{width: 34px; height: 38px;  float: left;  text-align: center;}
+.content .plano .descricao.dois .nome_plano{margin: 0 0 3px;}
+
+.content .plano .descricao.tres .nome_plano{width: 100%; height: 15px; text-align: center; margin: 10px 0 9px 0;}
+.content .plano .descricao.tres .tipo{width: 100%; height: 13px; margin-bottom: 6px; text-align: center;}
+.content .plano .descricao.tres .icones{width: 100%;  line-height: 23px;  text-align: center;}
+.content .plano .descricao.tres .icone{display: inline-block;}
+.content .plano .descricao.tres .mais{line-height: 5px;}
+
+.content .nome_plano{font-size: 20px;font-weight: normal; float: left;  margin: 8px 0 9px 0;}
+.content .plano .tipo{font-size: 14px; float: left;}
+
+.ambulatorio.grande i{ width: 34px;  height: 50px; background-position: -1px -35px;}
+.ambulatorio.pequeno i{width: 16px; height: 23px;  background-position: -105px -37px;}
+.ambulatorio.medio i{width: 24px;  height: 35px;   background-position: right top;}
+.hospitalar.grande i{width: 53px; height: 51px;   background-position: -46px top;}
+.hospitalar.pequeno i{width: 22px;   height: 23px;   background-position: -73px -53px;}
+.reembolso.pequeno i{width: 21px;  height: 24px;  background-position: -100px -61px;}
+.content .plano .descricao .hospitalar.medio{ float: right;}
+.hospitalar.medio i{width: 34px; height: 35px;  background-position: -37px -53px;}
+
+.content .plano.light{background-color: #8dcb46;}
+.content .plano.light .valor{ color: #8dcb46;}
+.content .plano.light .btn_detalhes{ background-color: #8dcb46;}
+.content .plano.plus{background-color: #8560a8;}
+.content .plano.plus .valor{color: #8560a8;}
+.content .plano.plus .btn_detalhes{background-color: #8560a8;}
+.content .plano.total{background-color: #f7941d;}
+.content .plano.total .valor{color: #f7941d;}
+.content .plano.total .btn_detalhes{background-color: #f7941d;}
+.content .plano.premium{background-color: #4384c1;}
+.content .plano.premium .valor{color: #4384c1;}
+.content .plano.premium .btn_detalhes{background-color: #4384c1;}
+
+/* Footer */
+.footer_full{width: 100%; height: 200px; background:#4384C1; color:#FFF; display:table;}
+.footer_logo{width: auto; height: auto; float:right; display:table; margin:20px;}
+.footer_box{width: 450px; height: auto; float:left; display:table; margin:32px; color:#FFF; font-size:19px; font-weight:bold;}
+.footer_box b{font-size:24px; font-weight:bold; line-height:24px;}
+
+
+
+.forms {background-color: #FFF;	font-family: Arial, Helvetica, sans-serif; font-size: 18px;	font-weight: bold;	color: #000;}
+
+.botao { display: inline-block; background: url(../images/botao.gif) no-repeat; text-align: center; line-height: 24px; border: none; font-size: 15px; font-weight: bold; color: black; cursor: pointer; -moz-opacity:.80; filter:alpha(opacity=80); opacity:.80; }
+.botao:hover { -moz-opacity:1; filter:alpha(opacity=100); opacity:1; color: black; text-decoration: none; }
+.botao:active { -moz-opacity:.60; filter:alpha(opacity=60); opacity:.60; position: relative; top: 1px; }
+
+#floatLeft{float:left;}
+#floatRight{float:right;}
+.floatLeft{float:left;}
+.floatRight{float:right;}
+
+/* Cortes */
+.corte_300x200{width:300px;	height:200px; background-size: cover; background-position: 50% 25%;	-webkit-transition-property: width, height;	-webkit-transition-duration: 500ms;}
+
+/* Neoware */
+#neoware { position: absolute; left: 0px; bottom: 0px; width: 100%; height: 17px; color: #000; background:#4384C1; text-align: center; font-family: tahoma; font-size: 12px; line-height: 16px; display:block; z-index:2; }
+div > div#neoware { position: fixed; }
+
+div#neoware {
+_right: auto; _bottom: auto;
+_left: expression( ( 0 - neoware.offsetWidth + ( document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth ) + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+_top: expression( ( 0 - neoware.offsetHeight + ( document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );}

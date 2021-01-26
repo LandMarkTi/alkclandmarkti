@@ -1,0 +1,23 @@
+/* CSS reset */
+* { margin:0;padding:0;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0;padding:0;}
+html,body {margin:0;padding:0;}
+img { border:0;}
+a {text-decoration:none;}
+ol,ul {list-style:none;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
+/* CSS reset fim */
+
+/* SINTAXE CSS */
+/*
+	p { font: italic bold font-size/line-height 'Cuprum', sans-serif;}
+	background: #00FF00 url("css.gif") no-repeat fixed 200px 70px;
+*/
+
+/* HTML5 */
+header , footer , article , aside , nav , section {display:block}
+/* Genérico */
+.floatLeft {float:left;}
+.floatRight {float:right;}
+.clearBoth {clear: both;}
+.displayTable {display: table;}

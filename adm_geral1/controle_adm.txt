@@ -1,0 +1,6143 @@
+
+inicio
+
+invasor 201.95.216.79 1442845319
+
+Array
+(
+)
+
+
+invasor 201.95.216.79 1442845331
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1443021178
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1443021178
+
+Array
+(
+)
+
+
+invasor 189.62.115.162 1443717652
+
+Array
+(
+    [login] => priscilaboulart@hotmail.com 
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 16254
+)
+
+
+invasor 189.62.115.162 1443815289
+
+Array
+(
+)
+
+
+invasor 189.62.115.162 1444048917
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+)
+
+
+invasor 177.102.17.86 1444846424
+
+Array
+(
+    [login] => petland@sobraci.org
+    [id] => 68
+)
+
+
+invasor 189.62.115.162 1444941880
+
+Array
+(
+    [login] => riemonique@hotmail.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 13865
+)
+
+
+invasor 177.102.17.86 1445274267
+
+Array
+(
+)
+
+
+invasor 189.62.115.162 1445960859
+
+Array
+(
+    [login] => canilalifi@hotmail.com 
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 15703
+)
+
+
+invasor 189.62.115.162 1446300244
+
+Array
+(
+    [login] => ander.barbosa2007@hotmail.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 15688
+)
+
+
+invasor 189.62.115.162 1446300328
+
+Array
+(
+    [login] => ander.barbosa2007@hotmail.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 15688
+)
+
+
+invasor 189.62.115.162 1446744951
+
+Array
+(
+)
+
+
+invasor 189.62.115.162 1447080300
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+)
+
+
+invasor 177.81.5.217 1448382113
+
+Array
+(
+    [login] => gislaine-flavio@canil-taskforce.com.br
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 13621
+)
+
+
+invasor 177.81.5.217 1450374248
+
+Array
+(
+    [login] => thayna@sobraci.org
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 15894
+)
+
+
+invasor 177.81.5.217 1452615027
+
+Array
+(
+    [login] => cleitonlima1983@hotmail.com.br
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 14457
+)
+
+
+invasor 177.81.5.217 1453231327
+
+Array
+(
+    [login] => faleconosco@euqueroumfilhote.com.br
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 1508
+)
+
+
+invasor 177.102.17.86 1453380694
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1453816275
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1454073513
+
+Array
+(
+)
+
+
+invasor 177.81.5.217 1454081929
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1454083542
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1454092941
+
+Array
+(
+)
+
+
+invasor 177.81.5.217 1454432762
+
+Array
+(
+    [login] => canillanderrott@hotmail.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 15719
+)
+
+
+invasor 177.81.5.217 1454520958
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1455716471
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1455798048
+
+Array
+(
+)
+
+
+invasor 189.100.24.171 1455912846
+
+Array
+(
+    [login] => doce@encanto.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 17085
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 177.102.17.86 1456143085
+
+Array
+(
+)
+
+
+invasor 179.213.188.83 1456156792
+
+Array
+(
+)
+
+
+invasor 179.213.188.83 1456420117
+
+Array
+(
+)
+
+
+invasor 179.213.188.83 1458311241
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1458575778
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1458575779
+
+Array
+(
+)
+
+
+invasor 189.100.26.83 1459173353
+
+Array
+(
+    [login] => canilelshaday@globo.com 
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 13271
+)
+
+
+invasor 179.213.188.83 1459887945
+
+Array
+(
+    [login] => sandraloca@hotmail.com
+    [id] => 
+    [header] => 
+    [email_contato] => 
+    [cidade] => 
+    [endereco] => 
+    [endereco2] => 
+    [tel_contato] => 
+    [cid] => 17812
+)
+
+
+invasor 177.102.17.86 1460749435
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+)
+
+
+invasor 177.102.17.86 1460749435
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+)
+
+
+invasor 177.102.17.86 1460749435
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+)
+
+
+invasor 177.102.17.86 1460749436
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+)
+
+
+invasor 177.102.17.86 1460749438
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+)
+
+
+invasor 177.102.17.86 1461071217
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1462367069
+
+Array
+(
+)
+
+
+invasor 189.100.26.83 1462458521
+
+Array
+(
+    [login] => cristekka@ig.com.br
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6661 (15) 3211-1735
+    [cid] => 15282
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 179.213.188.83 1462564104
+
+Array
+(
+)
+
+
+invasor 179.213.188.83 1462883466
+
+Array
+(
+)
+
+
+invasor 177.64.97.174 1463933740
+
+Array
+(
+)
+
+
+invasor 177.64.97.174 1464022670
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1464799275
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1464968271
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1465227315
+
+Array
+(
+)
+
+
+invasor 191.188.1.136 1465328436
+
+Array
+(
+    [login] => monykke777@gmail.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6661 (15) 3211-1735
+    [cid] => 16270
+)
+
+
+invasor 191.188.1.136 1465328836
+
+Array
+(
+    [login] => monykke777@gmail.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6661 (15) 3211-1735
+    [cid] => 16270
+)
+
+
+invasor 177.102.17.86 1465481663
+
+Array
+(
+)
+
+
+invasor 191.188.1.136 1465483107
+
+Array
+(
+    [login] => mary12costa@gmail.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6661 (15) 3211-1735
+    [cid] => 13291
+)
+
+
+invasor 179.213.30.90 1467036429
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1467124966
+
+Array
+(
+)
+
+
+invasor 191.183.101.122 1468954451
+
+Array
+(
+)
+
+
+invasor 191.183.101.122 1470157596
+
+Array
+(
+)
+
+
+invasor 191.183.101.122 1470398918
+
+Array
+(
+)
+
+
+invasor 191.183.101.122 1470668736
+
+Array
+(
+)
+
+
+invasor 191.183.101.122 1470680282
+
+Array
+(
+)
+
+
+invasor 191.188.1.136 1470681374
+
+Array
+(
+)
+
+
+invasor 191.183.101.122 1471018557
+
+Array
+(
+)
+
+
+invasor 191.188.1.136 1471101113
+
+Array
+(
+    [login] => canilelshaday@globo.com 
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6661 (15) 3211-1735
+    [cid] => 13271
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 191.183.101.163 1471454678
+
+Array
+(
+)
+
+
+invasor 191.183.101.163 1472758078
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6661 (15) 3211-1735
+    [login] => advogadodf.rocha@gmail.com
+    [id] => 
+    [cid] => 70
+)
+
+
+invasor 191.183.101.163 1472758187
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6661 (15) 3211-1735
+    [login] => advogadodf.rocha@gmail.com
+    [id] => 
+    [cid] => 70
+)
+
+
+invasor 191.188.1.136 1472832758
+
+Array
+(
+    [login] => canilxangai@hotmail.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6661 (15) 3211-1735
+    [cid] => 14372
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 191.183.101.19 1473680673
+
+Array
+(
+)
+
+
+invasor 191.183.101.19 1475519875
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 191.183.101.19 1476114275
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 191.183.101.19 1476721444
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 191.183.101.89 1477938631
+
+Array
+(
+)
+
+
+invasor 191.183.101.89 1478196510
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [pstipo] => Pagamento Pedigree
+    [cid] => 21690
+)
+
+
+invasor 191.183.101.89 1478607964
+
+Array
+(
+    [login] => kcgv@alkc.com.br
+    [id] => 89
+)
+
+
+invasor 191.183.101.89 1478614087
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 191.183.101.89 1478696547
+
+Array
+(
+    [login] => kcatb@alkc.com.br
+    [id] => 108
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 177.45.213.228 1486131992
+
+Array
+(
+    [login] => spleste@alkc.com.br
+    [id] => 91
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 177.45.213.228 1486479907
+
+Array
+(
+    [login] => dna@alkc.com.br
+    [id] => 
+    [pr] => ok
+    [cid] => 4
+)
+
+
+invasor 177.95.13.80 1487171007
+
+Array
+(
+    [login] => kcflorianopolis@alkc.com.br
+    [id] => 106
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 200.171.234.10 1487859183
+
+Array
+(
+    [login] => sergio@petweball.com
+    [id] => 
+    [cid] => 21710
+)
+
+
+invasor 200.171.234.10 1487862193
+
+Array
+(
+    [login] => sergio@petweball.com
+    [id] => 
+    [cid] => 21710
+    [pr] => ok
+)
+
+
+invasor 177.197.79.64 1488553439
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22193
+)
+
+
+invasor 177.197.79.64 1488907467
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 177.197.79.64 1488984337
+
+Array
+(
+    [login] => dna@alkc.com.br
+    [id] => 
+    [cid] => 4
+)
+
+
+invasor 177.197.79.64 1488991545
+
+Array
+(
+    [login] => vet.saudeanimal@hotmaill.com
+    [id] => 
+    [cid] => 22109
+    [pr] => ok
+)
+
+
+invasor 179.228.143.242 1489162129
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 189.38.152.186 1490378740
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 21710
+)
+
+
+invasor 189.78.118.55 1491581701
+
+Array
+(
+    [login] => soniacasteloforte2013@gmail.com
+    [cid] => 21704
+    [id] => 
+    [pr] => ok
+)
+
+
+invasor 189.78.118.55 1491582173
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [pstipo] => Pagamento Pedigree
+    [cid] => 22054
+    [pr] => ok
+)
+
+
+invasor 177.102.207.80 1492522097
+
+Array
+(
+    [login] => basiliobulls@hotmail.com
+    [id] => 
+    [cid] => 21766
+    [pr] => ok
+)
+
+
+invasor 177.102.207.80 1492536250
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 21766
+    [pr] => ok
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 189.78.134.217 1493228687
+
+Array
+(
+    [login] => kccotia@alkc.com.br
+    [id] => 86
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 189.78.134.217 1493831051
+
+Array
+(
+    [login] => whipwonka@gmail.com
+    [id] => 
+    [cid] => 21726
+    [pr] => ok
+)
+
+
+invasor 201.92.74.209 1493990157
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 21717
+)
+
+
+invasor 201.92.74.209 1493997414
+
+Array
+(
+    [login] => kcribeirao@alkc.com.br
+    [id] => 121
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 179.110.182.222 1494525338
+
+Array
+(
+    [login] => dna@alkc.com.br
+    [id] => 
+    [cid] => 4
+)
+
+
+invasor 189.47.23.89 1494611094
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 191.23.36.204 1495634605
+
+Array
+(
+)
+
+
+invasor 189.78.133.193 1496777179
+
+Array
+(
+)
+
+
+invasor 189.78.133.193 1497032946
+
+Array
+(
+    [login] => kcalagoas@alkc.com.br
+    [id] => 123
+)
+
+
+invasor 201.27.58.172 1497890660
+
+Array
+(
+    [login] => canilavalonland@yahoo.com.br
+    [id] => 
+    [cid] => 22151
+)
+
+
+invasor 179.110.185.61 1499868806
+
+Array
+(
+    [login] => cris.pellegrini@hotmail.com
+    [id] => 
+    [pstipo] => Pagamento Pedigree
+    [cid] => 22419
+    [pr] => ok
+)
+
+
+invasor 179.110.185.61 1499874756
+
+Array
+(
+)
+
+
+invasor 189.38.166.104 1500575104
+
+Array
+(
+    [login] => golden.trip@uol.com.br
+    [id] => 
+    [cid] => 21661
+    [pr] => ok
+)
+
+
+invasor 189.38.166.104 1500651163
+
+Array
+(
+    [login] => canileb@hotmail.com
+    [id] => 
+    [pstipo] => Pagamento Pedigree
+    [cid] => 22451
+)
+
+
+invasor 187.10.89.163 1501034605
+
+Array
+(
+)
+
+
+invasor 191.193.233.148 1501083172
+
+Array
+(
+    [login] => sementesfernando@gmail.com
+    [id] => 
+    [cid] => 22492
+    [pr] => ok
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 189.78.64.130 1501165930
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 179.113.57.186 1501775755
+
+Array
+(
+)
+
+
+invasor 191.193.104.131 1502381224
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 21856
+    [pr] => ok
+)
+
+
+invasor 191.193.104.131 1502385616
+
+Array
+(
+    [login] => kcitu@alkc.com.br
+    [id] => 127
+    [cid] => 21856
+    [pr] => ok
+)
+
+
+invasor 189.47.41.229 1502456927
+
+Array
+(
+)
+
+
+invasor 201.69.120.121 1504011617
+
+Array
+(
+    [login] => kcsantoandre@alkc.com.br
+    [id] => 126
+    [cid] => 21856
+    [pr] => ok
+)
+
+
+invasor 177.68.112.209 1504105501
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [pstipo] => Pagamento Pedigree
+    [cid] => 21661
+    [pr] => ok
+)
+
+
+invasor 66.102.6.10 1504209157
+
+Array
+(
+)
+
+
+invasor 201.43.64.50 1504536248
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22458
+    [pstipo] => Pagamento Pedigree
+    [pr] => ok
+)
+
+
+invasor 66.249.83.194 1504630465
+
+Array
+(
+)
+
+
+invasor 191.19.56.44 1505140728
+
+Array
+(
+    [login] => estancia@alkc.com.br
+    [id] => 88
+)
+
+
+invasor 177.50.110.193 1505410682
+
+Array
+(
+    [login] => redogswhite@hotmail.com
+    [id] => 
+    [cid] => 22383
+    [pr] => ok
+)
+
+
+invasor 191.50.67.207 1505422602
+
+Array
+(
+)
+
+
+invasor 179.228.76.247 1506094418
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 189.46.63.60 1506433151
+
+Array
+(
+    [login] => amicaofilhotes@outlook.com
+    [id] => 
+    [cid] => 21702
+    [pr] => ok
+)
+
+
+invasor 179.225.183.12 1506449873
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 66.249.85.31 1506690821
+
+Array
+(
+)
+
+
+invasor 200.171.234.9 1507579995
+
+Array
+(
+    [login] => juliaamagalhaes@folhadeguanhaes.com.br
+    [id] => 
+    [cid] => 22670
+    [pr] => ok
+)
+
+
+invasor 200.171.234.9 1507580428
+
+Array
+(
+    [login] => juliamagalhaes@folhadeguanhaes.com.br
+    [id] => 
+    [cid] => 22670
+    [pr] => ok
+)
+
+
+invasor 152.250.152.200 1507641541
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 152.250.152.200 1507653604
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 21713
+    [pr] => ok
+)
+
+
+invasor 66.249.85.31 1507909073
+
+Array
+(
+)
+
+
+invasor 66.249.85.1 1508171476
+
+Array
+(
+)
+
+
+invasor 66.249.85.1 1508171478
+
+Array
+(
+)
+
+
+invasor 191.254.106.153 1508243656
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 191.254.106.153 1508335434
+
+Array
+(
+    [login] => fiatruzzi@yahoo.com.br
+    [id] => 
+    [pstipo] => Pagamento Pedigree
+    [cid] => 22307
+    [pr] => ok
+)
+
+
+invasor 191.254.106.153 1508335436
+
+Array
+(
+    [login] => fiatruzzi@yahoo.com.br
+    [id] => 
+    [pstipo] => Pagamento Pedigree
+    [cid] => 22307
+    [pr] => ok
+)
+
+
+invasor 191.254.106.153 1508336810
+
+Array
+(
+    [login] => RENATOBIFFE@HOTMAIL.COM
+    [id] => 
+    [cid] => 22526
+    [pr] => ok
+)
+
+
+invasor 191.254.106.153 1508337183
+
+Array
+(
+    [login] => fiatruzzi@yahoo.com.br
+    [id] => 
+    [pstipo] => Pagamento Pedigree
+    [cid] => 22307
+    [pr] => ok
+)
+
+
+invasor 191.254.106.153 1508351497
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22307
+    [pr] => ok
+)
+
+
+invasor 191.254.106.153 1508437012
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 66.249.83.134 1508854491
+
+Array
+(
+)
+
+
+invasor 179.113.170.5 1508942374
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 21661
+    [pr] => ok
+)
+
+
+invasor 179.113.170.5 1508945858
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22692
+    [pr] => ok
+)
+
+
+invasor 177.9.246.50 1508968727
+
+Array
+(
+    [login] => marcos.nishikawa@uol.com
+    [id] => 
+    [cid] => 21948
+    [pr] => ok
+)
+
+
+invasor 191.183.100.223 1509121888
+
+Array
+(
+    [login] => erickribeiro23@hotmail.com
+    [id] => 
+    [pstipo] => Pagamento Pedigree
+    [cid] => 21821
+    [pr] => ok
+)
+
+
+invasor 66.249.85.1 1509467308
+
+Array
+(
+)
+
+
+invasor 177.188.123.198 1510063469
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22636
+    [pr] => ok
+)
+
+
+invasor 191.183.100.223 1510234766
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22565
+    [pr] => ok
+)
+
+
+invasor 66.249.85.3 1510252348
+
+Array
+(
+)
+
+
+invasor 191.183.100.223 1510581434
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 21774
+)
+
+
+invasor 66.249.85.1 1510930007
+
+Array
+(
+)
+
+
+invasor 191.19.56.65 1510940251
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 191.183.100.223 1511007310
+
+Array
+(
+)
+
+
+invasor 66.249.85.1 1511362747
+
+Array
+(
+)
+
+
+invasor 191.183.100.223 1511461335
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 21834
+)
+
+
+invasor 191.19.56.65 1511527423
+
+Array
+(
+    [login] => canilbabypet@hotmail.com
+    [id] => 
+    [cid] => 22741
+)
+
+
+invasor 191.183.100.223 1511784801
+
+Array
+(
+    [login] => canil.dasbidu@gmail.com 
+    [id] => 
+    [cid] => 22268
+)
+
+
+invasor 191.254.106.64 1511890891
+
+Array
+(
+    [login] => dogs@dogshappiness.com.br
+    [id] => 
+    [pstipo] => Pagamento Pedigree
+    [cid] => 22460
+)
+
+
+invasor 191.183.100.223 1511963456
+
+Array
+(
+    [login] => basiliobulls@hotmail.com
+    [id] => 
+    [cid] => 21766
+)
+
+
+invasor 66.249.85.1 1512173240
+
+Array
+(
+)
+
+
+invasor 191.183.100.223 1512476197
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22383
+)
+
+
+invasor 191.183.100.223 1512568877
+
+Array
+(
+    [login] => demetriusdafonte@gmail.com
+    [id] => 
+    [cid] => 22499
+    [pr] => ok
+)
+
+
+invasor 191.183.100.223 1513099700
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22383
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 66.249.85.3 1513801757
+
+Array
+(
+)
+
+
+invasor 191.183.100.223 1515421392
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 189.78.21.102 1515518777
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 191.183.100.223 1515683896
+
+Array
+(
+    [login] => amicaofilhotes@outlook.com
+    [id] => 
+    [cid] => 21702
+)
+
+
+invasor 191.183.100.223 1516389660
+
+Array
+(
+)
+
+
+invasor 191.183.100.223 1516903117
+
+Array
+(
+    [login] => kcbl@alkc.com.br
+    [id] => 132
+)
+
+
+invasor 191.183.100.229 1517242887
+
+Array
+(
+    [login] => juliamagalhaes@folhadeguanhaes.com.br
+    [id] => 
+    [cid] => 22670
+)
+
+
+invasor 191.183.100.229 1517251130
+
+Array
+(
+    [login] => filhotescampinas@gmail.com
+    [id] => 
+    [cid] => 22193
+)
+
+
+invasor 66.249.83.196 1519053516
+
+Array
+(
+)
+
+
+invasor 66.249.83.132 1519067959
+
+Array
+(
+)
+
+
+invasor 179.99.222.220 1519233425
+
+Array
+(
+    [login] => canildvillefort@hotmail.com
+    [id] => 
+    [cid] => 21793
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 179.99.222.220 1519239533
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 21852
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 179.99.222.220 1519661067
+
+Array
+(
+)
+
+
+invasor 179.99.222.220 1519749832
+
+Array
+(
+)
+
+
+invasor 179.99.222.220 1521038184
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 66.249.85.3 1521152198
+
+Array
+(
+)
+
+
+invasor 179.99.222.220 1521482820
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 21821
+)
+
+
+invasor 179.99.222.220 1521564777
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 191.183.100.229 1521579425
+
+Array
+(
+    [login] => golden.trip@uol.com.br
+    [id] => 
+    [cid] => 21661
+)
+
+
+invasor 179.99.222.220 1522244091
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 187.122.125.171 1523297796
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [pstipo] => Pagamento Pedigree
+    [cid] => 22342
+    [pr] => ok
+)
+
+
+invasor 187.122.125.171 1523383278
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 21766
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 187.122.125.171 1523976583
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 187.122.125.171 1523978024
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 187.122.125.171 1524580502
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 187.122.125.171 1524582313
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 66.249.85.31 1524588525
+
+Array
+(
+)
+
+
+invasor 66.249.85.3 1524836304
+
+Array
+(
+)
+
+
+invasor 66.249.85.31 1525281191
+
+Array
+(
+)
+
+
+invasor 66.249.85.31 1525460976
+
+Array
+(
+)
+
+
+invasor 187.122.5.171 1525711804
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22510
+)
+
+
+invasor 187.122.5.171 1525795282
+
+Array
+(
+    [login] => dani-ellarra@bol.com.br
+    [id] => 
+    [cid] => 22701
+)
+
+
+invasor 187.122.5.171 1526402071
+
+Array
+(
+    [login] => muriloarsie@hotmail.com
+    [id] => 
+    [pstipo] => Pagamento Pedigree
+    [cid] => 22342
+)
+
+
+invasor 66.102.6.174 1526414613
+
+Array
+(
+)
+
+
+invasor 66.249.83.198 1526414617
+
+Array
+(
+)
+
+
+invasor 66.249.83.196 1526416294
+
+Array
+(
+)
+
+
+invasor 66.249.83.198 1526416297
+
+Array
+(
+)
+
+
+invasor 66.249.83.198 1526417489
+
+Array
+(
+)
+
+
+invasor 66.249.83.194 1526417491
+
+Array
+(
+)
+
+
+invasor 187.122.5.171 1526579194
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22427
+)
+
+
+invasor 191.183.100.229 1527179851
+
+Array
+(
+    [login] => fdeilton@yahoo.com.br
+    [id] => 
+    [cid] => 22089
+    [pr] => ok
+)
+
+
+invasor 191.183.100.229 1527512877
+
+Array
+(
+)
+
+
+invasor 191.183.100.229 1527520508
+
+Array
+(
+    [login] => erickribeiro23@hotmail.com
+    [id] => 
+    [cid] => 21821
+)
+
+
+invasor 177.28.12.7 1527523605
+
+Array
+(
+)
+
+
+invasor 191.183.100.229 1527627149
+
+Array
+(
+    [login] => canilchantal@gmail.com
+    [id] => 
+    [cid] => 23004
+    [pr] => ok
+)
+
+
+invasor 191.183.100.229 1528208075
+
+Array
+(
+    [login] => canilcleopatraspet@gmail.com
+    [id] => 
+    [pstipo] => Pagamento Pedigree
+    [cid] => 22510
+)
+
+
+invasor 66.249.85.31 1529007922
+
+Array
+(
+)
+
+
+invasor 66.249.85.1 1529410912
+
+Array
+(
+)
+
+
+invasor 187.122.5.171 1529420321
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 66.249.85.3 1529436499
+
+Array
+(
+)
+
+
+invasor 66.249.85.1 1529451400
+
+Array
+(
+)
+
+
+invasor 66.249.85.1 1529724632
+
+Array
+(
+)
+
+
+invasor 191.183.100.229 1529944086
+
+Array
+(
+)
+
+
+invasor 66.249.85.1 1530032979
+
+Array
+(
+)
+
+
+invasor 66.249.85.31 1530036936
+
+Array
+(
+)
+
+
+invasor 66.249.85.31 1530107899
+
+Array
+(
+    [login] => golden.trip@uol.com.br
+    [cid] => 21661
+)
+
+
+invasor 66.249.85.31 1530277831
+
+Array
+(
+    [login] => golden.trip@uol.com.br
+    [id] => 
+    [cid] => 21661
+)
+
+
+invasor 191.183.100.229 1530281495
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 21661
+)
+
+
+invasor 66.249.85.31 1530535378
+
+Array
+(
+)
+
+
+invasor 191.183.100.229 1530634286
+
+Array
+(
+    [login] => contato@caniljcmoriah.com.br
+    [id] => 
+    [cid] => 22458
+)
+
+
+invasor 191.183.100.229 1530725174
+
+Array
+(
+)
+
+
+invasor 191.183.100.229 1531335923
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 191.183.100.229 1531337972
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 191.183.100.229 1531936378
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22763
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 191.183.100.229 1532097677
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22532
+    [pr] => ok
+)
+
+
+invasor 191.183.100.229 1532720426
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 66.249.83.196 1532968969
+
+Array
+(
+)
+
+
+invasor 66.249.83.194 1532974044
+
+Array
+(
+)
+
+
+invasor 66.249.83.196 1532974047
+
+Array
+(
+)
+
+
+invasor 66.249.83.198 1532974496
+
+Array
+(
+)
+
+
+invasor 191.183.100.229 1532974523
+
+Array
+(
+)
+
+
+invasor 66.249.83.194 1532974687
+
+Array
+(
+)
+
+
+invasor 66.249.83.196 1532974689
+
+Array
+(
+)
+
+
+invasor 66.249.83.198 1532975548
+
+Array
+(
+)
+
+
+invasor 66.249.83.194 1532975550
+
+Array
+(
+)
+
+
+invasor 66.249.83.196 1532975641
+
+Array
+(
+)
+
+
+invasor 66.249.83.196 1532975644
+
+Array
+(
+)
+
+
+invasor 66.249.83.194 1532975704
+
+Array
+(
+)
+
+
+invasor 66.249.83.194 1532975707
+
+Array
+(
+)
+
+
+invasor 66.249.83.196 1533064139
+
+Array
+(
+)
+
+
+invasor 66.249.83.198 1533064141
+
+Array
+(
+)
+
+
+invasor 66.249.83.194 1533065211
+
+Array
+(
+)
+
+
+invasor 66.249.83.194 1533065212
+
+Array
+(
+)
+
+
+invasor 66.249.83.196 1533065556
+
+Array
+(
+)
+
+
+invasor 66.249.83.198 1533065560
+
+Array
+(
+)
+
+
+invasor 66.249.83.196 1533065812
+
+Array
+(
+)
+
+
+invasor 66.249.83.196 1533065815
+
+Array
+(
+)
+
+
+invasor 191.183.100.229 1533139474
+
+Array
+(
+)
+
+
+invasor 66.249.83.198 1533556090
+
+Array
+(
+)
+
+
+invasor 66.249.83.196 1533581235
+
+Array
+(
+)
+
+
+invasor 191.183.100.229 1533651802
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 191.183.100.229 1533676018
+
+Array
+(
+    [login] => prispugvet@gmail.com
+    [id] => 
+    [cid] => 22869
+    [pr] => ok
+)
+
+
+invasor 191.183.100.229 1534859561
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22906
+)
+
+
+invasor 191.183.100.229 1535639374
+
+Array
+(
+    [login] => dachepoms@gmail.com
+    [id] => 
+    [cid] => 22803
+    [pr] => ok
+)
+
+
+invasor 66.249.85.1 1535846697
+
+Array
+(
+)
+
+
+invasor 179.213.92.135 1536070578
+
+Array
+(
+    [login] => sergio@petweball.com
+    [id] => 
+    [cid] => 21710
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 179.213.92.135 1536169911
+
+Array
+(
+    [login] => sergio@petweball.com
+    [id] => 
+    [cid] => 21710
+)
+
+
+invasor 66.249.85.31 1536682706
+
+Array
+(
+)
+
+
+invasor 66.249.83.88 1536764297
+
+Array
+(
+)
+
+
+invasor 66.249.83.90 1536764299
+
+Array
+(
+)
+
+
+invasor 66.249.85.3 1536848029
+
+Array
+(
+)
+
+
+invasor 179.213.92.135 1537193127
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 66.249.85.3 1537208222
+
+Array
+(
+)
+
+
+invasor 187.122.4.39 1537276240
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22892
+)
+
+
+invasor 66.249.83.196 1537966244
+
+Array
+(
+)
+
+
+invasor 66.249.85.1 1537966247
+
+Array
+(
+)
+
+
+invasor 66.249.83.196 1538501081
+
+Array
+(
+)
+
+
+invasor 66.249.83.194 1538501083
+
+Array
+(
+)
+
+
+invasor 66.249.85.3 1538503585
+
+Array
+(
+)
+
+
+invasor 179.213.92.135 1538664676
+
+Array
+(
+    [login] => pastorbrancobh@gmail.com
+    [id] => 
+    [cid] => 22730
+    [pr] => ok
+)
+
+
+invasor 179.213.92.135 1538675152
+
+Array
+(
+)
+
+
+invasor 179.213.92.135 1539118681
+
+Array
+(
+    [login] => canilcleopatraspet@gmail.com
+    [id] => 
+    [cid] => 22510
+)
+
+
+invasor 66.249.85.1 1539625789
+
+Array
+(
+)
+
+
+invasor 179.213.92.135 1539797795
+
+Array
+(
+    [login] => canilblessingofgod@gmail.com 
+    [id] => 
+    [cid] => 23086
+)
+
+
+invasor 179.213.92.135 1540502032
+
+Array
+(
+)
+
+
+invasor 66.249.85.1 1540924666
+
+Array
+(
+)
+
+
+invasor 66.249.85.31 1541009122
+
+Array
+(
+)
+
+
+invasor 66.249.83.196 1541010397
+
+Array
+(
+)
+
+
+invasor 66.249.83.194 1541010399
+
+Array
+(
+)
+
+
+invasor 66.102.6.12 1541010400
+
+Array
+(
+)
+
+
+invasor 179.213.100.98 1541089502
+
+Array
+(
+    [login] => erickribeiro23@hotmail.com
+    [id] => 
+    [pstipo] => Pagamento Pedigree
+    [cid] => 21821
+    [pr] => ok
+)
+
+
+invasor 179.213.100.98 1541447894
+
+Array
+(
+    [login] => wevertontavares01@gmail.com
+    [id] => 
+    [cid] => 922906
+    [pr] => ok
+)
+
+
+invasor 179.213.100.98 1541513817
+
+Array
+(
+)
+
+
+invasor 66.249.85.31 1541699954
+
+Array
+(
+)
+
+
+invasor 66.249.85.31 1542028462
+
+Array
+(
+)
+
+
+invasor 179.213.92.222 1542149270
+
+Array
+(
+)
+
+
+invasor 66.249.85.31 1542207159
+
+Array
+(
+)
+
+
+invasor 179.213.92.222 1542213601
+
+Array
+(
+    [login] => engmatheus12@gmail.com
+    [id] => 
+    [cid] => 23226
+)
+
+
+invasor 66.249.85.3 1542233532
+
+Array
+(
+)
+
+
+invasor 66.249.85.31 1542631908
+
+Array
+(
+)
+
+
+invasor 179.213.90.111 1542643933
+
+Array
+(
+)
+
+
+invasor 66.249.85.31 1543320161
+
+Array
+(
+)
+
+
+invasor 179.213.90.111 1543840291
+
+Array
+(
+    [login] => gilsonrock14@gmail.com
+    [id] => 
+    [cid] => 24430
+)
+
+
+invasor 66.249.85.31 1543859671
+
+Array
+(
+)
+
+
+invasor 179.213.90.111 1543946868
+
+Array
+(
+    [login] => MARIALUISAVIEIRA18@GMAIL.COM
+    [id] => 
+    [cid] => 24452
+)
+
+
+invasor 66.249.85.31 1544192692
+
+Array
+(
+)
+
+
+invasor 179.213.89.135 1544646792
+
+Array
+(
+    [lp] => purina@alkc.com.br
+    [pi] => 4
+    [login] => canilbestfriend@gmail.com
+    [id] => 
+    [cid] => 21934
+)
+
+
+invasor 66.249.85.1 1544798163
+
+Array
+(
+)
+
+
+invasor 179.213.89.135 1545216993
+
+Array
+(
+)
+
+
+invasor 179.213.89.135 1545402189
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22863
+    [pr] => ok
+)
+
+
+invasor 179.213.89.135 1545994633
+
+Array
+(
+)
+
+
+invasor 179.213.89.135 1545994637
+
+Array
+(
+)
+
+
+invasor 179.213.94.89 1547047450
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22459
+)
+
+
+invasor 179.213.91.194 1547660281
+
+Array
+(
+)
+
+
+invasor 66.249.88.72 1547828636
+
+Array
+(
+)
+
+
+invasor 179.213.91.194 1548264591
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 24494
+    [pr] => ok
+)
+
+
+invasor 179.213.91.194 1548696413
+
+Array
+(
+    [login] => gustavorlemos@gmail.com
+    [id] => 
+    [cid] => 24482
+    [pr] => ok
+)
+
+
+invasor 179.213.91.182 1548957439
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22997
+)
+
+
+invasor 66.249.85.1 1549039699
+
+Array
+(
+)
+
+
+invasor 179.213.91.182 1549926076
+
+Array
+(
+)
+
+
+invasor 179.213.91.182 1549981722
+
+Array
+(
+    [login] => canildifiori@bol.com.br
+    [id] => 
+    [cid] => 22991
+)
+
+
+invasor 179.213.91.182 1550153768
+
+Array
+(
+    [login] => wevertontavares01@gmail.com
+    [id] => 
+    [cid] => 24406
+)
+
+
+invasor 179.213.91.182 1550236449
+
+Array
+(
+    [login] => kcvalinhos@alkc.com.br
+    [id] => 144
+)
+
+
+invasor 66.249.85.3 1550579803
+
+Array
+(
+)
+
+
+invasor 179.213.91.182 1550582282
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 23163
+)
+
+
+invasor 179.213.91.182 1550587346
+
+Array
+(
+    [login] => am3867280@gmail.com
+    [id] => 
+    [cid] => 22858
+)
+
+
+invasor 179.213.91.182 1550768115
+
+Array
+(
+    [login] => soniacasteloforte2013@gmail.com
+    [id] => 
+    [cid] => 21704
+)
+
+
+invasor 179.213.91.182 1551185898
+
+Array
+(
+)
+
+
+invasor 179.213.91.182 1551278002
+
+Array
+(
+    [login] => erickribeiro23@hotmail.com
+    [id] => 
+    [cid] => 21821
+)
+
+
+invasor 179.213.91.182 1551287305
+
+Array
+(
+    [login] => canil.dasbidu@gmail.com 
+    [id] => 
+    [cid] => 22268
+)
+
+
+invasor 179.213.91.182 1551363299
+
+Array
+(
+    [login] => vanessasperpetuo@hotmail.com
+    [id] => 
+    [cid] => 23163
+)
+
+
+invasor 187.26.162.68 1551539817
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1552046889
+
+Array
+(
+)
+
+
+invasor 179.213.91.182 1552056776
+
+Array
+(
+    [login] => janainaguinossi@gmail.com
+    [id] => 
+    [cid] => 23022
+)
+
+
+invasor 66.249.85.29 1552406922
+
+Array
+(
+)
+
+
+invasor 179.213.91.182 1552485291
+
+Array
+(
+    [login] => prispugvet@gmail.com
+    [id] => 
+    [cid] => 22869
+)
+
+
+invasor 66.249.85.28 1552675768
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1552675774
+
+Array
+(
+)
+
+
+invasor 179.213.91.182 1552681784
+
+Array
+(
+    [login] => patricia.guineves28@hotmail.com
+    [id] => 
+    [cid] => 24440
+)
+
+
+invasor 179.213.91.182 1552915613
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 24487
+)
+
+
+invasor 179.213.91.182 1552922360
+
+Array
+(
+    [login] => kctubarao@alkc.com.br
+    [id] => 120
+    [cid] => 22419
+)
+
+
+invasor 66.249.85.27 1553111679
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1553123084
+
+Array
+(
+)
+
+
+invasor 177.48.114.47 1553193518
+
+Array
+(
+)
+
+
+invasor 179.213.91.182 1553618142
+
+Array
+(
+    [login] => cris.pellegrini@hotmail.com
+    [id] => 
+    [cid] => 22419
+)
+
+
+invasor 179.213.91.182 1553645379
+
+Array
+(
+    [login] => caespequenoporte@gmail.com
+    [id] => 
+    [cid] => 24620
+    [pr] => ok
+)
+
+
+invasor 66.249.85.29 1553695926
+
+Array
+(
+)
+
+
+invasor 179.213.91.182 1553792261
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 21652
+)
+
+
+invasor 179.213.91.182 1553962414
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1554307592
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1554307595
+
+Array
+(
+)
+
+
+invasor 179.213.91.182 1554475794
+
+Array
+(
+    [login] => goldenprovenance@gmail.com
+    [id] => 
+    [cid] => 22459
+)
+
+
+invasor 179.213.91.98 1554817088
+
+Array
+(
+    [login] => erickribeiro23@hotmail.com
+    [id] => 
+    [cid] => 21821
+)
+
+
+invasor 179.213.91.98 1554901602
+
+Array
+(
+    [login] => canilcleopatraspet@gmail.com
+    [id] => 
+    [cid] => 22510
+    [pr] => ok
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 66.249.85.28 1555086849
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1555330069
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1555333337
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1555365596
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1555433409
+
+Array
+(
+    [login] => contato@canilvulcaobranco.com.br
+    [id] => 
+    [cid] => 22581
+)
+
+
+invasor 66.249.85.27 1556034667
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1556225321
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1556552477
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1556591988
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1556808549
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1556827910
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1556837307
+
+Array
+(
+    [login] => barbarabottas@yahoo.com.br
+    [id] => 
+    [cid] => 22427
+)
+
+
+invasor 179.213.91.98 1556895686
+
+Array
+(
+    [login] => canildifiori@bol.com.br
+    [id] => 
+    [cid] => 22991
+)
+
+
+invasor 66.249.85.27 1557234642
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1557341592
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1557752019
+
+Array
+(
+    [login] => lucaskelli@hotmail.com
+    [id] => 
+    [cid] => 23047
+)
+
+
+invasor 179.213.91.98 1557752763
+
+Array
+(
+    [login] => leopoldolunardellimoura@gmail.com
+    [id] => 
+    [cid] => 24657
+)
+
+
+invasor 179.213.91.98 1558127619
+
+Array
+(
+    [login] => suzieestima@gmail.com
+    [id] => 
+    [cid] => 24444
+)
+
+
+invasor 66.249.85.27 1558528587
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1558540154
+
+Array
+(
+    [login] => iuri.holthausen@hotmail.com
+    [id] => 
+    [cid] => 21874
+    [pr] => ok
+)
+
+
+invasor 66.249.85.28 1558626883
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1558658145
+
+Array
+(
+    [login] => caespequenoporte@gmail.com
+    [id] => 
+    [pstipo] => Pagamento Pedigree
+    [cid] => 24620
+)
+
+
+invasor 179.213.91.98 1559055282
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 66.249.85.28 1559234398
+
+Array
+(
+)
+
+
+invasor 191.246.0.90 1559751471
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 66.249.85.27 1559920136
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1560262255
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1560517443
+
+Array
+(
+)
+
+
+invasor 177.151.195.186 1560527209
+
+Array
+(
+)
+
+
+invasor 66.249.88.88 1560964001
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1560964001
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1560964001
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1561380502
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1561383855
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1561484755
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1561491269
+
+Array
+(
+    [login] => barbarabottas@yahoo.com.br
+    [id] => 
+    [cid] => 22427
+    [pr] => ok
+)
+
+
+invasor 189.92.123.49 1561563219
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1561728202
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1562165391
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1562178955
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1562258808
+
+Array
+(
+    [login] => IELKA.MUNIZ@HOTMAIL.COM
+    [id] => 
+    [cid] => 24716
+    [pr] => ok
+)
+
+
+invasor 66.249.85.27 1562608842
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1562933390
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1562948469
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1562959487
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 24444
+)
+
+
+invasor 179.213.91.98 1563284922
+
+Array
+(
+    [login] => canilquindim@hotmail.com
+    [id] => 
+    [cid] => 21802
+)
+
+
+invasor 179.213.91.98 1563297194
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22451
+)
+
+
+invasor 66.249.85.28 1563383292
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1563556611
+
+Array
+(
+    [login] => troopdog@yahoo.com
+    [id] => 
+    [cid] => 24738
+)
+
+
+invasor 179.213.91.98 1563889295
+
+Array
+(
+    [login] => alexandrenunesnascimento6@gmail.com
+    [id] => 
+    [cid] => 23197
+)
+
+
+invasor 66.249.85.27 1563994421
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1564067794
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1564142833
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1564167001
+
+Array
+(
+    [login] => viniciusesuelem@hotmail.com
+    [cid] => 21979
+    [id] => 
+)
+
+
+invasor 179.213.91.98 1564414912
+
+Array
+(
+    [login] => suzieestima@gmail.com
+    [id] => 
+    [cid] => 24444
+)
+
+
+invasor 66.249.85.28 1564436450
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1564494132
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1564515867
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1564601027
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1565023007
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1565026371
+
+Array
+(
+    [login] => hmarques3@yahoo.com.br
+    [id] => 
+    [cid] => 24641
+)
+
+
+invasor 179.213.91.98 1565031546
+
+Array
+(
+    [login] => kcibi@alkc.com.br
+    [id] => 134
+    [cid] => 22446
+)
+
+
+invasor 66.249.85.28 1565206822
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1565294887
+
+Array
+(
+    [login] => pbritojunior@hotmail.com
+    [id] => 
+    [cid] => 22508
+)
+
+
+invasor 66.249.85.28 1565296440
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1565353273
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1565622314
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1565638448
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1565638674
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1565827130
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1565875693
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1566235358
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1566313892
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1566409738
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1566419837
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 66.249.85.29 1566485466
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1566498641
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1566573880
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1566911816
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1566924109
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1566925289
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1567034586
+
+Array
+(
+)
+
+
+invasor 179.213.91.98 1567440455
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1567707745
+
+Array
+(
+)
+
+
+invasor 185.2.196.196 1568077979
+
+Array
+(
+)
+
+
+invasor 155.64.38.78 1568077979
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1568125824
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1568140568
+
+Array
+(
+)
+
+
+invasor 185.2.196.196 1568317655
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1568321771
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1568396909
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1568403056
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1568739106
+
+Array
+(
+)
+
+
+invasor 185.2.196.196 1568823541
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1568828657
+
+Array
+(
+)
+
+
+invasor 185.2.196.196 1568829358
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1568832269
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1568905063
+
+Array
+(
+)
+
+
+invasor 8.28.16.254 1568908998
+
+Array
+(
+)
+
+
+invasor 177.48.145.80 1568991027
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1569249941
+
+Array
+(
+)
+
+
+invasor 8.28.16.254 1569345248
+
+Array
+(
+)
+
+
+invasor 179.213.55.143 1569346077
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1569356377
+
+Array
+(
+)
+
+
+invasor 8.28.16.254 1569423947
+
+Array
+(
+)
+
+
+invasor 8.28.16.254 1569436709
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1569437318
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1569439805
+
+Array
+(
+)
+
+
+invasor 179.213.55.143 1569441143
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1569504379
+
+Array
+(
+)
+
+
+invasor 8.28.16.254 1569505184
+
+Array
+(
+)
+
+
+invasor 179.213.55.143 1569507794
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 8.28.16.254 1569509891
+
+Array
+(
+)
+
+
+invasor 155.64.38.80 1569509891
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1569518119
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1569526014
+
+Array
+(
+)
+
+
+invasor 185.2.196.196 1569531825
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1569591074
+
+Array
+(
+)
+
+
+invasor 8.28.16.254 1569611260
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1569857696
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1569859184
+
+Array
+(
+)
+
+
+invasor 179.213.55.143 1569863743
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1570025309
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1570029764
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1570114685
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1570123847
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1570126126
+
+Array
+(
+)
+
+
+invasor 8.28.16.254 1570208983
+
+Array
+(
+)
+
+
+invasor 155.64.38.80 1570208983
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1570454282
+
+Array
+(
+)
+
+
+invasor 8.28.16.254 1570459820
+
+Array
+(
+)
+
+
+invasor 8.28.16.254 1570472525
+
+Array
+(
+)
+
+
+invasor 8.28.16.254 1570541712
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1570544636
+
+Array
+(
+)
+
+
+invasor 155.64.38.96 1570544636
+
+Array
+(
+)
+
+
+invasor 8.28.16.254 1570549565
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1570549736
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1570553402
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1570631069
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1571063844
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1571081423
+
+Array
+(
+)
+
+
+invasor 155.64.38.96 1571081423
+
+Array
+(
+)
+
+
+invasor 179.213.55.143 1571145852
+
+Array
+(
+)
+
+
+invasor 179.213.55.143 1571157252
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1571677477
+
+Array
+(
+)
+
+
+invasor 179.213.55.143 1572011105
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1572022507
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1572962722
+
+Array
+(
+)
+
+
+invasor 8.28.16.254 1573060639
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1573063281
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1573222630
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1573222654
+
+Array
+(
+)
+
+
+invasor 179.213.55.143 1573234692
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 18.217.223.118 1573239529
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1573503616
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1573517096
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1573570113
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1573572644
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1573663283
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1573663297
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1573677221
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1573687559
+
+Array
+(
+)
+
+
+invasor 179.213.55.143 1573763231
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1574184074
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1574188198
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1574192370
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1574777294
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1574777294
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1575314957
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1575315739
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1575550296
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1575642709
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1575660659
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1576090469
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1576168909
+
+Array
+(
+)
+
+
+invasor 179.242.191.194 1576677443
+
+Array
+(
+    [login] => vhgoldens@gmail.com
+    [id] => 
+    [cid] => 22481
+)
+
+
+invasor 179.213.55.143 1576686305
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 179.213.55.143 1576771645
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 66.249.85.27 1577976486
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1577995307
+
+Array
+(
+)
+
+
+invasor 179.213.89.193 1578059057
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 66.249.85.27 1578079339
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1578079862
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1578579819
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1578682766
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1579104525
+
+Array
+(
+)
+
+
+invasor 177.58.235.99 1579888933
+
+Array
+(
+    [login] => canilcasadimontero@hotmail.com
+    [id] => 
+    [cid] => 24972
+    [pr] => ok
+)
+
+
+invasor 66.249.85.28 1580129390
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1580499953
+
+Array
+(
+)
+
+
+invasor 179.213.91.34 1580821131
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1580853267
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1580926710
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1580926711
+
+Array
+(
+)
+
+
+invasor 179.213.91.34 1581599787
+
+Array
+(
+    [login] => canilblessingofgod@gmail.com 
+    [id] => 
+    [cid] => 23086
+)
+
+
+invasor 66.249.85.27 1582129421
+
+Array
+(
+)
+
+
+invasor 179.213.92.138 1582221968
+
+Array
+(
+)
+
+
+invasor 66.249.85.29 1582232148
+
+Array
+(
+)
+
+
+invasor 66.249.85.28 1582289985
+
+Array
+(
+)
+
+
+invasor 179.213.92.138 1582292041
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 66.249.85.29 1582321517
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1582833123
+
+Array
+(
+)
+
+
+invasor 179.213.92.138 1583359634
+
+Array
+(
+    [login] => alessandroll2017@gmail.com
+    [id] => 
+    [cid] => 24887
+)
+
+
+invasor 66.249.85.28 1583521289
+
+Array
+(
+)
+
+
+invasor 66.249.85.27 1583760669
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1584716928
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1584719555
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1585073221
+
+Array
+(
+)
+
+
+invasor 8.28.16.254 1585231721
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1585237753
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1585238433
+
+Array
+(
+)
+
+
+invasor 179.213.90.175 1585332909
+
+Array
+(
+)
+
+
+invasor 179.213.90.175 1585443149
+
+Array
+(
+)
+
+
+invasor 179.213.90.175 1585685564
+
+Array
+(
+)
+
+
+invasor 179.213.90.175 1585759405
+
+Array
+(
+)
+
+
+invasor 8.28.16.254 1586360946
+
+Array
+(
+)
+
+
+invasor 179.213.90.175 1586364348
+
+Array
+(
+)
+
+
+invasor 179.213.90.175 1586444098
+
+Array
+(
+)
+
+
+invasor 54.207.33.42 1586791413
+
+Array
+(
+)
+
+
+invasor 185.2.196.196 1586801583
+
+Array
+(
+)
+
+
+invasor 179.213.86.182 1586809544
+
+Array
+(
+)
+
+
+invasor 179.213.86.182 1586909174
+
+Array
+(
+)
+
+
+invasor 179.213.86.182 1587044939
+
+Array
+(
+)
+
+
+invasor 179.213.86.182 1587066681
+
+Array
+(
+)
+
+
+invasor 199.116.169.254 1587153219
+
+Array
+(
+)
+
+
+invasor 185.2.196.196 1587388595
+
+Array
+(
+)
+
+
+invasor 185.2.196.196 1587647553
+
+Array
+(
+)
+
+
+invasor 187.26.170.120 1587680032
+
+Array
+(
+)
+
+
+invasor 179.213.86.182 1588092795
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1588107207
+
+Array
+(
+)
+
+
+invasor 8.28.16.254 1588697959
+
+Array
+(
+)
+
+
+invasor 54.207.33.42 1588778295
+
+Array
+(
+)
+
+
+invasor 179.213.86.182 1588947506
+
+Array
+(
+    [login] => elianifsilva@hotmail.com
+    [id] => 
+    [pstipo] => Pagamento Pedigree
+    [cid] => 25115
+    [pr] => ok
+)
+
+
+invasor 179.213.86.182 1589029770
+
+Array
+(
+)
+
+
+invasor 179.213.86.182 1589300127
+
+Array
+(
+)
+
+
+invasor 3.101.0.4 1589402887
+
+Array
+(
+)
+
+
+invasor 3.101.0.4 1589903397
+
+Array
+(
+)
+
+
+invasor 3.101.0.4 1590418400
+
+Array
+(
+)
+
+
+invasor 3.101.0.4 1590419804
+
+Array
+(
+)
+
+
+invasor 54.207.33.42 1590432304
+
+Array
+(
+)
+
+
+invasor 3.101.0.4 1590499946
+
+Array
+(
+)
+
+
+invasor 179.213.86.182 1590503431
+
+Array
+(
+)
+
+
+invasor 179.213.86.182 1590672922
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [pstipo] => Pagamento Pedigree
+    [cid] => 21792
+)
+
+
+invasor 3.101.0.4 1590761324
+
+Array
+(
+)
+
+
+invasor 54.207.33.42 1591036158
+
+Array
+(
+)
+
+
+invasor 54.207.33.42 1591047983
+
+Array
+(
+)
+
+
+invasor 179.213.86.182 1591105757
+
+Array
+(
+)
+
+
+invasor 179.213.86.182 1591113250
+
+Array
+(
+)
+
+
+invasor 179.213.86.182 1591123260
+
+Array
+(
+    [login] => myakennel@gmail.com
+    [id] => 
+    [cid] => 22779
+)
+
+
+invasor 3.101.0.4 1591199992
+
+Array
+(
+)
+
+
+invasor 18.217.223.118 1591202463
+
+Array
+(
+)
+
+
+invasor 179.213.86.182 1591217225
+
+Array
+(
+    [login] => canilhunterjo@gmail.com
+    [id] => 
+    [cid] => 22054
+)
+
+
+invasor 179.213.86.182 1591289220
+
+Array
+(
+    [login] => Igorcoutinhorj@hotmail.com
+    [id] => 
+    [cid] => 24678
+)
+
+
+invasor 54.207.33.42 1591295878
+
+Array
+(
+)
+
+
+invasor 179.213.86.182 1591303586
+
+Array
+(
+    [login] => prispugvet@gmail.com
+    [id] => 
+    [cid] => 22869
+    [pr] => ok
+)
+
+
+invasor 179.213.86.182 1591634287
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 179.213.86.182 1591724284
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 179.213.86.182 1591727767
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 25145
+    [pr] => ok
+)
+
+
+invasor 179.213.86.182 1591815719
+
+Array
+(
+)
+
+
+invasor 179.213.86.182 1592226920
+
+Array
+(
+)
+
+
+invasor 179.213.86.182 1592228750
+
+Array
+(
+    [login] => contato@aldeiadosgoldens.com.br
+    [id] => 
+    [cid] => 22981
+)
+
+
+invasor 179.213.86.182 1592246305
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 25035
+)
+
+
+invasor 177.28.202.165 1592320586
+
+Array
+(
+)
+
+
+invasor 179.213.86.182 1592402421
+
+Array
+(
+    [login] => lumacasado@gmail.com
+    [id] => 
+    [cid] => 23215
+)
+
+
+invasor 191.193.44.113 1592420939
+
+Array
+(
+)
+
+
+invasor 191.193.44.113 1592506156
+
+Array
+(
+    [login] => Jeniffervalle@hotmail.com
+    [id] => 
+    [cid] => 24801
+)
+
+
+invasor 191.193.44.113 1592506193
+
+Array
+(
+)
+
+
+invasor 191.193.44.113 1592517786
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 191.193.44.113 1592587875
+
+Array
+(
+)
+
+
+invasor 191.193.44.113 1592834716
+
+Array
+(
+    [login] => mandy_cavalcanti@hotmail.com
+    [id] => 
+    [cid] => 25087
+)
+
+
+invasor 191.193.44.113 1592854499
+
+Array
+(
+)
+
+
+invasor 191.193.44.113 1592940847
+
+Array
+(
+)
+
+
+invasor 191.193.44.113 1593015822
+
+Array
+(
+)
+
+
+invasor 191.193.44.113 1593026341
+
+Array
+(
+)
+
+
+invasor 191.193.44.113 1593031603
+
+Array
+(
+    [login] => obaqueromi@gmail.com
+    [id] => 
+    [cid] => 22997
+)
+
+
+invasor 191.193.44.113 1593108720
+
+Array
+(
+)
+
+
+invasor 191.193.44.113 1593183509
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 24435
+)
+
+
+invasor 191.193.44.113 1593193308
+
+Array
+(
+    [login] => sandrof@gmail.com
+    [id] => 
+    [cid] => 25226
+    [pr] => ok
+)
+
+
+invasor 191.193.44.113 1593527161
+
+Array
+(
+    [login] => Hexehouse@gmail.com 
+    [id] => 
+    [cid] => 23021
+)
+
+
+invasor 18.130.106.101 1593633905
+
+Array
+(
+)
+
+
+invasor 191.193.44.113 1593713172
+
+Array
+(
+)
+
+
+invasor 191.193.44.113 1593792571
+
+Array
+(
+)
+
+
+invasor 191.193.44.113 1594152367
+
+Array
+(
+    [login] => prispugvet@gmail.com
+    [cid] => 22869
+)
+
+
+invasor 191.193.44.113 1594304669
+
+Array
+(
+)
+
+
+invasor 191.193.44.113 1594310912
+
+Array
+(
+)
+
+
+invasor 191.193.44.113 1594398608
+
+Array
+(
+    [login] => prispugvet@gmail.com
+    [id] => 
+    [cid] => 22869
+)
+
+
+invasor 177.188.115.41 1594665842
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 177.188.115.41 1594740700
+
+Array
+(
+)
+
+
+invasor 177.188.115.41 1594750935
+
+Array
+(
+)
+
+
+invasor 177.188.115.41 1594830068
+
+Array
+(
+    [login] => Bozo.ebay2012@gmail.com
+    [id] => 
+    [cid] => 25141
+)
+
+
+invasor 177.188.115.41 1594842835
+
+Array
+(
+)
+
+
+invasor 177.188.115.41 1594907291
+
+Array
+(
+    [login] => kcbahia@alkc.com.br
+    [id] => 154
+    [cid] => 25141
+)
+
+
+invasor 177.188.115.41 1594928526
+
+Array
+(
+)
+
+
+invasor 201.68.127.96 1595002009
+
+Array
+(
+)
+
+
+invasor 201.68.127.10 1595453377
+
+Array
+(
+    [login] => Fabiocacmiguel@gmail.com
+    [id] => 
+    [cid] => 22747
+)
+
+
+invasor 201.68.127.10 1595454162
+
+Array
+(
+    [login] => Fabiocacmiguel@gmail.com
+    [cid] => 22747
+)
+
+
+invasor 201.68.127.10 1595512713
+
+Array
+(
+)
+
+
+invasor 201.68.127.10 1595610861
+
+Array
+(
+)
+
+
+invasor 189.79.222.7 1596132337
+
+Array
+(
+)
+
+
+invasor 179.111.179.90 1596475087
+
+Array
+(
+)
+
+
+invasor 179.111.179.90 1596635490
+
+Array
+(
+)
+
+
+invasor 179.111.179.90 1596646068
+
+Array
+(
+    [login] => canilausazah@gmail.com
+    [id] => 
+    [cid] => 21750
+)
+
+
+invasor 179.111.179.90 1596723810
+
+Array
+(
+    [login] => caramguimaraes@gmail.com
+    [id] => 
+    [cid] => 24530
+)
+
+
+invasor 177.150.45.127 1597080573
+
+Array
+(
+)
+
+
+invasor 191.229.109.219 1597157271
+
+Array
+(
+)
+
+
+invasor 191.193.104.7 1597236523
+
+Array
+(
+)
+
+
+invasor 191.193.105.17 1597680144
+
+Array
+(
+    [login] => williampwiethan@gmail.com
+    [id] => 
+    [cid] => 25395
+    [pr] => ok
+)
+
+
+invasor 191.193.105.17 1597779744
+
+Array
+(
+)
+
+
+invasor 191.193.105.17 1597784356
+
+Array
+(
+    [login] => Kenelcloverhills@gmail.com
+    [id] => 
+    [cid] => 25110
+)
+
+
+invasor 191.193.105.17 1597844459
+
+Array
+(
+)
+
+
+invasor 191.193.105.17 1597866807
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22599
+    [pr] => ok
+)
+
+
+invasor 191.193.105.17 1598015989
+
+Array
+(
+    [login] => vladimirbhte@gmail.com 
+    [id] => 
+    [cid] => 22599
+)
+
+
+invasor 191.193.105.17 1598017768
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 191.193.105.17 1598018242
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 25346
+    [pr] => ok
+)
+
+
+invasor 191.193.105.17 1598031839
+
+Array
+(
+)
+
+
+invasor 200.158.35.175 1598558555
+
+Array
+(
+)
+
+
+invasor 200.158.35.175 1598625423
+
+Array
+(
+)
+
+
+invasor 200.158.35.175 1598629837
+
+Array
+(
+    [login] => mariaenzzotom@gmail.com
+    [id] => 
+    [cid] => 25421
+)
+
+
+invasor 200.158.35.175 1598641198
+
+Array
+(
+)
+
+
+invasor 200.158.35.175 1598645762
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22125
+)
+
+
+invasor 200.158.35.175 1598896512
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 24603
+)
+
+
+invasor 200.158.35.175 1598898828
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 25264
+    [pr] => ok
+)
+
+
+invasor 200.158.35.175 1598907271
+
+Array
+(
+)
+
+
+invasor 200.158.35.175 1599054715
+
+Array
+(
+)
+
+
+invasor 200.158.35.175 1599055890
+
+Array
+(
+    [login] => amicaofilhotes@outlook.com
+    [id] => 
+    [cid] => 21702
+)
+
+
+invasor 200.158.35.175 1599065370
+
+Array
+(
+    [login] => advogadalkmim@hotmail.com
+    [id] => 
+    [cid] => 25199
+)
+
+
+invasor 200.158.35.175 1599076158
+
+Array
+(
+)
+
+
+invasor 179.241.208.35 1599184947
+
+Array
+(
+)
+
+
+invasor 191.193.232.49 1599236189
+
+Array
+(
+)
+
+
+invasor 191.193.232.49 1599579386
+
+Array
+(
+)
+
+
+invasor 191.193.232.49 1599824518
+
+Array
+(
+)
+
+
+invasor 191.193.232.49 1599842741
+
+Array
+(
+)
+
+
+invasor 191.193.232.49 1599850884
+
+Array
+(
+    [login] => albxre300@yahoo.com.br
+    [id] => 
+    [cid] => 22483
+    [pr] => ok
+)
+
+
+invasor 189.78.21.111 1600097477
+
+Array
+(
+)
+
+
+invasor 189.78.21.111 1600124525
+
+Array
+(
+    [login] => gustavocostac@outlook.com
+    [id] => 
+    [cid] => 25117
+)
+
+
+invasor 189.78.21.111 1600264817
+
+Array
+(
+    [login] => suelimartins2009@bol.com.br
+    [id] => 
+    [cid] => 24846
+)
+
+
+invasor 189.78.21.111 1600282804
+
+Array
+(
+    [login] => canildoveterinario@gmail.com 
+    [id] => 
+    [cid] => 24992
+)
+
+
+invasor 189.78.21.111 1600294444
+
+Array
+(
+    [login] => silveterinaria1@hotmail.com
+    [id] => 
+    [cid] => 24710
+)
+
+
+invasor 189.78.21.111 1600369583
+
+Array
+(
+)
+
+
+invasor 189.78.21.111 1600453050
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22869
+)
+
+
+invasor 189.78.21.111 1600457131
+
+Array
+(
+)
+
+
+invasor 189.78.21.111 1600464837
+
+Array
+(
+    [login] => vinicius.pirica@yahoo.com.br
+    [id] => 
+    [cid] => 23170
+    [pr] => ok
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 189.78.21.111 1600702781
+
+Array
+(
+)
+
+
+invasor 189.78.21.111 1600709346
+
+Array
+(
+    [login] => contato@canilvulcaobranco.com.br
+    [cid] => 22581
+    [pr] => ok
+    [id] => 
+)
+
+
+invasor 189.78.21.111 1600807860
+
+Array
+(
+)
+
+
+invasor 189.78.21.111 1600899872
+
+Array
+(
+    [login] => sophiaskennel@gmail.com
+    [id] => 
+    [cid] => 23133
+)
+
+
+invasor 191.193.206.39 1600950357
+
+Array
+(
+)
+
+
+invasor 201.68.127.133 1600965503
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22419
+)
+
+
+invasor 201.68.127.133 1600971074
+
+Array
+(
+)
+
+
+invasor 201.68.127.133 1601302870
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 25500
+    [pr] => ok
+)
+
+
+invasor 201.68.127.133 1601305738
+
+Array
+(
+    [login] => setbluewolf@gmail.com
+    [id] => 
+    [cid] => 25530
+    [pr] => ok
+)
+
+
+invasor 201.68.127.133 1601401020
+
+Array
+(
+)
+
+
+invasor 191.169.164.101 1601408866
+
+Array
+(
+)
+
+
+invasor 191.193.45.52 1601491361
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 191.193.45.52 1601575065
+
+Array
+(
+    [login] => PANSSERINI@TERRA.COM.BR
+    [id] => 
+    [cid] => 22958
+    [pr] => ok
+)
+
+
+invasor 177.151.137.29 1601583648
+
+Array
+(
+)
+
+
+invasor 191.193.105.43 1601922598
+
+Array
+(
+    [login] => fabivetonco@gmail.com
+    [id] => 
+    [cid] => 25536
+    [pr] => ok
+)
+
+
+invasor 191.193.105.43 1601923119
+
+Array
+(
+)
+
+
+invasor 191.193.105.43 1602004992
+
+Array
+(
+    [login] => lucaas.fernando4@gmail.com
+    [id] => 
+    [cid] => 25284
+)
+
+
+invasor 189.78.119.54 1602163778
+
+Array
+(
+)
+
+
+invasor 179.113.22.150 1602260440
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 179.113.22.150 1602260947
+
+Array
+(
+)
+
+
+invasor 179.113.22.150 1602596594
+
+Array
+(
+    [login] => kathiasantos@terra.com.br
+    [id] => 
+    [cid] => 22493
+)
+
+
+invasor 179.113.22.150 1602599911
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 25346
+)
+
+
+invasor 179.113.22.150 1602693628
+
+Array
+(
+    [login] => marcela.mcorrea@hotmail.com
+    [id] => 
+    [cid] => 25540
+    [pr] => ok
+)
+
+
+invasor 179.113.22.150 1602775510
+
+Array
+(
+    [login] => Lors01@oi.com.br 
+    [id] => 
+    [cid] => 23046
+)
+
+
+invasor 179.113.22.150 1602775860
+
+Array
+(
+    [login] => Lors01@oi.com.br 
+    [id] => 
+    [cid] => 23046
+)
+
+
+invasor 179.113.22.150 1602778493
+
+Array
+(
+    [login] => Lors01@oi.com.br 
+    [id] => 
+    [cid] => 23046
+    [pr] => ok
+)
+
+
+invasor 179.113.42.182 1602790121
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 23197
+)
+
+
+invasor 179.113.42.182 1602860142
+
+Array
+(
+)
+
+
+invasor 187.116.105.112 1603204348
+
+Array
+(
+)
+
+
+invasor 187.26.83.64 1603393820
+
+Array
+(
+)
+
+
+invasor 179.241.192.120 1603396470
+
+Array
+(
+    [login] => paularamosc@hotmail.com
+    [id] => 
+    [pstipo] => Pagamento Pedigree
+    [cid] => 25500
+    [pr] => ok
+)
+
+
+invasor 189.64.65.58 1603736225
+
+Array
+(
+)
+
+
+invasor 189.38.136.153 1603743715
+
+Array
+(
+    [login] => cunhageovana@hotmail.com
+    [id] => 
+    [cid] => 25600
+    [pr] => ok
+)
+
+
+invasor 189.38.136.153 1603811737
+
+Array
+(
+)
+
+
+invasor 189.38.136.153 1604077909
+
+Array
+(
+    [login] => ananatzuka2018@gmail.com
+    [id] => 
+    [cid] => 23101
+    [pr] => ok
+)
+
+
+invasor 179.247.167.128 1604521207
+
+Array
+(
+    [login] => michellefsantos2016@gmail.com
+    [id] => 
+    [cid] => 25611
+    [pr] => ok
+)
+
+
+invasor 179.247.167.128 1604613808
+
+Array
+(
+)
+

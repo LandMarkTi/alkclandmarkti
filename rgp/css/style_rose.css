@@ -1,0 +1,468 @@
+@charset "utf-8";
+
+img{ border:0px; !IMPORTANT}
+
+/* Header */
+.header_full{ 
+	width: 100%;
+	height: 112px;
+	background-image:url(../images/fundos/fundo_full_header.jpg);
+	background-repeat: repeat-x;
+	display:table;
+}
+
+.header_margem_full{
+	width: 990px;
+	height: 100%;
+	margin: auto;
+	display:table;
+}
+
+.header_logo{
+	width: 341px;
+	height: 79px;
+	margin-top: 17px;
+	float:left;
+	display:table;
+}
+
+.header_atendimento{
+	width: 470px;
+	height: auto;
+	margin-top: 12px;
+	float:right;
+	text-align:right;
+	display:table;
+}
+
+#header_data_menu{
+	width: auto;
+	float:right;
+	height:auto;
+	display:table;
+}
+
+.menu_full{ 
+	width: 100%;
+	height: 36px;
+	background-color:#487E42;
+	display:table;
+}
+
+.menu_margem_full{
+	width: 990px;
+	height: 100%;
+	margin: auto;
+	display:table;
+}
+
+.menu_box{
+	width: auto;
+	height: auto;
+	margin: 8px;
+	float:left;
+	display:table;
+}
+
+.menu_linha{
+	width: auto;
+	height: auto;
+	margin-top:6px;
+	margin-left:19px;
+	margin-right:19px;
+	float:left;
+	display:table;
+}
+/* menu drop down*/
+#jsddm
+{	margin: 0;
+	padding: 0;
+}
+
+	#jsddm li
+	{	float: left;
+		list-style: none;
+		margin:0;
+		}
+
+	#jsddm li a
+	{	display: block;
+		padding: 0px 0px;
+		text-decoration: none;
+		width: auto;
+		white-space: nowrap;
+		width:100%;
+		margin:0;
+	}
+
+	#jsddm li a:hover
+	{	/*background: #24313C;*/}
+		
+		#jsddm li ul
+		{	margin: 0;
+			margin-right:5px;
+			padding: 0;
+			position: absolute;
+			visibility: hidden;
+			margin-top:38px;
+			z-index:1;
+			}
+		
+			#jsddm li ul li
+			{	float: none;
+				display: inline;
+				border-top: 1px solid #ccc;
+				margin:0;
+				}
+			
+			#jsddm li ul li a
+			{	background: #eee;
+				width: auto;
+				color:#333;
+				border-top: 1px solid #487E42;
+				width:100%;
+				margin:0;
+				padding-left:5px;
+				padding-right:5px;
+				padding-top:8px;
+				padding-bottom:8px;
+				font-size:13px;
+				font-family:Arial, Helvetica, sans-serif;
+				}
+			
+			#jsddm li ul li a:hover
+			{	
+			background-color: #e8f1ed;
+				}
+
+
+/* Banner */
+.banner_full{ 
+	width: 100%;
+	height: 364px;
+	display:table;
+}
+
+.banner_margem_full{
+	width: 990px;
+	height: 100%;
+	margin: auto;
+	display:table;
+}
+
+.banner_login{
+	width:260px;
+	height:185px;
+	background-image:url(../images/fundos/fundo_login_box.jpg);
+	background-repeat: repeat-x;
+	display:table;
+	float:right;
+	margin-top:8px;
+	border: 1px #D3D3D3 solid;
+}
+
+.banner_busca{
+	width:263px;
+	height:90px;
+	background-image:url(../images/fundos/fundo_login_box.jpg);
+	background-repeat: repeat-x;
+	display:table;
+	float:right;
+	margin-top:6px;
+	border: 1px #D3D3D3 solid;
+}
+
+.banner_consulta{
+	width:262px;
+	height:52px;
+	display:table;
+	float:right;
+	margin-top:6px;
+}
+
+/* Internas Principal */
+.internas_full{ 
+	width: 100%;
+	height: auto;
+	margin-top:8px;
+	margin-bottom:8px;
+}
+
+.internas_margem_full{
+	width: 990px;
+	height: auto;
+	margin: auto;
+	display: table;
+}	
+
+.internas_box{
+	width: 752px;
+	height: auto;
+	display: table;
+	float:left;
+}
+
+.internas_foto{
+	width: 300px;
+	height: 230px;
+	display: table;
+	background-color:#E6E6E6;
+	float:left;
+	margin-right:6px;
+	margin-bottom:6px;
+}
+
+.internas_titulo{
+	width: 752px;
+	height: 30px;
+	text-indent:10px;
+	line-height:30px;
+	display: table;
+	float:left;
+	font-family: 'Oswald', Arial, sans-serif;
+	font-size: 16px;
+    color:#373334;
+	border: 1px #D3D3D3 solid;
+	background-color:#EEEEEE;
+}
+/* Index Principal */
+.principal_full{ 
+	width: 100%;
+	height: auto;
+	margin-bottom:8px;
+}
+
+.principal_margem_full{
+	width: 990px;
+	height: 582px;
+	margin: auto;
+	display: table;
+}
+
+.principal_credenciados_box{
+	width: 318px;
+	height: auto;
+	display: table;
+	float:left;
+}
+
+.principal_titulo_cred{
+	width: 318px;
+	height: 30px;
+	text-indent:10px;
+	line-height:30px;
+	display: table;
+	float:left;
+	font-family: 'Oswald', Arial, sans-serif;
+	font-size: 16px;
+    color:#373334;
+	border: 1px #D3D3D3 solid;
+	background-color:#EEEEEE;
+}
+
+.principal_noticias_box{
+	width: 426px;
+	height: auto;
+	display: table;
+	margin-left:10px;
+	float:left;
+}
+
+.principal_titulo_not{
+	width: 426px;
+	height: 30px;
+	text-indent:10px;
+	line-height:30px;
+	display: table;
+	float:left;
+	font-family: 'Oswald', Arial, sans-serif;
+	font-size: 16px;
+    color:#373334;
+	border: 1px #D3D3D3 solid;
+	background-color:#EEEEEE;
+}
+
+.principal_noticias_not{
+	width: 426px;
+	height: 120px;
+	margin-top:4px;
+	margin-bottom:4px;
+	display: table;
+	border: 1px #D3D3D3 dashed;
+	float:left;
+}
+
+.principal_noticias_foto{
+	width: 82px;
+	height: 103px;
+	margin:10px;
+	display: table;
+	background:#666666;
+	float:left;
+}
+
+.principal_info_box{
+	width: 220px;
+	height: auto;
+	display: table;
+	margin-left:10px;
+	float:left;
+}
+
+.principal_titulo_info{
+	width: 220px;
+	height: 30px;
+	text-indent:10px;
+	line-height:30px;
+	display: table;
+	float:left;
+	font-family: 'Oswald', Arial, sans-serif;
+	font-size: 16px;
+    color:#373334;
+	border: 1px #D3D3D3 solid;
+	background-color:#EEEEEE;
+}
+
+.principal_info2{
+	width: 220px;
+	height: auto;
+	display: table;
+	margin-top:6px;
+	float:left;
+	border: 1px #D3D3D3 solid;
+}
+
+.principal_banner_info{
+	width: auto;
+	height: auto;
+	display: table;
+	margin:8px;
+}
+/*núcleos */
+.titulos {
+	padding:4px;
+	width:700px;
+	text-decoration:none;
+	cursor:pointer;
+	border-radius: 3px;
+	margin-bottom:5px;
+	background-color:#eee;
+}
+.titulos:hover {
+	background-color:#e2e2e2;
+}
+.titulos_ativos{
+	background-color:#e2e2e2;	
+}
+.images {
+	margin-bottom:10px;
+	margin-top:-8px;
+	padding:5px;
+
+	border-top:hidden;
+	width:698px;
+}
+
+
+/* Footer */
+.footer_full{ 
+	width: 100%;
+	height: 135px;
+	background-image:url(../images/fundos/fundo_full_footer.jpg);
+	background-repeat: repeat-x;
+}
+
+.footer_margem_full{
+	width: 990px;
+	height: 135px;
+	margin: auto;
+}
+
+.footer_logo{
+	widht: 277px;
+	height: 60px;
+	float:right;
+	margin-top: 30px;
+}
+
+.footer_atendimento{
+	widht: 243px;
+	height: 47px;
+	float:left;
+	margin-top: 42px;
+}
+
+.forms {
+	background-color: #FFF; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+}
+
+.login_forms_key {
+	width:241px;
+	height:28px;
+	text-indent:3px;
+	background-color: #FFF; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	border: 1px solid #999;
+	background:#FFF url(../images/icones/cadeado_login.png) no-repeat right;
+}
+
+.login_forms_user {
+	width:241px;
+	height:28px;
+	text-indent:3px;
+	background-color: #FFF; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	border: 1px solid #999;
+}
+.login_forms_consultar {
+	width:170px;
+	height:25px;
+	text-indent:3px;
+	background-color: #FFF; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	border: 1px solid #999;
+}
+
+.credenciados_forms {
+	width:247px;
+	height:28px;
+	text-indent:3px;
+	background-color: #FFF; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	border: 1px solid #999;
+}
+
+.margin6 {
+	margin:6px;
+	display:table;
+}
+.margin10 {
+	margin:10px;
+	display:table;
+}
+
+
+.botao { display: inline-block; background: url(../images/botao.gif) no-repeat; text-align: center; line-height: 24px; border: none; font-size: 15px; font-weight: bold; color: black; cursor: pointer; -moz-opacity:.80; filter:alpha(opacity=80); opacity:.80; }
+.botao:hover { -moz-opacity:1; filter:alpha(opacity=100); opacity:1; color: black; text-decoration: none; }
+.botao:active { -moz-opacity:.60; filter:alpha(opacity=60); opacity:.60; position: relative; top: 1px; }
+
+/* Neoware */
+#neoware { position: absolute; left: 0px; bottom: 0px; width: 100%; height: 17px; color: #000; background:#171717; text-align: center; font-family: tahoma; font-size: 12px; line-height: 16px; display:block; z-index:2; }
+div > div#neoware { position: fixed; }
+
+div#neoware {
+_right: auto; _bottom: auto;
+_left: expression( ( 0 - neoware.offsetWidth + ( document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth ) + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+_top: expression( ( 0 - neoware.offsetHeight + ( document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );}

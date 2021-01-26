@@ -1,0 +1,18 @@
+﻿<?php
+# FileName="Connection_php_mysql.htm"
+# Type="MYSQL"
+# HTTP="true"
+$hostname_conexao = "186.202.152.41:3306";
+$database_conexao = "megapedigree_banco";
+$username_conexao = "megap_neoware";
+$password_conexao = "megap123";
+$conexao = mysql_pconnect($hostname_conexao, $username_conexao, $password_conexao) or die(mysql_error());
+mysql_select_db($database_conexao, $conexao);
+mysql_query("SET NAMES 'utf8'");
+mysql_query('SET character_set_connection=utf8');
+mysql_query('SET character_set_client=utf8');
+mysql_query('SET character_set_results=utf8');
+//Varial dos titulos das paginas
+$titulo = "::. SOBRACI .:: - Painel credenciado";
+//error_reporting(0);
+?>

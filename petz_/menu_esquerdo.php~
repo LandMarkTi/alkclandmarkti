@@ -1,0 +1,64 @@
+<link rel="stylesheet" type="text/css" href="css/style_menu.css" />
+<link rel="stylesheet" type="text/css" href="css/style_fonts.css" />
+<link rel="stylesheet" href="jquery/menu/jquery.treeview.css" />	
+
+	<script src="jquery/menu/lib/jquery.cookie.js" type="text/javascript"></script>
+	<script src="jquery/menu/jquery.treeview.js" type="text/javascript"></script>
+	<script src="jquery/menu/jquery.treeview.edit.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+		$(function() {
+			$("#browser").treeview({collapsed : true});		
+			$("#browser li span:first").click();	
+		});
+		
+	</script>
+    
+
+    	
+<div id="menu_esquerdo_box">
+ <div style="margin:10px;">
+    
+    <ul id="browser" class="filetree">
+	 <li><span class="folder">Menu de Opções</span>
+	  <ul>
+      
+       
+        <li><span class="folder">Criadores credenciados</span>
+		 <ul id="folder21">
+		 <li><span class="file"><a class="file" href="listagem_usuario.php">Listar Criadores</a></span></li>
+	     </ul>
+	    </li>
+        
+         <li><span class="folder">Pedigrees</span>
+		 <ul id="folder21">
+         <li><span class="file"><a class="file" href="listagem_pedigree.php">Listar Pedigree</a></span></li>
+	     
+         </ul>
+	    </li>
+
+	
+        
+        <li><span class="folder">pagamentos</span>
+		 <ul id="folder21">
+		 <li><span class="file"><a class="file" href="listagem_criadores_pendentes.php">Listar Pagamentos</a></span></li>
+		 <li><span class="file"><a class="file" href="cadastrar_criador.php">enviar link para cadastro e pagto</a></span></li>
+	     </ul>
+	    </li>
+      <!--
+        <li><span class="folder">Indicações</span>
+		 <ul id="folder21">
+		 <li><span class="file"><a class="file" href="listagem_indica.php">Listar Indicações</a></span></li>
+	     </ul>
+	    </li>
+	-->
+	
+	
+	     </ul>
+	    </li>
+	  </ul>
+	 </li>		
+	</ul>
+    
+ </div>
+</div>

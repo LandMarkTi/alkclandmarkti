@@ -1,0 +1,25 @@
+<?php
+session_start();
+if($_SESSION['login']=='')die("login");
+require_once("Connections/conexao.php");
+$id = (int)$_POST['id'];
+echo "id =".$id;
+$sql = "DELETE FROM aposta WHERE idAposta = '$id'";
+mysql_query($sql) or die('');
+
+//Deletando as opçãoes
+$sql = "DELETE FROM opcoesaposta WHERE idAposta = '$id'";
+mysql_query($sql) or die('');
+
+//devolvendo o dinheiro apostado
+
+
+$sql="SELECT * FROM  `aposta_feitas` WHERE  `id_da_aposta` = '$id'";
+$lista=mysql_query($sql) or die(mysql_error());
+while($aposta=mysql_fetch_assoc($lista)){
+	mysql_query("insert into pagamento values ('',$id,3,".$aposta['id_user'].",".$aposta['cr_value'].",".time().") ")or die('e1');
+	mysql_query("update usuario set totalCreditos=totalCreditos+".$aposta['cr_value']." where id=".$aposta['id_user'])or die('e2');
+	//echo "\n";
+}
+
+?>

@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+#login_full{ 
+	width: 100%;
+	height: auto;
+}
+
+#login_margem_full{
+	width: 990px;
+	height: auto;
+	margin: auto;
+	display: table;
+}
+
+#login_box{
+	width: 450px;
+	height: 100%;
+	display: table;
+	margin:auto;
+	margin-top:5%;
+	margin-bottom:5%;
+	background-color:#E6E6E6;
+	border:1px solid #30bdff;
+}
+
+#login_titulo{
+	width: 100%;
+	height: 26px;
+	display: table;
+	text-indent:7px;
+	line-height:26px;
+background-color: #30bdff;
+	float:left;
+}
+
+#login_acesso{
+	width: 515px;
+	height: 190px;
+	display: table;
+	margin:6px;
+	border: 1px solid #256C92;
+	background-color:#E6E6E6;
+	float:left;
+}
+
+#chrome_margem_full{
+	width: 990px;
+	height: auto;
+	margin: auto;
+	display: table;
+}
+
+#chrome_box{
+	width: 450px;
+	height: 100%;
+	display: table;
+	margin:auto;
+	margin-top:5%;
+	margin-bottom:5%;
+	background-color:#FFF;
+	border:1px solid #256C92;
+}

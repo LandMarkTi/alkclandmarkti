@@ -1,0 +1,1144 @@
+
+inicio
+
+invasor 201.95.216.79 1442845319
+
+Array
+(
+)
+
+
+invasor 201.95.216.79 1442845331
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1443021178
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1443021178
+
+Array
+(
+)
+
+
+invasor 189.62.115.162 1443717652
+
+Array
+(
+    [login] => priscilaboulart@hotmail.com 
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 16254
+)
+
+
+invasor 189.62.115.162 1443815289
+
+Array
+(
+)
+
+
+invasor 189.62.115.162 1444048917
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+)
+
+
+invasor 177.102.17.86 1444846424
+
+Array
+(
+    [login] => petland@sobraci.org
+    [id] => 68
+)
+
+
+invasor 189.62.115.162 1444941880
+
+Array
+(
+    [login] => riemonique@hotmail.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 13865
+)
+
+
+invasor 177.102.17.86 1445274267
+
+Array
+(
+)
+
+
+invasor 189.62.115.162 1445960859
+
+Array
+(
+    [login] => canilalifi@hotmail.com 
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 15703
+)
+
+
+invasor 189.62.115.162 1446300244
+
+Array
+(
+    [login] => ander.barbosa2007@hotmail.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 15688
+)
+
+
+invasor 189.62.115.162 1446300328
+
+Array
+(
+    [login] => ander.barbosa2007@hotmail.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 15688
+)
+
+
+invasor 189.62.115.162 1446744951
+
+Array
+(
+)
+
+
+invasor 189.62.115.162 1447080300
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+)
+
+
+invasor 177.81.5.217 1448382113
+
+Array
+(
+    [login] => gislaine-flavio@canil-taskforce.com.br
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 13621
+)
+
+
+invasor 177.81.5.217 1450374248
+
+Array
+(
+    [login] => thayna@sobraci.org
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 15894
+)
+
+
+invasor 177.81.5.217 1452615027
+
+Array
+(
+    [login] => cleitonlima1983@hotmail.com.br
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 14457
+)
+
+
+invasor 177.81.5.217 1453231327
+
+Array
+(
+    [login] => faleconosco@euqueroumfilhote.com.br
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 1508
+)
+
+
+invasor 177.102.17.86 1453380694
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1453816275
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1454073513
+
+Array
+(
+)
+
+
+invasor 177.81.5.217 1454081929
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1454083542
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1454092941
+
+Array
+(
+)
+
+
+invasor 177.81.5.217 1454432762
+
+Array
+(
+    [login] => canillanderrott@hotmail.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 15719
+)
+
+
+invasor 177.81.5.217 1454520958
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1455716471
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1455798048
+
+Array
+(
+)
+
+
+invasor 189.100.24.171 1455912846
+
+Array
+(
+    [login] => doce@encanto.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 17085
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 177.102.17.86 1456143085
+
+Array
+(
+)
+
+
+invasor 179.213.188.83 1456156792
+
+Array
+(
+)
+
+
+invasor 179.213.188.83 1456420117
+
+Array
+(
+)
+
+
+invasor 179.213.188.83 1458311241
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1458575778
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1458575779
+
+Array
+(
+)
+
+
+invasor 189.100.26.83 1459173353
+
+Array
+(
+    [login] => canilelshaday@globo.com 
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+    [cid] => 13271
+)
+
+
+invasor 179.213.188.83 1459887945
+
+Array
+(
+    [login] => sandraloca@hotmail.com
+    [id] => 
+    [header] => 
+    [email_contato] => 
+    [cidade] => 
+    [endereco] => 
+    [endereco2] => 
+    [tel_contato] => 
+    [cid] => 17812
+)
+
+
+invasor 177.102.17.86 1460749435
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+)
+
+
+invasor 177.102.17.86 1460749435
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+)
+
+
+invasor 177.102.17.86 1460749435
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+)
+
+
+invasor 177.102.17.86 1460749436
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+)
+
+
+invasor 177.102.17.86 1460749438
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6601
+)
+
+
+invasor 177.102.17.86 1461071217
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1462367069
+
+Array
+(
+)
+
+
+invasor 189.100.26.83 1462458521
+
+Array
+(
+    [login] => cristekka@ig.com.br
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6661 (15) 3211-1735
+    [cid] => 15282
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 179.213.188.83 1462564104
+
+Array
+(
+)
+
+
+invasor 179.213.188.83 1462883466
+
+Array
+(
+)
+
+
+invasor 177.64.97.174 1463933740
+
+Array
+(
+)
+
+
+invasor 177.64.97.174 1464022670
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1464799275
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1464968271
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1465227315
+
+Array
+(
+)
+
+
+invasor 191.188.1.136 1465328436
+
+Array
+(
+    [login] => monykke777@gmail.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6661 (15) 3211-1735
+    [cid] => 16270
+)
+
+
+invasor 191.188.1.136 1465328836
+
+Array
+(
+    [login] => monykke777@gmail.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6661 (15) 3211-1735
+    [cid] => 16270
+)
+
+
+invasor 177.102.17.86 1465481663
+
+Array
+(
+)
+
+
+invasor 191.188.1.136 1465483107
+
+Array
+(
+    [login] => mary12costa@gmail.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6661 (15) 3211-1735
+    [cid] => 13291
+)
+
+
+invasor 179.213.30.90 1467036429
+
+Array
+(
+)
+
+
+invasor 177.102.17.86 1467124966
+
+Array
+(
+)
+
+
+invasor 191.183.101.122 1468954451
+
+Array
+(
+)
+
+
+invasor 191.183.101.122 1470157596
+
+Array
+(
+)
+
+
+invasor 191.183.101.122 1470398918
+
+Array
+(
+)
+
+
+invasor 191.183.101.122 1470668736
+
+Array
+(
+)
+
+
+invasor 191.183.101.122 1470680282
+
+Array
+(
+)
+
+
+invasor 191.188.1.136 1470681374
+
+Array
+(
+)
+
+
+invasor 191.183.101.122 1471018557
+
+Array
+(
+)
+
+
+invasor 191.188.1.136 1471101113
+
+Array
+(
+    [login] => canilelshaday@globo.com 
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6661 (15) 3211-1735
+    [cid] => 13271
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 191.183.101.163 1471454678
+
+Array
+(
+)
+
+
+invasor 191.183.101.163 1472758078
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6661 (15) 3211-1735
+    [login] => advogadodf.rocha@gmail.com
+    [id] => 
+    [cid] => 70
+)
+
+
+invasor 191.183.101.163 1472758187
+
+Array
+(
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6661 (15) 3211-1735
+    [login] => advogadodf.rocha@gmail.com
+    [id] => 
+    [cid] => 70
+)
+
+
+invasor 191.188.1.136 1472832758
+
+Array
+(
+    [login] => canilxangai@hotmail.com
+    [id] => 
+    [header] => /images/logo_header_nucleo_sorocaba.png
+    [email_contato] => sobraci@sobraci.org
+    [cidade] => Sorocaba
+    [endereco] => RUA MARIA CINTO DE BIAGGI, N˚ 243 – SANTA ROSÁLIA
+    [endereco2] => SOROCABA / SP – CEP: 18095-410
+    [tel_contato] => (15) 3232-6661 (15) 3211-1735
+    [cid] => 14372
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 191.183.101.19 1473680673
+
+Array
+(
+)
+
+
+invasor 191.183.101.19 1475519875
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 191.183.101.19 1476114275
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 191.183.101.19 1476721444
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 191.183.101.89 1477938631
+
+Array
+(
+)
+
+
+invasor 191.183.101.89 1478196510
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [pstipo] => Pagamento Pedigree
+    [cid] => 21690
+)
+
+
+invasor 191.183.101.89 1478607964
+
+Array
+(
+    [login] => kcgv@alkc.com.br
+    [id] => 89
+)
+
+
+invasor 191.183.101.89 1478614087
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 191.183.101.89 1478696547
+
+Array
+(
+    [login] => kcatb@alkc.com.br
+    [id] => 108
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 191.183.101.89 1479298747
+
+Array
+(
+    [login] => spnorte@alkc.com.br
+    [id] => 94
+)
+
+
+invasor 191.183.101.89 1479299115
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 191.183.243.97 1479572853
+
+Array
+(
+    [login] => spoeste@alkc.com.br
+    [id] => 87
+)
+
+
+invasor 191.183.100.8 1481736109
+
+Array
+(
+    [login] => kcjsc@alkc.com.br
+    [id] => 113
+)
+
+
+invasor 200.161.47.80 1483711443
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 189.79.149.219 1484144026
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 21909
+    [pr] => ok
+)
+
+
+invasor 189.79.225.9 1484833144
+
+Array
+(
+    [login] => canilflexgold@hotmail.com
+    [id] => 110
+    [pr] => ok
+    [cid] => 21819
+)
+
+
+invasor 189.79.225.9 1485177076
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 189.79.225.9 1485189763
+
+Array
+(
+)
+
+
+invasor 189.38.167.185 1485197638
+
+Array
+(
+    [login] => biologo_tabosa@hotmail.com
+    [id] => 
+    [cid] => 21860
+)
+
+
+invasor 177.188.153.24 1485347497
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+)
+
+
+invasor 177.188.179.96 1485434883
+
+Array
+(
+)
+
+
+invasor 177.188.179.96 1485440373
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 21827
+    [pr] => ok
+    [pstipo] => Pagamento Pedigree
+)
+
+
+invasor 191.254.232.164 1485786145
+
+Array
+(
+    [login] => kcbrasil@alkc.com.br
+    [id] => 102
+    [cid] => 22046
+    [pr] => ok
+)
+
+
+invasor 177.189.36.220 1538672152
+
+Array
+(
+)
+
+
+invasor 177.95.116.117 1538758046
+
+Array
+(
+)
+
+
+invasor 177.95.116.117 1538772007
+
+Array
+(
+)
+
+
+invasor 177.95.116.117 1539001952
+
+Array
+(
+)
+
+
+invasor 177.95.116.117 1539103077
+
+Array
+(
+)
+
+
+invasor 200.148.12.253 1539189919
+
+Array
+(
+)
+
+
+invasor 200.148.12.253 1539204820
+
+Array
+(
+)
+
+
+invasor 187.34.30.237 1539285639
+
+Array
+(
+)
+
+
+invasor 177.68.51.2 1539808836
+
+Array
+(
+)
+
+
+invasor 177.68.51.2 1539883214
+
+Array
+(
+)
+
+
+invasor 177.68.51.2 1539902216
+
+Array
+(
+)
+
+
+invasor 177.68.51.2 1539970907
+
+Array
+(
+)
+
+
+invasor 177.68.51.2 1540231521
+
+Array
+(
+)
+
+
+invasor 177.139.33.222 1540313434
+
+Array
+(
+)
+
+
+invasor 177.139.33.222 1540403646
+
+Array
+(
+)
+
+
+invasor 177.139.33.222 1540488732
+
+Array
+(
+)
+
+
+invasor 177.139.33.222 1540572242
+
+Array
+(
+)
+
+
+invasor 191.19.125.173 1540920535
+
+Array
+(
+)
+
+
+invasor 200.158.52.20 1541441854
+
+Array
+(
+)
+
+
+invasor 200.158.52.20 1541607420
+
+Array
+(
+)
+
+
+invasor 189.46.206.230 1542642893
+
+Array
+(
+)
+
+
+invasor 189.46.206.230 1542656788
+
+Array
+(
+)
+
+
+invasor 189.46.102.36 1543526453
+
+Array
+(
+)
+
+
+invasor 191.193.174.154 1543606243
+
+Array
+(
+)
+
+
+invasor 177.139.33.48 1543937880
+
+Array
+(
+)
+
+
+invasor 177.9.150.227 1547486347
+
+Array
+(
+)
+
+
+invasor 177.9.150.227 1547563255
+
+Array
+(
+)
+
+
+invasor 191.17.32.89 1552321389
+
+Array
+(
+)
+

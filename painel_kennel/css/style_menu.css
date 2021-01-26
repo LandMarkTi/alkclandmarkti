@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+#menu_esquerdo_box{
+	width: 212px;
+	height: 100%;
+	display: table;
+	background-color:#F2F2F2;
+	float:left;
+}

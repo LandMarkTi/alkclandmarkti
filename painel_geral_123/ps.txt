@@ -1,0 +1,107 @@
+inicio
+
+
+
+
+reparar 1485794885
+
+Array
+(
+    [id] => 327
+    [categoria] => 17
+    [subcategoria] => Buldogue Campeiro
+    [regra] => <p class="MsoNormal">APAR&Ecirc;NCIA GERAL: c&atilde;o de constitui&ccedil;&atilde;o potente e larga, indicando for&ccedil;a e agilidade. Formato corporal quase quadrado. Membros vigorosos, musculosos, com ossos fortes. Cabe&ccedil;a volumosa e peito amplo. Aspecto imponente. Visto de cima, deve ser largo nos ombros e comparativamente estreito no lombo. PROPOR&Ccedil;&Otilde;ES IMPORTANTES: a altura na cernelha deve ser, preferencialmente, igual ao comprimento medido da cernelha at&eacute; a inser&ccedil;&atilde;o da cauda. COMPORTAMENTO / TEMPERAMENTO: vers&aacute;til, com caracter&iacute;sticas de guardi&atilde;o. Destaca-se pela fidelidade ao dono, tenacidade e coragem. Seu temperamento &eacute; vigilante e tranq&uuml;ilo, perseverante, com acentuado esp&iacute;rito de luta e companheirismo. Muito d&oacute;cil com crian&ccedil;as; &eacute; um c&atilde;o de f&aacute;cil adapta&ccedil;&atilde;o. Control&aacute;vel, n&atilde;o t&iacute;mido, late pouco, &eacute; tranq&uuml;ilo. MOVIMENTA&Ccedil;&Atilde;O: com caminhar balanceado, mant&eacute;m a cabe&ccedil;a na linha do dorso e a cauda baixa. Seu movimento &eacute; t&iacute;pico; o balan&ccedil;o do corpo deve ser percept&iacute;vel na garupa e nas costelas, enquanto caminha, mant&eacute;m a traseira nivelada mas n&atilde;o firme. Seu galope &eacute; r&aacute;pido, com grande propuls&atilde;o. PELAGEM Pelo: curto, liso, de textura m&eacute;dia, n&atilde;o sendo nem macio e nem &aacute;spero ao toque. COR: todas as cores s&atilde;o aceitas. TAMANHO Ideal : machos: 53 cm. f&ecirc;meas: 51 cm PESO machos: de 35 kg a 45 kg aproximadamente. f&ecirc;meas: de 30 kg a 40 kg aproximadamente. A toler&acirc;ncia na altura &eacute; de 48cm a 58cm. Devem ser respeitadas as propor&ccedil;&otilde;es de<a class="flttuiubaj" title="Click to Continue &gt; by QuickRef" href="#"> peso e altura<img src="http://cdncache-a.akamaihd.net/items/it/img/arrow-10x10.png" alt="" /></a> que confiram aspecto vigoroso ao exemplar.</p>
+<div>&nbsp;</div>
+    [conteudo] => <p class="MsoNormal">Ra&ccedil;a: Buldogue Campeiro</p>
+<p class="MsoNormal">Grupo: C&atilde;es de Guarda e Utilidade/ Ra&ccedil;as Brasileiras</p>
+<p class="MsoNormal">Fun&ccedil;&atilde;o: Lida de Gado e Guarda</p>
+<p class="MsoNormal">Pa&iacute;s de origem: Brasil</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">&nbsp;RESUMO HIST&Oacute;RICO: O Buldogue Campeiro tem sua origem nos Bulldogs que vieram para o Brasil trazidos pelos imigrantes europeus desde o s&eacute;culo XVIII. Devido &agrave; cria&ccedil;&atilde;o de gado ser sempre forte na regi&atilde;o sul, os Buldogues eram bastante usados para capturar o gado selvagem que se criava em meio a um ambiente hostil de campo e mata nativa. Participou de grandes tropeadas sempre capturando o boi fuj&atilde;o. Nos matadouros tinha participa&ccedil;&atilde;o ativa, solicitados para segurar um boi bravo sempre que fosse necess&aacute;rio. Os Buldogues para o trabalho tiveram uma sele&ccedil;&atilde;o quase natural, uma vez que os que eram muito baixos, levavam desvantagem em percorrer longas dist&acirc;ncias e em n&atilde;o poder tracionar segurando o boi. E os que atrav&eacute;s de cruzamentos com outra ra&ccedil;a ficavam muito altos perdiam o instinto de pegador, a precis&atilde;o de movimentos, al&eacute;m de ficarem vulner&aacute;veis &agrave;s investidas dos bois com seus coices e chifradas. O que era considerado um bom c&atilde;o? O corpo deveria ser forte. A cabe&ccedil;a larga com fortes maxilares; o focinho largo e forte, n&atilde;o curto como o do atual Bulldog, nem t&atilde;o comprido como o do Bullmastiff, para que pudesse morder e segurar um boi independentemente do peso. C&atilde;o de temperamento vigilante e tranq&uuml;ilo, com acentuado esp&iacute;rito de luta e companheirismo. Este temperamento teria que ser t&atilde;o obstinado que n&atilde;o conhecesse limites e t&atilde;o controlado que sempre obedecesse aos comandos do tropeiro. Assim, &ldquo;selecionado na lida&rdquo; nasceu o BULDOGUE CAMPEIRO.</p>
+<p class="MsoNormal">APAR&Ecirc;NCIA GERAL: C&atilde;o de constitui&ccedil;&atilde;o potente e larga, indicando for&ccedil;a e agilidade. Formato corporal quase quadrado. Membros vigorosos, musculosos, com ossos fortes. Cabe&ccedil;a volumosa e peito amplo. Aspecto imponente. Visto de cima, deve ser largo nos ombros e comparativamente estreito no lombo.</p>
+<p class="MsoNormal">PROPOR&Ccedil;&Otilde;ES IMPORTANTES: A altura na cernelha deve ser, preferencialmente, igual ao comprimento medido da cernelha at&eacute; a inser&ccedil;&atilde;o da cauda.</p>
+<p class="MsoNormal">COMPORTAMENTO / TEMPERAMENTO: Vers&aacute;til, com caracter&iacute;sticas de guardi&atilde;o. Destaca-se pela fidelidade ao dono, tenacidade e coragem. Seu temperamento &eacute; vigilante e tranq&uuml;ilo, perseverante, com acentuado esp&iacute;rito de luta e companheirismo. Muito d&oacute;cil com crian&ccedil;as; &eacute; um c&atilde;o de f&aacute;cil adapta&ccedil;&atilde;o. Control&aacute;vel, n&atilde;o t&iacute;mido, late pouco, &eacute; tranquilo.</p>
+<p class="MsoNormal">CABE&Ccedil;A: Volumosa com boas bochechas; larga com fortes maxilares e com pele solta sem excesso de rugas. A medida da circunfer&ecirc;ncia da cabe&ccedil;a fica, no m&iacute;nimo, na mesma propor&ccedil;&atilde;o da altura e do comprimento para as f&ecirc;meas e obrigatoriamente maior nos machos.</p>
+<p class="MsoNormal">REGI&Atilde;O CRANIANA Cr&acirc;nio: Bastante largo, alto e levemente arredondado, com forte musculatura. Visto de frente, forma uma linha reta entre as orelhas, quando em aten&ccedil;&atilde;o. Stop: Bem definido.</p>
+<p class="MsoNormal">REGI&Atilde;O FACIAL</p>
+<p class="MsoNormal">Focinho: Curto, com no m&aacute;ximo 1/3 e no m&iacute;nimo 1/5 do comprimento do cr&acirc;nio. Largo embaixo dos olhos; grosso com as linhas laterais paralelas at&eacute; a ponta da trufa; o mais quadrado poss&iacute;vel quando visto de cima.</p>
+<p class="MsoNormal">Trufa: Bem formada, de bom tamanho e bem pigmentada.</p>
+<p class="MsoNormal">Orelhas: Pequenas, pendentes, triangulares; tamb&eacute;m s&atilde;o aceitas as viradas para tr&aacute;s (em rosa), de inser&ccedil;&atilde;o alta, o mais separadas poss&iacute;vel entre si. Quando dobradas levemente no sentido dos olhos, o comprimento n&atilde;o pode ultrapassar o canto interno do globo ocular.</p>
+<p class="MsoNormal">Olhos: Ovalados, de tamanho m&eacute;dio, n&atilde;o podendo ser profundos, nem saltados. Preferencialmente com as p&aacute;lpebras bem pigmentadas. A colora&ccedil;&atilde;o dos olhos, o mais escuro poss&iacute;vel, indo do castanho ao marrom escuro, nos exemplares com a trufa escura. Nos exemplares de trufa ruiva, s&atilde;o aceitas as tonalidades mais claras, castanho claro (cor de mel). Deve-se evitar olhos ca&iacute;dos com aspecto de &ldquo;chor&atilde;o&rdquo;.</p>
+<p class="MsoNormal">L&aacute;bios: Grossos e pendentes sem demasia, n&atilde;o devendo ultrapassar a linha inferior do maxilar em mais de 50% da altura do focinho em toda a sua extens&atilde;o. A rima labial deve ser o mais pigmentada poss&iacute;vel. Mordedura: Prognatismo inferior, sendo que este n&atilde;o deve exceder 3 cm.</p>
+<p class="MsoNormal">Maxilares: Largos, maci&ccedil;os e quadrados. O inferior deve avan&ccedil;ar al&eacute;m do superior e elevar-se no extremo da mand&iacute;bula.</p>
+<p class="MsoNormal">Dentes: Fortes com os caninos bem desenvolvidos para agarrar e bem distanciados entre si. D&aacute;-se prefer&ecirc;ncia aos incisivos bem alinhados aos caninos. Dentes inferiores aparentes s&atilde;o aceit&aacute;veis. A denti&ccedil;&atilde;o deve ser a mais completa poss&iacute;vel. Tolera-se caninos aparentes, dentes a mais e falta dos P1. Mordedura: Prognatismo inferior, sendo que este n&atilde;o deve exceder 3 cm.</p>
+<p class="MsoNormal">PESCO&Ccedil;O: Forte, de comprimento moderado, muito musculoso e de circunfer&ecirc;ncia aproximada a do cr&acirc;nio, com pele frouxa que forma barbela a qual n&atilde;o deve ser excessiva.</p>
+<p class="MsoNormal">TRONCO Dorso: Moderadamente curto, reto, com linha ascendente levemente inclinada at&eacute; a garupa.</p>
+<p class="MsoNormal">Peito: De amplitude not&aacute;vel, quase redondo, sendo que a profundidade deve alcan&ccedil;ar a altura dos cotovelos. Costelas: Bem arqueadas. Ventre: Ligeiramente esgalgado. Garupa: Levemente arredondada.</p>
+<p class="MsoNormal">CAUDA: Inserida baixa, grossa na raiz, de comprimento moderado e de linha inconstante; quebrada naturalmente. D&aacute;-se prefer&ecirc;ncia a cauda que n&atilde;o exceda em comprimento, em dois ter&ccedil;os, a dist&acirc;ncia da inser&ccedil;&atilde;o da cauda &agrave; ponta do jarrete.</p>
+<p class="MsoNormal">MEMBROS ANTERIORES: Vigorosos e musculosos, com ossos fortes.</p>
+<p class="MsoNormal">Ombros: Largos, musculosos e obl&iacute;quos. Em rela&ccedil;&atilde;o &agrave; horizontal deve ter 45&deg; enquanto que a angula&ccedil;&atilde;o esc&aacute;pulo-umeral deve ter menos de 90&deg;.</p>
+<p class="MsoNormal">Cotovelos: Ligeiramente afastados das costelas, s&atilde;o corretamente direcionados para a frente, em uma linha vertical medida dos cotovelos at&eacute; o solo, proporcionalmente a altura.</p>
+<p class="MsoNormal">Antebra&ccedil;os: Bem desenvolvidos e com ossos fortes e retos. Metacarpos: Moderadamente angulados. Patas: S&atilde;o ligeiramente voltadas para fora com dedos levemente separados e um pouco arqueado.</p>
+<p class="MsoNormal">POSTERIORES: Vigorosos, musculosos, com ossos fortes.</p>
+<p class="MsoNormal">Coxas: Bem desenvolvidas, que indicam vigor e atividade. Jarretes: levemente angulados, paralelos. Patas: S&atilde;o ligeiramente voltadas para fora com dedos levemente separados e arqueados; com almofadas plantares grossas e el&aacute;sticas.</p>
+<p class="MsoNormal">MOVIMENTA&Ccedil;&Atilde;O: Com caminhar balanceado, mant&eacute;m a cabe&ccedil;a na linha do dorso e a cauda baixa.</p>
+<p class="MsoNormal">Seu movimento &eacute; t&iacute;pico; o balan&ccedil;o do corpo deve ser percept&iacute;vel na garupa e nas costelas, enquanto caminha, mant&eacute;m a traseira nivelada mas n&atilde;o firme. Seu galope &eacute; r&aacute;pido, com grande propuls&atilde;o.</p>
+<p class="MsoNormal">PELAGEM Pelo: Curto, liso, de textura m&eacute;dia, n&atilde;o sendo nem macio e nem &aacute;spero ao toque.</p>
+<p class="MsoNormal">COR: Todas as cores s&atilde;o aceitas.</p>
+<p class="MsoNormal">TAMANHO / PESO Altura ideal : Machos: 53 cm. F&ecirc;meas: 51 cm</p>
+<p class="MsoNormal">PESO: Machos: de 35 kg a 45 kg aproximadamente. F&ecirc;meas: de 30 kg a 40 kg aproximadamente. A toler&acirc;ncia na altura &eacute; de 48cm a 58cm. Devem ser respeitadas as propor&ccedil;&otilde;es de peso e altura que confiram aspecto vigoroso ao exemplar.</p>
+<p class="MsoNormal">FALTAS: Qualquer desvio dos termos deste padr&atilde;o deve ser considerado como falta e penalizado na exata propor&ccedil;&atilde;o de sua gravidade e seus efeitos na sa&uacute;de e bem estar do c&atilde;o.</p>
+<p class="MsoNormal">FALTAS LEVES</p>
+<p class="MsoNormal">&bull; Caninos aparentes.</p>
+<p class="MsoNormal">&bull; Dentes a mais.</p>
+<p class="MsoNormal">&bull; Falta dos P1.</p>
+<p class="MsoNormal">&bull; Orelhas de inser&ccedil;&atilde;o muito alta.</p>
+<p class="MsoNormal">&bull; Orelhas muito curtas, estreitas, muito largas ou compridas.</p>
+<p class="MsoNormal">&bull; Pelagem at&iacute;pica.</p>
+<p class="MsoNormal">&bull; Pesco&ccedil;o muito curto.</p>
+<p class="MsoNormal">&bull; Angula&ccedil;&atilde;o dos anteriores e posteriores excessiva.</p>
+<p class="MsoNormal">&bull; Ponta da cauda ultrapassando a altura do jarrete.</p>
+<p class="MsoNormal">&bull; Pesco&ccedil;o sem barbelas ou com barbelas em demasia.</p>
+<p class="MsoNormal">&bull; Olhos azuis.</p>
+<p class="MsoNormal">FALTAS GRAVES</p>
+<p class="MsoNormal">&bull; Olhos redondos ou muito grandes; olhos saltados ou de duas cores.</p>
+<p class="MsoNormal">&bull; Prognatismo superior a 3 cm.</p>
+<p class="MsoNormal">&bull; Dorso selado, carpeado ou descendente.</p>
+<p class="MsoNormal">&bull; Peito fraco, estreito, pouco profundo.</p>
+<p class="MsoNormal">&bull; Angula&ccedil;&atilde;o dos anteriores e posteriores insuficiente.</p>
+<p class="MsoNormal">&bull; Jarretes de vaca.</p>
+<p class="MsoNormal">FALTAS DESCLASSIFICANTES</p>
+<p class="MsoNormal">&bull; Aus&ecirc;ncia de prognatismo inferior.</p>
+<p class="MsoNormal">&bull; Tor&ccedil;&atilde;o de mand&iacute;bula.</p>
+<p class="MsoNormal">&bull; Aus&ecirc;ncia de caninos; incisivos a menos ou aus&ecirc;ncia de mais de 2 molares.</p>
+<p class="MsoNormal">&bull; Trufa com mais de 1/4 despigmentada.</p>
+<p class="MsoNormal">&bull; Aus&ecirc;ncia de angula&ccedil;&atilde;o nos anteriores e nos posteriores.</p>
+<p class="MsoNormal">&bull; Anteriores muito compridos ou muito curtos, em &ldquo;X&rdquo; ou arqueados.</p>
+<p class="MsoNormal">&bull; Movimenta&ccedil;&atilde;o muito pesada, dif&iacute;cil, com passos curtos ou passo de camelo cont&iacute;nuo.</p>
+<p class="MsoNormal">&bull; Agressividade ou timidez excessiva.</p>
+<p class="MsoNormal">NOTAS:</p>
+<p class="MsoNormal">&bull; Os machos devem apresentar os dois test&iacute;culos, de apar&ecirc;ncia normal, bem descidos e acomodados na bolsa escrotal.</p>
+<p class="MsoNormal">&bull; Todo c&atilde;o que apresentar qualquer sinal de anomalia f&iacute;sica ou de comportamento deve ser desqualificado.</p>
+    [opcao] => Array
+        (
+            [0] => Dourado
+            [1] => Preto e Tigrado
+            [2] => Chocolate
+            [3] => Tigrado e Branco
+            [4] => Tigrado 
+            [5] => Branco
+            [6] => Branco e Preto
+            [7] => Branco e Vermelho
+            [8] => Branco e Azul 
+            [9] => Preto
+            [10] => Marrom
+            [11] => Branco e Marrom
+            [12] => Azul
+            [13] => Blue Fawn
+            [14] => Tigrado de Azul
+            [15] => Lilás
+        )
+
+    [pais_raca] => Brasil
+    [Submit] => Atualizar
+    [lock] => 0.9101375574877015
+)
+

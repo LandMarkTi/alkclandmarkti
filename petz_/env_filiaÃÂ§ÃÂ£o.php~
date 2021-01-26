@@ -1,0 +1,27 @@
+<?php
+require_once("Connections/conexao.php");
+//var_dump($_POST);
+$senha=1234;
+$idcriador=1;
+$str="insert into criadores values('','".$idcriador."','".$senha;
+foreach($_POST as $key=>$value)$str.="','".$value;
+$str.="')";
+mysql_query($str)or die($str);
+?>
+<body>
+<img width="756px" src="http://www.sobracibr.org/portal2009/templates/ja_avian_ii_d/images/green/logo.gif"><br>
+<p>Obrigado por se cadastrar,iremos entrar em contato após o pagamento.</p><br><br>
+<form target="pagseguro" action="https://pagseguro.uol.com.br/v2/checkout/payment.html" id="pagseguro2" name="pagseguro2" method="post">
+<input type="hidden" name="receiverEmail" value="marcantshop@ig.com.br" />
+<input type="hidden" name="currency" value="BRL" />
+<input type="hidden" name="itemId1" value="cad_<?php echo time();?>" />
+<input type="hidden" name="itemDescription1" id="lista" value="Cadastro Criador" />
+<input type="hidden" name="itemQuantity1" value="1" />
+<input type="hidden" name="itemAmount1" id="valor_produtos"  value="100.00"/>
+<input type="hidden" name="itemWeight1" value="1" />
+<input type="hidden" name="shippingAddressPostalCode" id="cep2" value="05585060">
+
+
+<p><input value="Pagar pelo pagseguro" type="submit"></p>
+</form>
+</body>
