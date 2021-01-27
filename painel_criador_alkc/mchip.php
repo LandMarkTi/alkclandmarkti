@@ -77,7 +77,7 @@ $headers .= "Content-type: text/plain; charset=utf-8\n";
 $headers .= "From: contato@megapedigree.com\n"; // remetente
 $headers .= "Return-Path: info@petweball.com.br\n"; // return-path
 //$envio = mail("debora@neoware.com.br", "$assunto", "$mensagemHTML", $headers);
-$envio = mail('gerencial@anilhascapri.com.br', "Novo Pedido Alkc", "$mensagemHTML", $headers,'-rcontato@megapedigree.com');
+$envio = mail('gerencial@anilhascapri.com.br', "Novo Pedido Alkc", "$mensagemHTML", $headers);
 //$envio = mail('suporte@alkc.com.br', "Novo Pedido Alkc", "$mensagemHTML", $headers,'-rcontato@megapedigree.com');
 
 $qi=mysql_query("insert into chip_pedido values ('', $id_ped, $id_f , ".time().", 0, '$email', '$tel', '$resp','$end','$cel','$vcp','$cep')");
