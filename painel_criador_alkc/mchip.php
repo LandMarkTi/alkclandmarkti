@@ -6,7 +6,8 @@ if($_SESSION['login']=='')die("<script>location='index.php';</script>");
 
 require_once("Connections/conexao.php");
 
-if($_POST){
+if($_POST)
+{
 
 $id_ped=(int)$_SESSION['cid'];
 $id_f=(int)$_POST['reg'];
@@ -71,13 +72,15 @@ $mail->isHTML(true);                                  // Set email format to HTM
 $mail->Subject = 'Novo Pedido Alkc';
 $mail->Body    = $mensagemHTML;
 
-$mail->send();
 
-$qi=mysql_query("insert into chip_pedido values ('', $id_ped, $id_f , ".time().", 0, '$email', '$tel', '$resp','$end','$cel','$vcp','$cep')");
-die("<meta http-equiv='Content-Type' content='text/html; charset=utf-8'><script>alert('Solicitação enviada, aguarde o contato.');location='index_principal.php';</script>");
-
-
-
+    try {
+        $mail->send();
+    } catch (Exception $e) {
+        echo "Mensagem não enviada: {$mail->ErrorInfo}\n";
+    } finally {
+        $qi=mysql_query("insert into chip_pedido values ('', $id_ped, $id_f , ".time().", 0, '$email', '$tel', '$resp','$end','$cel','$vcp','$cep')");
+        die("<meta http-equiv='Content-Type' content='text/html; charset=utf-8'><script>alert('Solicitação enviada, aguarde o contato.');location='index_principal.php';</script>");
+    }
 }
 
 ?>

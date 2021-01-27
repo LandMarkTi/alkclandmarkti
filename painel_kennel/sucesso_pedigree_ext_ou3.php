@@ -132,9 +132,15 @@ $mail->isHTML(true);                                  // Set email format to HTM
 $mail->Subject = 'Novo registro para aprovar';
 $mail->Body    = $ht;
 
-$mail->send();
+try {
+	$mail->send();
+} catch (Exception $e) {
+	echo "Mensagem não enviada: {$mail->ErrorInfo}\n";
+} finally {
+	echo $ultimo_id;
+}
 
 //mysql_query("update somatoria set ped_exo=ped_exo+1 where 1");
 
-echo $ultimo_id;
+
 ?>
