@@ -115,14 +115,24 @@ Aviso gerado pelo sistema ALKC
 data: ".date("d/m/Y")."
 
 ";
-
+/*
 $headers = "MIME-Version: 1.1\n";
 $headers .= "Content-type: text/plain; charset=utf-8\n";
 $headers .= "From: contato@megapedigree.com\n"; // remetente
 $headers .= "Return-Path:contato@megapedigree.com\n"; // return-path
 //$envio = mail("debora@neoware.com.br", "$assunto", "$mensagemHTML", $headers);
 $envio = mail('thayna@alkc.com.br', "Novo registro para aprovar", "$ht", $headers,"-rcontato@megapedigree.com");
+*/
+//Recipients
+$mail->setFrom('contato@megapedigree.com', 'ALKC');
+$mail->addAddress('thayna@alkc.com.br');   // Name is optional
+$mail->addReplyTo('contato@megapedigree.com');
+// Content
+$mail->isHTML(true);                                  // Set email format to HTML
+$mail->Subject = 'Novo registro para aprovar';
+$mail->Body    = $ht;
 
+$mail->send();
 
 //mysql_query("update somatoria set ped_exo=ped_exo+1 where 1");
 
