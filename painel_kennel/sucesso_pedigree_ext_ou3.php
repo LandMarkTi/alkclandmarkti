@@ -1,6 +1,7 @@
 <?php
 session_start();
 require_once("Connections/conexao.php");
+require __DIR__.'/../classes/utils/EnviaMail.php';
 $nomecao = addslashes($_POST['tituloAposta']);
 $micro=addslashes(implode(';',$_POST["m"]));
 $raca=(int)$_POST['subcategoria'];
@@ -123,22 +124,11 @@ $headers .= "Return-Path:contato@megapedigree.com\n"; // return-path
 //$envio = mail("debora@neoware.com.br", "$assunto", "$mensagemHTML", $headers);
 $envio = mail('thayna@alkc.com.br', "Novo registro para aprovar", "$ht", $headers,"-rcontato@megapedigree.com");
 */
-//Recipients
-$mail->setFrom('contato@megapedigree.com', 'ALKC');
-$mail->addAddress('thayna@alkc.com.br');   // Name is optional
-$mail->addReplyTo('contato@megapedigree.com');
-// Content
-$mail->isHTML(true);                                  // Set email format to HTML
-$mail->Subject = 'Novo registro para aprovar';
-$mail->Body    = $ht;
 
-try {
-	$mail->send();
-} catch (Exception $e) {
-	echo "Mensagem não enviada: {$mail->ErrorInfo}\n";
-} finally {
-	echo $ultimo_id;
-}
+
+$mail = new EnviaMail;
+$mail->Enviar('contato@megapedigree.com', 'ALKC', 'thayna@alkc.com.br', '', 'Novo registro para aprovar', $ht);
+echo $ultimo_id;
 
 //mysql_query("update somatoria set ped_exo=ped_exo+1 where 1");
 

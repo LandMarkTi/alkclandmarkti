@@ -5,6 +5,7 @@ if($_SESSION['login']=='')die("<script>location='index.php';</script>");
 
 
 require_once("Connections/conexao.php");
+require __DIR__ . '/../classes/utils/EnviaMail.php';
 
 if($_POST)
 {
@@ -63,24 +64,11 @@ $envio = mail('gerencial@anilhascapri.com.br', "Novo Pedido Alkc", "$mensagemHTM
 
 */
 
-//Recipients
-$mail->setFrom('contato@megapedigree.com', 'ALKC');
-$mail->addAddress('gerencial@anilhascapri.com.br');   // Name is optional
-$mail->addReplyTo('info@petweball.com.br');
-// Content
-$mail->isHTML(true);                                  // Set email format to HTML
-$mail->Subject = 'Novo Pedido Alkc';
-$mail->Body    = $mensagemHTML;
+$mail = new EnviaMail;
+$mail->Enviar('contato@megapedigree.com', 'ALKC', 'gerencial@anilhascapri.com.br', 'info@petweball.com.br', 'Novo Pedido Alkc', $mensagemHTML);
 
-
-    try {
-        $mail->send();
-    } catch (Exception $e) {
-        echo "Mensagem não enviada: {$mail->ErrorInfo}\n";
-    } finally {
-        $qi=mysql_query("insert into chip_pedido values ('', $id_ped, $id_f , ".time().", 0, '$email', '$tel', '$resp','$end','$cel','$vcp','$cep')");
-        die("<meta http-equiv='Content-Type' content='text/html; charset=utf-8'><script>alert('Solicitação enviada, aguarde o contato.');location='index_principal.php';</script>");
-    }
+$qi=mysql_query("insert into chip_pedido values ('', $id_ped, $id_f , ".time().", 0, '$email', '$tel', '$resp','$end','$cel','$vcp','$cep')");
+die("<meta http-equiv='Content-Type' content='text/html; charset=utf-8'><script>alert('Solicitação enviada, aguarde o contato.');location='index_principal.php';</script>");
 }
 
 ?>
