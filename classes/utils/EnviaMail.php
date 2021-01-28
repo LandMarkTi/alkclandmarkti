@@ -16,7 +16,7 @@ class EnviaMail {
         //$mail = new PHPMailer(true);
         $mail = new PHPMailer();
         try {
-            $mail->SMTPDebug = SMTP::DEBUG_LOWLEVEL; //SMTP::DEBUG_SERVER;                      // Enable verbose debug output
+            $mail->SMTPDebug = SMTP::DEBUG_OFF; //SMTP::DEBUG_LOWLEVEL; //SMTP::DEBUG_SERVER;                      // Enable verbose debug output
             $mail->isSMTP();
             $mail->Charset   = PHPMailer::CHARSET_UTF8;                                         // Send using SMTP           
             $mail->Host       = 'localhost';                    // Set the SMTP server to send through            
