@@ -1,4 +1,2 @@
-##### LOCAWEB - NAO REMOVER #####
-#AddHandler php56-script .php
-#suPHP_ConfigPath /home/megapedigree/
-##### LOCAWEB - NAO REMOVER #####
+SetEnv ENV production
+#SetEnv ENV development
