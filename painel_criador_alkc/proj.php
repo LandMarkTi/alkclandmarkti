@@ -3,7 +3,7 @@ session_start();
 if($_SESSION['login']=='')die("<script>location='index.php';</script>");
 
 require_once("Connections/conexao.php");
-
+require __DIR__ . '/../classes/utils/EnviaMail.php';
 
 
 if($_POST){
@@ -67,13 +67,10 @@ $r=mysql_query($qr_i);
 
 
 
-$headers = "MIME-Version: 1.1\n";
-$headers .= "Content-type: text/plain; charset=utf-8\n";
-$headers .= "From: contato@megapedigree.com\n"; // remetente
-$headers .= "Return-Path: info@petweball.com.br\n"; // return-path
 $dt=date("d/m/Y");
-$envio = mail('rodrigo.braite@akron-gsp.com.br', "Projeto criador", "Novo cadastro no painel ALKC $dt ", $headers,'-rcontato@megapedigree.com');
-//$envio = mail('suporte@alkc.com.br', "Novo Pedido Alkc", "$mensagemHTML", $headers,'-rcontato@megapedigree.com');
+
+$mail = new EnviaMail;
+$mail->Enviar('contato@megapedigree.com', 'ALKC', 'rodrigo.braite@akron-gsp.com.br', 'info@petweball.com.br', 'Projeto criador', 'Novo cadastro no painel ALKC'. $dt);
 
 //$qi=mysql_query("insert into chip_pedido values ('', $id_ped, $id_f , ".time().", 0, '$email', '$tel', '$resp','$end','$cel','$vcp','$cep')");
 die("<meta http-equiv='Content-Type' content='text/html; charset=utf-8'><script>alert('Solicitação enviada.');location='index_principal.php';</script>");

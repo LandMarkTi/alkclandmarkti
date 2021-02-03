@@ -75,15 +75,17 @@ if (!isset($_GET['inicio'])) {
 
 	//pega tudo e depois separa o que está sem serre
 
-	$sql = "SELECT  pedigree.id_ped,registro,id_raca,nasc,ninhada,pedigree.nome as nc,emissao,subcategoria.nomeSubcategoria,GROUP_CONCAT( DISTINCT ped_serie_a.id_filhote) as idf  FROM  `pedigree`  JOIN criadores ON pedigree.id_criador = criadores.id_criador JOIN subcategoria ON pedigree.id_raca=subcategoria.idSubcategoria left join ped_serie_a ON ped_serie_a.id_ped=pedigree.id_ped   WHERE (  $zero or criadores.id_credenciado=" . $_SESSION['id'] . '  ) ' . $and . ' group by id_ped order by id_ped desc limit ' . $limite;
+	//$sql = "SELECT  pedigree.id_ped,registro,id_raca,nasc,ninhada,pedigree.nome as nc,emissao,subcategoria.nomeSubcategoria,GROUP_CONCAT( DISTINCT ped_serie_a.id_filhote) as idf  FROM  `pedigree`  JOIN criadores ON pedigree.id_criador = criadores.id_criador JOIN subcategoria ON pedigree.id_raca=subcategoria.idSubcategoria left join ped_serie_a ON ped_serie_a.id_ped=pedigree.id_ped   WHERE (  $zero or criadores.id_credenciado=" . $_SESSION['id'] . '  ) ' . $and . ' group by id_ped order by id_ped desc limit ' . $limite;
+
+	$sql = 'SELECT  pedigree.id_ped,registro,id_raca,nasc,ninhada,pedigree.nome as nc,emissao,subcategoria.nomeSubcategoria, ped_serie_a.id_filhote as idf , ped_serie_a.tipo_serie FROM  pedigree JOIN criadores ON pedigree.id_criador = criadores.id_criador JOIN subcategoria ON pedigree.id_raca=subcategoria.idSubcategoria left join ped_serie_a ON ped_serie_a.id_ped=pedigree.id_ped WHERE (0 or criadores.id_credenciado=' . $_SESSION['id'] . '  ) ' . $and . ' order by emissao desc';
 	$query = mysql_query($sql) or die(mysql_error());
 
 	//Pegando tudo pg
 
-	$sql2 = "SELECT  count(*) as cpn  FROM  `pedigree`  JOIN criadores ON pedigree.id_criador = criadores.id_criador JOIN subcategoria ON pedigree.id_raca=subcategoria.idSubcategoria left join pagtos on pedigree.id_ped=pagtos.id_criador left join  registro_anterior using(id_ped)  WHERE ($zero or criadores.id_credenciado=" . $_SESSION['id'] . ' or id_cadastro_nucleo=' . $_SESSION['id'] . ') ' . $and . '  ';
+	//$sql2 = 'SELECT  count(*) as cpn  FROM pedigree JOIN criadores ON pedigree.id_criador = criadores.id_criador JOIN subcategoria ON pedigree.id_raca=subcategoria.idSubcategoria left join pagtos on pedigree.id_ped=pagtos.id_criador left join  registro_anterior using(id_ped)  WHERE ($zero or criadores.id_credenciado=' . $_SESSION['id'] . ' or id_cadastro_nucleo=' . $_SESSION['id'] . ') ' . $and . '  ';
 	//$qn=mysql_query($sql2);
 	//$cpn=mysql_fetch_assoc($qn);
-	$cpn = 111; //=$cpn['cpn'];
+	//$cpn = 111; //=$cpn['cpn'];
 
 	/*
 $q_rank="SELECT COUNT( * ) AS peds, s.nomeSubcategoria ,
@@ -122,31 +124,10 @@ while($linha=mysql_fetch_array($qrr)){$t_imp+=$linha[0]; }
 	<script type="text/javascript" src="jquery/jqueryui/js/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="jquery/jqueryui/js/jquery-ui-1.8.21.custom.min.js"></script>
 	<script src="jquery/alerta/jquery.easy-confirm-dialog.js"></script>
+	<script type="text/javascript" src="jquery/jqueryui/development-bundle/ui/i18n/jquery.ui.datepicker-pt-BR.js"></script>
 	<script type="text/javascript">
 		//$(function() {
-		$(document).ready(function() {
-			/*
-				$("#yesno").easyconfirm({locale: { title: 'Deseja realmente deletar?', button: ['Não','Sim']}});
-				$("#yesno").click(function() {return false;
-						var files = '';
-						$(".cinput:checked").each(function(){
-						files = files + '' + this.value + '-';
-						});
-						$.post("deletar_varios_ped.php", 
-										  {id: files
-						},
-										  function(retorno){
-											 //$("#check").html(retorno);
-											 //alert(retorno);
-											 document.location.reload();
-										  }
-										  );
-						//alert("Deletado com sucesso!");
-
-						//location="teste.php";
-					});
-					*/
-		});
+		$(document).ready(function() {});
 
 		function ConfirmaExclusao(id) {
 			return false;
@@ -189,8 +170,8 @@ while($linha=mysql_fetch_array($qrr)){$t_imp+=$linha[0]; }
 					$('.pgg').val(0);
 				}
 			});
-			//$('#dataInicial').val( "01/01/2014" );
-			//$('#dataFinal').val( "<?php echo date('d/m/Y'); ?>" );
+			$('#dataInicial').datepicker($.datepicker.regional["pt-BR"]);
+			$('#dataFinal').datepicker($.datepicker.regional["pt-BR"]);
 			$('#dataFinalEpoch').val("<?php echo time(); ?>000");
 			//$('#dataInicialEpoch').val("<?php echo time(); ?>000");
 		});
@@ -297,20 +278,18 @@ while($linha=mysql_fetch_array($qrr)){$t_imp+=$linha[0]; }
 							<table cellspacing="0" id='example' width="100%">
 								<thead>
 									<tr>
-										<th width="30"><input type="checkbox" value="1" id="marcar-todos" name="marcar-todos" /></th>
-										<th width="42">Id</th>
+										<th width="101">Registro</th>
 										<th width="201">Raça </th>
-										<th width="201">nome</th>
-										<th width="101">registro</th>
-										<th width="101">data </th>
+										<th width="201">Nome</th>
+										<th width="101">Tipo</th>
+										<th width="101">Impresso</th>
+										<th width="101">Data </th>
 										<th width="67">Opções</th>
 									</tr>
 								</thead>
 								<tbody>
 
 									<?php
-
-
 
 									$ini = (int)$_GET['p'];
 
@@ -320,63 +299,91 @@ while($linha=mysql_fetch_array($qrr)){$t_imp+=$linha[0]; }
 									while ($linha = mysql_fetch_array($query)) {
 										$nn = explode(';', $linha['ninhada']);
 										$i = 4;
+										$j = 4;
 										$ai = explode(',', $linha['idf']);
-										while ($i < 20) {
-											$atual++;
-											if ($nn[$i] != 'Nome Filhote' && (in_array($i, $ai) === false || is_null($linha['idf']) == true)) {
-												$ini--;
-
-												if ($ini < 0) {
-
-													if ($falta > 0) {
-														$falta--;
+										$registros = 0;
 
 
-									?>
-
-														<tr>
-															<td height="25" align="center"><input type="checkbox" value="<?php echo $linha['id_ped']; ?>" name="marcar[]" class="cinput" /></td>
-															<td height="25" align="center"><?php echo $linha['id_ped']; ?></td>
-															<td><?php echo $linha['nomeSubcategoria']; //. $atual.' '.$falta.' '.$linha['idf'] 
-																?></td>
-															<td><?php echo $nn[$i]; ?></td>
-															<td><?php echo $linha['registro'] . '' . ($i - 4); ?></td>
-															<td><?php echo date("d/m/Y", $linha['emissao']); ?></td>
-															<td valign="middle"><a target="_new" href="reparar_pedigree.php?id=<?php echo $linha['id_ped']; ?>&f=<?= ($i - 4) ?>"><img src="./images/icons/visualizar.png" title="Visualizar" alt="Visualizar" border="0" /></a><a target="_new" href="pedcode.php?id_ped=<?php echo $linha['id_ped']; ?>&id_filhote=<?= $i ?>"><img style="max-width:20px" src="./images/icons/Note-icon.png"></a>
-
-																<!-- <a href="#" id="yesno<?php echo $linha['id_ped']; ?>"><img src="images/icons/excluir.png" title="Excluir" alt="Excluir" border="0" onClick="ConfirmaExclusao(<?php echo $linha['id_ped']; ?>);"/></a> -->
-															</td>
-														</tr>
-									<?php }
-												}
-												//if($falta==0)$prox=$atual;
+										while ($j < 19) {
+											if ($nn[$j] != 'Nome Filhote') {
+												$registros++;
 											}
-											$i++;
+											$j++;
 										}
 
-										//if(!is_null($linha['idf']))
-										//um ou mais foi impresso,
-										//
+										$sqlcimp = "select count(*) as total from ped_print where id_ped = " . $linha['id_ped'];
+										$qcimp = mysql_query($sqlcimp);
+										$rcimp = mysql_fetch_assoc($qcimp);
 
+										if ($registros > $rcimp['total']) {
+											while ($i < 19) {
+												$atual++;
+												if ($nn[$i] != 'Nome Filhote' && (in_array($i, $ai) === false || is_null($linha['idf']) == true)) {
+													$ini--;
 
+													if ($ini < 0) {
 
-									} ?>
+														if ($falta > 0) {
+															$falta--;
+
+															$sqlpimp = "select * from ped_print where id_ped = " . $linha['id_ped'] . " and id_f = " . $i;
+															$qpimp = mysql_query($sqlpimp);
+															$rpimp = mysql_fetch_assoc($qpimp);
+									?>
+															<tr>
+																<td><?php echo $linha['registro'] . '' . ($i - 4); ?></td>
+																<td><?php echo $linha['nomeSubcategoria']; //. $atual.' '.$falta.' '.$linha['idf'] 
+																	?></td>
+																<td><?php echo $nn[$i]; ?></td>
+																<td><?php if ($linha['tipo_serie'] == 3) {
+																		echo 'Tarjeta';
+																	} else {
+																		echo 'Pedigree';
+																	} ?>
+																</td>
+																<td>
+																	<?php if ($rpimp != null && $rpimp['id_perm'] > 0) {
+																		echo 'Sim';
+																	} else {
+																		echo 'Não';
+																	} ?>
+																</td>
+																<td><?php echo date("d/m/Y", $linha['emissao']); ?></td>
+																<td valign="middle"><a target="_new" href="reparar_pedigree.php?id=<?php echo $linha['id_ped']; ?>&f=<?= ($i - 4) ?>"><img src="./images/icons/visualizar.png" title="Visualizar" alt="Visualizar" border="0" /></a><a target="_new" href="pedcode.php?id_ped=<?php echo $linha['id_ped']; ?>&id_filhote=<?= $i ?>"><img style="max-width:20px" src="./images/icons/Note-icon.png"></a>
+																</td>
+															</tr>
+									<?php
+														}
+													}
+												}
+												$i++;
+											}
+										}
+									}
+									?>
 								</tbody>
 							</table>
 
-
+							<!--
 							<div style="margin-top:17px;float:left" class="pg">
 								<?php
+								/*
 								$p = 0;
 
 								if (isset($_GET['p'])) $p = $_GET['p'];
 								$i = 0;
-								while ($i < 10) { ?>
+								while ($i < 10) { */
+								?>
 									<span>
-										<a href="listagem_pedigree_pen.php?<?php echo 'off=0&p=' . ($i * 20) . $bs; ?>"><?= 1 + $i ?></a>
+										<a href="listagem_pedigree_pen.php?<?php //echo 'off=0&p=' . ($i * 20) . $bs; 
+																			?>"><?= 1 + $i ?></a>
 									</span>
-								<?php $i++;
-								} ?>
+								<?php
+								/*
+								$i++;
+								}
+								*/
+								?>
 
 
 								<script>
@@ -387,7 +394,7 @@ while($linha=mysql_fetch_array($qrr)){$t_imp+=$linha[0]; }
 
 								<input class="pgg" name="p" value="<?= (int)$_GET['p'] ?>" type="hidden">
 								<input class="pgg" name="off" value="<?= (int)$_GET['off'] ?>" type="hidden">
-
+							-->
 
 						</form>
 					</div>

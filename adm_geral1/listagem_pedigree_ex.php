@@ -207,7 +207,7 @@ Emitido:
 <input id="dataFinal" placeholder="até quando?" style="width: 80px;">
 <select name="rac" style="width: 120px;" onclick="$('.pgg').val(0);"><option value="-">Raça..</option>
 <?php
-$q_sub=mysql_query('SELECT * FROM `subcategoria` where 1');
+$q_sub=mysql_query('SELECT * FROM `subcategoria` where 1 order by nomeSubcategoria');
 
 while($f_sub=mysql_fetch_assoc($q_sub)){
 
@@ -221,7 +221,7 @@ while($f_sub=mysql_fetch_assoc($q_sub)){
 <select name="nuc" style="width: 120px;" onclick="$('.pgg').val(0);"><option value="0">Apropriado em..</option>
 <?php
 
-$sql_nuc="SELECT * FROM `credenciado` JOIN dados_credenciado ON id_credenciado = id_dados where id_credenciado>85";
+$sql_nuc= "SELECT * FROM `credenciado` JOIN dados_credenciado ON id_credenciado = id_dados where id_credenciado>85 order by nome";
 
 $q_nuc=mysql_query($sql_nuc);
 
@@ -239,9 +239,9 @@ while($op_n=mysql_fetch_assoc($q_nuc))echo '<option value="'.$op_n['id_credencia
 
 		  <th width="42"></th>
 		  <th width="201">Raça </th>
-		<th width="201">criador</th>
+		<th width="201">Criador</th>
 		<th width="50">Nome </th>
-		  <th width="50">data </th>
+		  <th width="50">Data </th>
           <th>Núcleo</th>
           <th width="50">-</th>
 		  
@@ -253,7 +253,7 @@ while($op_n=mysql_fetch_assoc($q_nuc))echo '<option value="'.$op_n['id_credencia
       <?php 
 $nn=explode(';',$linha['ninhada']);
 $i=4;
-while($i<20){
+while($i<19){
 		if($nn[$i]!='Nome Filhote'){
 ?>
         <tr>

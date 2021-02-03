@@ -262,10 +262,10 @@ while($op_n=mysql_fetch_assoc($q_nuc))echo '<option value="'.$op_n['sigla'].'">'
           <th width="30"><input type="checkbox" value="1" id="marcar-todos" name="marcar-todos" /></th>
 		  <th width="42">Id</th>
 		  <th width="201">Raça </th>
-		<th width="201">nome</th>
-		<th width="101">registro</th>
+		<th width="201">Rome</th>
+		<th width="101">Registro</th>
 		<th>Pago</th>
-		  <th width="101">data </th>
+		  <th width="101">Data </th>
 		  <th width="67">Opções</th>
         </tr>
       </thead>
@@ -286,7 +286,7 @@ while($i<20){
 			<td><?php echo $linha['registro'].''.($i-4); ?></td>
 			<td><input type="checkbox" <?php if($linha['hora']!='')echo 'checked';?>></td>
 			<td><?php echo date("d/m/Y",$linha['emissao']); ?></td>
-		        <td valign="middle"><a target="_new" href="reparar_pedigree2.php?id=<?php echo $linha['id_ped']; ?>&f=<?=($i-4)?>"><img src="images/icons/visualizar.png" title="Visualizar" alt="Visualizar" border="0"/></a><a target="_new" href="http://www.megapedigree.com/painel_kennel/pedcode.php?id_ped=<?php echo $linha['id_ped']; ?>&id_filhote=<?=$i?>"><img style="max-width:20px" src="http://www.megapedigree.com/painel_credenciado/images/icons/Note-icon.png"></a>
+		        <td valign="middle"><a href="reparar_pedigree2.php?id=<?php echo $linha['id_ped']; ?>&f=<?=($i-4)?>"><img src="images/icons/visualizar.png" title="Visualizar" alt="Visualizar" border="0"/></a><a target="_new" href="http://www.megapedigree.com/painel_kennel/pedcode.php?id_ped=<?php echo $linha['id_ped']; ?>&id_filhote=<?=$i?>"><img style="max-width:20px" src="http://www.megapedigree.com/painel_credenciado/images/icons/Note-icon.png"></a><a href="transferencia_canil.php?"
 
 				<!-- <a href="#" id="yesno<?php echo $linha['id_ped']; ?>"><img src="images/icons/excluir.png" title="Excluir" alt="Excluir" border="0" onClick="ConfirmaExclusao(<?php echo $linha['id_ped']; ?>);"/></a> --></td>
         </tr>

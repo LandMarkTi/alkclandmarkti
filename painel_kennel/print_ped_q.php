@@ -1,5 +1,6 @@
 <?php
 session_start();
+require_once("Connections/conexao.php");
 $ttl=time();
 if($_SESSION['login']=='')die("<script>location='index.php';</script>");
 $ssid=(int)$_SESSION['id'];
@@ -22,7 +23,7 @@ if(isset($_POST['tarjeta'])==true)die("<script>location='./imprime_canil/tarja.p
 
 require('./fpdf17/fpdf.php');
 //require_once("Connections/conexao.php");
-
+/*
 $hostname_conexao = "opmy0031.servidorwebfacil.com";
 $database_conexao = "megapedigree_com";
 $username_conexao = "megap_com";
@@ -33,7 +34,7 @@ mysql_query("SET NAMES 'utf8'");
 mysql_query('SET character_set_connection=utf8');
 mysql_query('SET character_set_client=utf8');
 mysql_query('SET character_set_results=utf8');
-
+*/
 
 $pdf = new FPDF('L');
 $pdf->SetMargins(0,0,0,0);

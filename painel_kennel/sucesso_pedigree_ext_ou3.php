@@ -2,7 +2,7 @@
 session_start();
 require_once("Connections/conexao.php");
 require __DIR__.'/../classes/utils/EnviaMail.php';
-$nomecao = addslashes($_POST['tituloAposta']);
+$nomecao = addslashes($_POST['nomecachorro']);
 $micro=addslashes(implode(';',$_POST["m"]));
 $raca=(int)$_POST['subcategoria'];
 $datanasc = $_POST['dataInicialEpoch'] / 1000;
@@ -40,7 +40,7 @@ $ps=addslashes(implode(';',$_POST["p"]));
 //ninhada
 $ns=addslashes(implode(';',$_POST["n"]));
 
-$ns.=';Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote';
+$ns.= ';'.$nomecao.';Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote;Nome Filhote';
 
 $obs=$_POST['obs'];
 
@@ -70,20 +70,18 @@ $micro.=';;;;;;;;;;;;;;;';
 
 if($nfr<1)die('Session_error');
 
-
-
-$sql = "INSERT INTO pedigree VALUES('',2,'$nomecao','$micro',$raca,'$var',$datanasc,'$sex','$pais','$registro',$dataEmissao,'$ninhada_no','$amigo','$nome_criador','$proprietario','$end','$ns','$ss','$cs','$ps','$obs')";
+$sql = "INSERT INTO pedigree (`id_criador`,`nome`,`nº microchip`,`id_raca`,`variedade`,`nasc`,`genero`,`pais`,`registro`,`emissao`,`no_ninhada`,`amigo`,`proprietario`,`criador`,`endereco`,`ninhada`,`sexo`,`cor`,`parentes`,`obs`,`id_externo`) VALUES ($criador,'-','$micro',$raca,'$var',$datanasc,'$sex','$pais','$registro',$dataEmissao,'$ninhada_no','$amigo','$nome_criador','$proprietario','$end','$ns','$ss','$cs','$ps','$obs',".$_POST['idsolicitacao'].")";
 
 //die($sql);
-$query = mysql_query($sql) or die('ped_exo_err ');
-
-
+$query = mysql_query($sql) or die(mysql_error());
 
 //Pegando o ID da cadela que acabo de ser cadastrada
 $ultimo_id = (int)mysql_insert_id($conexao);
 
-//add no temp
+$sqlsolpe = "update pedigreeexterno set status = 1, id_pedigree = ". $ultimo_id." where id = ".$_POST['idsolicitacao'];
+$qsolpe = mysql_query($sqlsolpe);
 
+//add no temp
 
 $ultimo_crop=substr($ultimo_id,1);
 
@@ -91,12 +89,11 @@ $registro_ex='RG/E/'.$fr['sigla'].'/21/'.$ultimo_crop;
 
 mysql_query("update pedigree set registro='$registro_ex' where id_ped=".$ultimo_id);
 
-
-mysql_query("insert into registro_anterior values('','".addslashes($_POST['rga'])."',$ultimo_id,".$sss.")")or die('rga');
+mysql_query("insert into registro_anterior (reg_filhotes, id_ped, id_cadastro_nucleo) values('".addslashes($_POST['rga'])."',$ultimo_id,".$sss.")")or die('rga');
 
 //só por 2 no criador do insert do pedigree e descomentar abaixo
 
-mysql_query("INSERT INTO `ped_temp` (`id_ped_temp`, `id_ped`, `id_cria`, `id_nucleo`, `data_cadastro`, `data_aprovado`) VALUES (NULL, '$ultimo_id', '$criador', '$sss', '".time()."', '0');");
+mysql_query("INSERT INTO `ped_temp` (`id_ped`, `id_cria`, `id_nucleo`, `data_cadastro`, `data_aprovado`) VALUES ('$ultimo_id', '$criador', '$sss', '".time()."', '0');");
 
 	$fotonome = $_FILES['foto']['name'];
 	$fototipo = $_FILES['foto']['type'];
@@ -116,18 +113,12 @@ Aviso gerado pelo sistema ALKC
 data: ".date("d/m/Y")."
 
 ";
-/*
-$headers = "MIME-Version: 1.1\n";
-$headers .= "Content-type: text/plain; charset=utf-8\n";
-$headers .= "From: contato@megapedigree.com\n"; // remetente
-$headers .= "Return-Path:contato@megapedigree.com\n"; // return-path
-//$envio = mail("debora@neoware.com.br", "$assunto", "$mensagemHTML", $headers);
-$envio = mail('thayna@alkc.com.br', "Novo registro para aprovar", "$ht", $headers,"-rcontato@megapedigree.com");
-*/
 
+if (getenv('ENV') == 'production') {
+	$mail = new EnviaMail;
+	$mail->Enviar('contato@megapedigree.com', 'ALKC', 'thayna@alkc.com.br', '', 'Novo registro para aprovar', $ht);
+}
 
-$mail = new EnviaMail;
-$mail->Enviar('contato@megapedigree.com', 'ALKC', 'thayna@alkc.com.br', '', 'Novo registro para aprovar', $ht);
 echo $ultimo_id;
 
 //mysql_query("update somatoria set ped_exo=ped_exo+1 where 1");

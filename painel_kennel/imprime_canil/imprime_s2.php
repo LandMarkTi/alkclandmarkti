@@ -2,7 +2,7 @@
 session_start();
 
 require_once("../Connections/conexao.php");
-
+require __DIR__ . '/../classes/utils/EnviaMail.php';
 
 
 $usr=$_GET['usr'];
@@ -63,13 +63,9 @@ $msg.="Enviado pelo sistema ALKC ";
 $msg.="\n";
 
 $para=$f['email'];
-$headers = "MIME-Version: 1.1\n";
-$headers .= "Content-type: text/plain; charset=utf-8\n";
-$headers .= "From: SISTEMA ALKC <sistema@crgabrasil.org>'\n"; // remetente
-//$headers .= "To: $para\n";
-$headers .= "Subject: $ass\n";
-$headers .= "Return-Path: sistema@crgabrasil.org\n"; // return-path
-$envio = mail($para, $ass, $msg, $headers,'-rsistema@crgabrasil.org');
+
+	$mail = new EnviaMail;
+	$mail->Enviar('sistema@crgabrasil.org', 'SISTEMA ALKC', $para, 'sistema@crgabrasil.org', $ass, $msg);
 
 
 

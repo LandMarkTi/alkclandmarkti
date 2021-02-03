@@ -2,12 +2,12 @@
 
 
 #internas_full{ 
-	width: 100%;
+	width: auto;
 	height: auto;
 }
 
 #internas_margem_full{
-	width: 990px;
+	width: auto;
 	height: auto;
 	margin: auto;
 	display: table;
@@ -15,8 +15,8 @@
 }
 
 #internas_box{
-	width: 100%;
-	height: 100%;
+	width: auto;
+	height: auto;
 	display: table;
 	float:right;
 	border:0px solid #000;
@@ -44,7 +44,7 @@
 }
 
 #internas_principal{
-	width: 100%;
+	width: auto;
 	height: auto;
 	display: table;
 	margin:6px;

@@ -65,15 +65,18 @@ $nn=explode(';',$linha_ped['ninhada'],30);
 $ss=explode(';',$linha_ped['sexo'],30);
 
 $i=4;
-while($i<20){
-	if($nn[$i]!='Nome Filhote'&& $ss[$i-4]=='Fêmea'){
-	
-	//for($i=1;$i<30;$i=2*$i){ echo $i.':'.$v[$i];}
-	
-	if(is_null($linha_ped['reg_filhotes']))echo '<option lang="1" longdesc="'.$ss[$i-4].'"  alt="'.$i.'" title="'.$pref.$nn[$i].$sulf.' '.$linha_ped['registro'].($i-4).'" value="'.str_replace("\"","",$linha_ped['id_ped']).'">'.$nn[$i].' '.$linha_ped['registro'].($i-4).'</option>';
-	else echo '<option lang="1" longdesc="'.$ss[$i-4].'"  alt="'.$i.'" title="'.$nn[$i].' '.$linha_ped['registro'].($i-4).'" value="'.str_replace("\"","",$linha_ped['id_ped']).'">'.$nn[$i].' '.$linha_ped['registro'].($i-4).'</option>';
-	//for($i=1;$i<30;$i=2*$i){ echo $i.':'.$v[$i];}
-	}
+	while($i<20){
+		if($nn[$i]!='Nome Filhote'&& $ss[$i-4]=='Fêmea'){
+
+			$sqlm = 'select ativo from padreadoresmatrizes where id_ped = ' . $linha_ped['id_ped'] . ' and id_filhote = ' . ($i - 4) . ' and ativo = 1';
+			$qrm = mysql_query($sqlm);
+			$matriz = mysql_fetch_assoc($qrm);
+
+			if ($matriz['ativo'] == 1) {
+				if (is_null($linha_ped['reg_filhotes'])) echo '<option lang="1" longdesc="' . $ss[$i - 4] . '"  alt="' . $i . '" title="' . $pref . $nn[$i] . $sulf . ' ' . $linha_ped['registro'] . ($i - 4) . '" value="' . str_replace("\"", "", $linha_ped['id_ped']) . '">' . $nn[$i] . ' ' . $linha_ped['registro'] . ($i - 4) . '</option>';
+				else echo '<option lang="1" longdesc="' . $ss[$i - 4] . '"  alt="' . $i . '" title="' . $nn[$i] . ' ' . $linha_ped['registro'] . ($i - 4) . '" value="' . str_replace("\"", "", $linha_ped['id_ped']) . '">' . $nn[$i] . ' ' . $linha_ped['registro'] . ($i - 4) . '</option>';
+			}
+		}
 	$i++;
 	}
 }

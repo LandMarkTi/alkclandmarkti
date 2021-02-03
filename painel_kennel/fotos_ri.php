@@ -330,7 +330,8 @@ mysql_query("insert foto_ped values('','/painel_kennel/storeResize/$fotonome','$
 <html>
 <body>
 <script>
-alert('Dados enviados');document.location='index_principal.php';
+alert('Dados enviados');
+document.location='index_principal.php';
 </script>
 </body>
 </html>

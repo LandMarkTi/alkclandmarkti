@@ -1,214 +1,241 @@
 <?php
 session_start();
-$ocriador=(int)$_SESSION['cid'];
+$ocriador = (int)$_SESSION['cid'];
 
-if($ocriador<1)die("<script>location='index.php';</script>");
+if ($ocriador < 1) die("<script>location='index.php';</script>");
 
 require_once("Connections/conexao.php");
 
-$qestado=mysql_query("select estado from criadores where id_criador=$ocriador ") or die('s');
-$festado=mysql_fetch_assoc($qestado);
-$m_estado=$festado['estado'];
+$qestado = mysql_query("select estado from criadores where id_criador=$ocriador ") or die('s');
+$festado = mysql_fetch_assoc($qestado);
+$m_estado = $festado['estado'];
 ?>
 <link rel="stylesheet" type="text/css" href="css/style_header.css" />
 <link rel="stylesheet" type="text/css" href="css/style_fonts.css" />
-<script type="text/javascript" src="jquery/scroll/js/jquery-1.4.2.min.js"></script>
+<!-- -->
+<link type="text/css" href="jquery/jqueryui/css/redmond/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
+<script type="text/javascript" src="jquery/jqueryui/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="jquery/jqueryui/js/jquery-ui-1.8.21.custom.min.js"></script>
+<script type="text/javascript" src="jquery/jqueryui/development-bundle/ui/i18n/jquery.ui.datepicker-pt-BR.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+<link rel=" stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/style_fonts.css" />
+<link rel="stylesheet" type="text/css" href="css/style_internas.css" />
+<link rel="stylesheet" href="jquery/acord/style.css" type="text/css" />
+<link rel="shortcut icon" href="favicon.png" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<!-- -->
+<script src="https://kit.fontawesome.com/4e8c94a071.js" crossorigin="anonymous"></script>
 <style>
-/* menu drop down*/
-#jsddm
-{	margin: 0;
-	padding: 0;
-}
+	/* menu drop down*/
+	#jsddm {
+		margin: 0;
+		padding: 0;
+	}
 
-	#jsddm li
-	{	float: left;
+	#jsddm li {
+		float: left;
 		list-style: none;
-		margin:0;
-		}
+		margin: 0;
+	}
 
-	#jsddm li a
-	{	display: block;
+	#jsddm li a {
+		display: block;
 		padding: 2px 82px;
 		text-decoration: none;
 		width: auto;
 		white-space: nowrap;
-		width:100%;
-		margin:0;
+		width: 100%;
+		margin: 0;
 		color: white;
 		font-size: 18px;
 	}
 
-	#jsddm li a:hover
-	{	/*background: #24313C;*/}
-		
-		#jsddm li ul
-		{	margin: 0;
-			margin-right:5px;
-			padding: 0;
-			position: absolute;
-			visibility: hidden;
-			margin-top:15px;
-			z-index:1;
-			margin-left: 60px;
-			}
-		
-			#jsddm li ul li
-			{	float: none;
-				display: inline;
-				border-top: 1px solid #ccc;
-				margin:0;
-				}
-			
-			#jsddm li ul li a
-			{	background: #eee;
-				width: auto;
-				color:#30859a;
-				border-top: 1px solid #30859a;
-				width:100%;
-				margin:0;
-				padding-left:5px;
-				padding-right:5px;
-				padding-top:8px;
-				padding-bottom:8px;
-				font-size:13px;
-				font-family:Arial, Helvetica, sans-serif;
-				}
-			
-			#jsddm li ul li a:hover
-			{	
-			background-color: #e8f1ed;
-				}
+	#jsddm li a:hover {
+		/*background: #24313C;*/
+	}
 
+	#jsddm li ul {
+		margin: 0;
+		margin-right: 5px;
+		padding: 0;
+		position: absolute;
+		visibility: hidden;
+		margin-top: 15px;
+		z-index: 1;
+		margin-left: 60px;
+	}
+
+	#jsddm li ul li {
+		float: none;
+		display: inline;
+		border-top: 1px solid #ccc;
+		margin: 0;
+	}
+
+	#jsddm li ul li a {
+		background: #eee;
+		width: auto;
+		color: #30859a;
+		border-top: 1px solid #30859a;
+		width: 100%;
+		margin: 0;
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		font-size: 13px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	#jsddm li ul li a:hover {
+		background-color: #e8f1ed;
+	}
 </style>
 <script type="text/javascript">
-var timeout         = 500;
-var closetimer		= 0;
-var ddmenuitem      = 0;
+	var timeout = 500;
+	var closetimer = 0;
+	var ddmenuitem = 0;
 
-function jsddm_open()
-{	jsddm_canceltimer();
-	jsddm_close();
-	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');}
+	function jsddm_open() {
+		jsddm_canceltimer();
+		jsddm_close();
+		ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');
+	}
 
-function jsddm_close()
-{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+	function jsddm_close() {
+		if (ddmenuitem) ddmenuitem.css('visibility', 'hidden');
+	}
 
-function jsddm_timer()
-{	closetimer = window.setTimeout(jsddm_close, timeout);}
+	function jsddm_timer() {
+		closetimer = window.setTimeout(jsddm_close, timeout);
+	}
 
-function jsddm_canceltimer()
-{	if(closetimer)
-	{	window.clearTimeout(closetimer);
-		closetimer = null;}}
+	function jsddm_canceltimer() {
+		if (closetimer) {
+			window.clearTimeout(closetimer);
+			closetimer = null;
+		}
+	}
 
-$(document).ready(function()
-{	$('#jsddm > li').bind('mouseover', jsddm_open);
-	$('#jsddm > li').bind('mouseout',  jsddm_timer);
-	$('.menu_box').click(function(){jsddm_open});
+	$(document).ready(function() {
+		$('#jsddm > li').bind('mouseover', jsddm_open);
+		$('#jsddm > li').bind('mouseout', jsddm_timer);
+		$('.menu_box').click(function() {
+			jsddm_open
+		});
 
-});
+	});
 
-//document.onclick = jsddm_close;
+	//document.onclick = jsddm_close;
 </script>
 
 <div id="header_full">
- <div id="header_margem_full">
-  
-  <div id="header_logo">
-  <img src="images/logo_hor.png" style="height: 140%;margin-top: -7px;"/>
-  </div>
-  
-  <div id="header_logo_painel"> <a href="index.php"><!--img src="images/logo_painel_controle.png" border="0"/--></a>
-  </div>
+	<div id="header_margem_full">
 
- </div>
+		<div id="header_logo">
+			<img src="images/logo_hor.png" style="height: 140%;margin-top: -7px;" />
+		</div>
+
+		<div id="header_logo_painel"> <a href="index.php">
+				<!--img src="images/logo_painel_controle.png" border="0"/-->
+			</a>
+		</div>
+
+	</div>
 </div>
 
 <div id="header_full_menu" style="background-repeat: initial;height:40px">
- <div id="header_margem_menu_full">
- 
-<ul id="jsddm">
+	<div id="header_margem_menu_full">
 
-  
-    <li>
-    <div class="menu_box"
-style="border: 1px solid white;
+		<ul id="jsddm">
+
+
+			<li>
+				<div class="menu_box" style="border: 1px solid white;
 border-radius: 10px;
 margin: 6px;
 width: 198px;
 background-color: whitesmoke;
-box-shadow: 2px 2px 3px gray;"
-
-><a href="#" class="oswald_branco16"
-style="display: block;
+box-shadow: 2px 2px 3px gray;"><a href="#" class="oswald_branco16" style="display: block;
 padding: 2px 35px;
 text-decoration: none;
 white-space: nowrap;
 width: 54%;
 margin: 0;
 color: #2f8296;
-font-size: 18px;"
->Menu Principal</a></div>  
-          <ul style="visibility: hidden; width: 175px;">
-              <li><a class="botao" href="listagem_pedigree.php">Listar Pedigree</a></li>
-              <li><a class="botao" href="adicionar_pedigree_pre_v2.php">Adicionar Ninhada</a></li>  
-              <li><a class="botao" href="busca_laudos.php">Adicionar Laudos</a></li>    
-              <li><a class="botao" href="privacidade.php">Privacidade</a></li>    
-              <li><a class="botao" href="troca_psw.php">Trocar a Senha</a></li>    
-              <li><a class="botao" href="mchip.php">Encomendar Microchip</a></li>    
-              <li><a class="botao" href="listagem_vacina.php">Listar vacinas</a></li>    
-              <li><a class="botao" href="add_CNPJ.php">Adicionar CNPJ</a></li>    
-<?php 
+font-size: 18px;">Menu Principal</a></div>
+				<ul style="visibility: hidden; width: 175px;">
+					<!-- <li><a class="botao" href="listagem_pedigree_pg2.php?off=0&p=0">Listar Pedigree</a></li> -->
+					<li><a class="botao" href="listagem_pedigree_pg2.php">Listar Pedigree</a></li>
+					<li><a class="botao" href="padreadores.php">Padreadores</a></li>
+					<li><a class="botao" href="matrizes.php">Matrizes</a></li>
+					<li><a class="botao" href="adicionar_pedigree_pre_v2.php">Adicionar Ninhada</a></li>
+					<li><a class="botao" href="pedigreeexterno_lista.php">Pedigree Externo</a></li>
+					<li><a class="botao" href="busca_laudos.php">Adicionar Laudos</a></li>
+					<!-- <li><a class="botao" href="privacidade.php">Privacidade</a></li> -->
+					<li><a class="botao" href="mchip.php">Encomendar Microchip</a></li>
+					<li><a class="botao" href="listagem_vacina.php">Listar Vacinas</a></li>
+					<li><a class="botao" href="add_CNPJ.php">Adicionar CNPJ</a></li>
+					<li><a class="botao" href="troca_psw.php">Trocar a Senha</a></li>
+					<!--
+					<?php
 
-$id_cria=(int)$_SESSION['cid'];
-if($m_estado=='SP')echo '<li><a class="botao" href="proj.php">Projeto Criador</a></li>';
-//<li><a class="botao" href="listar_cruzamento.php">Cruzamentos</a></li>
-$q_doc=mysql_query("select * from foto_doc where id_ped=".$_SESSION['cid']);
-$nfotos=(int)mysql_num_rows($q_doc);
+					$id_cria = (int)$_SESSION['cid'];
+					if ($m_estado == 'SP') echo '<li><a class="botao" href="proj.php">Projeto Criador</a></li>';
+					//<li><a class="botao" href="listar_cruzamento.php">Cruzamentos</a></li>
+					$q_doc = mysql_query("select * from foto_doc where id_ped=" . $_SESSION['cid']);
+					$nfotos = (int)mysql_num_rows($q_doc);
 
-echo "<!-- docs $nfotos -->
-";
-if($nfotos<1){
+					//echo "<!-- docs $nfotos -->";
+					if ($nfotos < 1) {
 
-//tempo desde a ativação
+						//tempo desde a ativação
 
-$qapr=mysql_query('select * from aprovados where id_criador='.$id_cria);
-$fdata=mysql_fetch_assoc($qapr);
-$dap=$fdata['data'];
+						$qapr = mysql_query('select * from aprovados where id_criador=' . $id_cria);
+						$fdata = mysql_fetch_assoc($qapr);
+						$dap = $fdata['data'];
 
-$delta=time()-$dap;
+						$delta = time() - $dap;
 
-$uri=$_SERVER['REQUEST_URI'];
+						$uri = $_SERVER['REQUEST_URI'];
 
-$pash=parse_url($uri);
+						$pash = parse_url($uri);
 
-//echo $pash['path'];
+						//echo $pash['path'];
 
-if($delta>2600000 && $pash['path']!='/painel_criador_alkc/add_docs.php'){echo "<script>alert('Providencie o envio dos documentos para continuar.\\n ');location='add_docs.php'</script>";}
-?>                                      
-              <li><a class="botao" href="add_docs.php">Adicionar Documentos</a></li> <?php 
+						if ($delta > 2600000 && $pash['path'] != '/painel_criador_alkc/add_docs.php') {
+							echo "<script>alert('Providencie o envio dos documentos para continuar.\\n ');location='add_docs.php'</script>";
+						}
+					?>
+					<li><a class="botao" href="add_docs.php">Adicionar Documentos</a></li> 
+					<?php
 
-if(is_null($_SESSION['pr'])){echo "<script>alert('Providencie o envio dos documentos pelo menu principal.\\nVocê tem 30 dias até o cancelamento. ');</script>";$_SESSION['pr']='ok';}
-}
-?>                                        
-                                      
-              </ul>    
-    </li>
-</ul>
-  <!--div id="header_box_menu_imagem"><a href="#"><img src="images/icons/home.png" border="0"/></a></div--> 
- 
-  <div id="header_box_menu_texto_d" class="arial_branco11" ><a class="arial_branco11" href="sair.php">Sair/Logout</a></div>
-  <div id="header_box_menu_imagem_d"><a href="#"></a></div>  
-  <div id="header_box_menu_texto_d" class="arial_branco11">Criador : <b><?php
+						if (is_null($_SESSION['pr'])) {
+							echo "<script>alert('Providencie o envio dos documentos pelo menu principal.\\nVocê tem 30 dias até o cancelamento. ');</script>";
+							$_SESSION['pr'] = 'ok';
+						}
+					}
+					?>
+					-->
 
-$qr=mysql_query("select * from criadores where id_criador=".$_SESSION['cid']);
-$f=mysql_fetch_assoc($qr);
-echo $f['nome'];
-unset($f);
-unset($qr);
-?></b></div>
-  <div id="header_box_menu_imagem_d"></div>  
+				</ul>
+			</li>
+		</ul>
+		<!--div id="header_box_menu_imagem"><a href="#"><img src="images/icons/home.png" border="0"/></a></div-->
 
- </div>
+		<div id="header_box_menu_texto_d" class="arial_branco11"><a class="arial_branco11" href="sair.php">Sair/Logout</a></div>
+		<div id="header_box_menu_imagem_d"><a href="#"></a></div>
+		<div id="header_box_menu_texto_d" class="arial_branco11">Criador : <b><?php
+
+																				$qr = mysql_query("select * from criadores where id_criador=" . $_SESSION['cid']);
+																				$f = mysql_fetch_assoc($qr);
+																				echo $f['nome'];
+																				unset($f);
+																				unset($qr);
+																				?></b></div>
+		<div id="header_box_menu_imagem_d"></div>
+
+	</div>
 </div>
-

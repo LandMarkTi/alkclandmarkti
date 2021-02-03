@@ -1,6 +1,7 @@
 <?php
 session_start();
 require_once("Connections/conexao.php");
+require __DIR__ . '/../classes/utils/EnviaMail.php';
 $nomecao = addslashes($_POST['tituloAposta']);
 $micro=addslashes(implode(';',$_POST["m"]));
 $raca=(int)$_POST['subcategoria'];
@@ -84,13 +85,8 @@ data: ".date("d/m/Y")."
 
 ";
 
-$headers = "MIME-Version: 1.1\n";
-$headers .= "Content-type: text/plain; charset=utf-8\n";
-$headers .= "From: contato@megapedigree.com\n"; // remetente
-$headers .= "Return-Path:contato@megapedigree.com\n"; // return-path
-//$envio = mail("debora@neoware.com.br", "$assunto", "$mensagemHTML", $headers);
-$envio = mail('thayna@sobraci.org', "Novo registro para aprovar", "$ht", $headers,"-rcontato@megapedigree.com");
-
+$mail = new EnviaMail;
+$mail->Enviar('contato@megapedigree.com', 'ALKC', 'thayna@sobraci.org', '', 'Novo registro para aprovar', $ht);
 
 ?>
 <!DOCTYPE html>
