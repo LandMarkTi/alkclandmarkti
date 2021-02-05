@@ -71,7 +71,7 @@ function Logar(){
  <div id="login_margem_full">
 
     <div id="login_box" style="border : 1px solid #2b94a7">
-     <div class="arial_branco12" id="login_titulo" style="background-color:#2b94a7">Acesso ao Sistema</div>
+     <div class="arial_branco12" id="login_titulo" style="background-color:#2b94a7">Acesso ao Sistema <?php if (getenv('ENV') == 'development') { echo ':: DEVELOPMENT';} else if (getenv('ENV') == 'homolog') { echo ':: HOMOLOGACAO'; } ?></div>
      <div style="margin:10px; margin-top:40px;"><b class="arial_azul18" style="color: #2b94a7">Insira seus dados nos campos abaixo, para logar no sistema administrativo.</b></div>
           
     <div style="margin:25px;">
