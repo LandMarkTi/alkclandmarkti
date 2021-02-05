@@ -111,6 +111,16 @@ $linha_ped['endereco']=$ft['endereco'];
 $linha_ped['proprietario']=$ft['proprietario'];
 }
 
+//transf canil
+$trcanil = "select * from criadores c, transferenciacanil t where c.id_criador = t.id_criador_destino and t.id_ped = ".$id. " and t.id_filhote =".$pgs;
+$qtrcanil = mysql_query($trcanil);
+$rtrcanil = mysql_fetch_assoc($qtrcanil);
+
+if($rtrcanil != null && $rtrcanil['id_criador'] > 0) {
+	$linha_ped['endereco'] = $rtrcanil['End_residencial'].', '. $rtrcanil['bairro'] . ', ' . $rtrcanil['cidade'] . ', ' . $rtrcanil['estado'].', '. $rtrcanil['cep'];
+	$linha_ped['proprietario'] = $rtrcanil['nome'];
+}
+
 //$pdf->AddPage();
 //$pdf->SetFont('Arial','B',8);
 

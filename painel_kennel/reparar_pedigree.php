@@ -105,7 +105,7 @@ if ($_POST) {
 			<div id="internas_box">
 				<div id="internas_principal">
 					<div class="arial_branco20" id="internas_titulo">Cadastro Pedigree
-
+						<div style="float:right;"><a class="botao" onClick='history.go(-1)'><img src="images/botoes/voltar.png" width="74" height="22" border="0" title="Voltar página anterior"></a></div>
 					</div>
 					<div style="width:750px;">
 						<div style="margin:10px; margin-top:50px;">

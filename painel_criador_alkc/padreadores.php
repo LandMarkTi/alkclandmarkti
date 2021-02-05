@@ -4,35 +4,138 @@ if ($_SESSION['login'] == '') die("<script>location='index.php';</script>");
 
 require_once("Connections/conexao.php");
 
-if (isset($_GET['off'])) $off = (int)20 * $_GET['off'];
-if (isset($_GET['p'])) $p = (int)$_GET['p'] * 200;
-
 $datetoday = new DateTime();
 $dateoneyear = $datetoday->sub(new DateInterval('P1Y'));
 $tsoneyear = $dateoneyear->getTimestamp();
 
-$sql = "SELECT  *,pedigree.nome as nc  FROM  `pedigree`  JOIN criadores ON pedigree.id_criador = criadores.id_criador JOIN subcategoria ON pedigree.id_raca=subcategoria.idSubcategoria left join pagtos on pedigree.id_ped=pagtos.id_criador  WHERE pedigree.id_ped> 71636 and pedigree.id_criador=$_SESSION[cid] and nasc <= $tsoneyear order by id_ped desc limit " . ($off + $p) . ", 20 ";
+$pedigreeslista = array();
+
+$sql = "SELECT  *,pedigree.nome as nc  FROM  `pedigree`  JOIN criadores ON pedigree.id_criador = criadores.id_criador JOIN subcategoria ON pedigree.id_raca=subcategoria.idSubcategoria left join pagtos on pedigree.id_ped=pagtos.id_criador  WHERE pedigree.id_ped> 71636 and pedigree.id_criador=$_SESSION[cid] and nasc <= $tsoneyear order by id_ped desc";
 $query = mysql_query($sql) or die('e1');
 
-//Pegando o TOTAL DE REGISTROS da table ADM
-$nnp = mysql_num_rows($query);
+while ($linha = mysql_fetch_array($query)) {
+    $nn = explode(';', $linha['ninhada']);
+    $ss = explode(';', $linha['sexo'], 30);
+    $i = 4;
+    while ($i < 19) {
+        if ($nn[$i] != 'Nome Filhote' && $ss[$i - 4] == 'Masc') {
+            $sqlp = 'select ativo from padreadoresmatrizes where id_ped = ' . $linha['id_ped'] . ' and id_filhote = ' . ($i - 4);
+            $qrp = mysql_query($sqlp);
+            $ativo = mysql_fetch_assoc($qrp);
+            $rativo = '';
+            $vativo = '';
+            if ($ativo['ativo'] == null) {
+                $rativo = "Não";
+                $vativo = "-";
+            } else if ($ativo['ativo'] == 1) {
+                $rativo = "Sim";
+                $vativo = "1";
+            } else {
+                $rativo = "Inativo";
+                $vativo = "0";
+            }
 
-$sql2 = "SELECT  count(*) as cpn  FROM  `pedigree` JOIN subcategoria ON pedigree.id_raca=subcategoria.idSubcategoria  WHERE  id_ped > 71636 and pedigree.id_criador= $_SESSION[cid] and nasc <= $tsoneyear";
-$qn = mysql_query($sql2);
-$cpn = mysql_fetch_assoc($qn);
-$cpn = $cpn['cpn'];
+            if (($_POST['registro'] != '') && (substr($_POST['registro'], -1) != $i - 4)) {
+                continue;
+            };
+            if (($_POST['nome'] != '') && (strpos($nn[$i], $_POST['nome']) != true)) {
+                continue;
+            };
 
+            $pedigree = array("id_ped" => $linha['id_ped'], "id_f" => $i, "nomeSubcategoria" => $linha['nomeSubcategoria'], "nomecachorro" => $nn[$i], "registro" => $linha['registro'], "emissao" => $linha['emissao'], "ativo" => $rativo, "vativo" => $vativo);
+            array_push($pedigreeslista, $pedigree);
+        }
+        $i++;
+    }
+}
 
 $sqlt = "SELECT  *,pedigree.nome as nc  FROM  `pedigree`  JOIN criadores ON pedigree.id_criador = criadores.id_criador JOIN subcategoria ON pedigree.id_raca=subcategoria.idSubcategoria join adiciona_filhote using(id_ped)  WHERE adiciona_filhote.id_criador=$_SESSION[cid] and nasc <= $tsoneyear";
-$queryt = mysql_query($sqlt) or die(e2);
+$queryt = mysql_query($sqlt) or die('e2');
 
-$nnt = mysql_num_rows($queryt);
+while ($linhat = mysql_fetch_array($queryt)) {
+    $i = $linhat['id_filhote'];
+    $nn = explode(';', $linhat['ninhada']);
+    $ss = explode(';', $linhat['sexo'], 30);
 
+    if ($ss[$i - 4] == 'Masc') {
+        $sqlp = 'select ativo from padreadoresmatrizes where id_ped = ' . $linhat['id_ped'] . ' and id_filhote = ' . ($i - 4);
+        $qrp = mysql_query($sqlp);
+        $ativo = mysql_fetch_assoc($qrp);
+        $rativo = '';
+        $vativo = '';
+        if ($ativo['ativo'] == null) {
+            $rativo = "Não";
+            $vativo = "-";
+        } else if ($ativo['ativo'] == 1) {
+            $rativo = "Sim";
+            $vativo = "1";
+        } else {
+            $rativo = "Inativo";
+            $vativo = "0";
+        }
 
+        if (($_POST['registro'] != '') && (substr($_POST['registro'], -1) != $i - 4)) {
+            continue;
+        };
+        if (($_POST['nome'] != '') && (strpos($nn[$i], $_POST['nome']) != true)) {
+            continue;
+        };
 
-$nn += (int)$nnt;
+        $pedigree = array("id_ped" => $linhat['id_ped'], "id_f" => $i, "nomeSubcategoria" => $linhat['nomeSubcategoria'], "nomecachorro" => $nn[$i], "registro" => $linhat['registro'], "emissao" => $linhat['emissao'], "ativo" => $rativo, "vativo" => $vativo);
+        array_push($pedigreeslista, $pedigree);
+    }
+}
 
-$v_p = array('Não', 'Não', 'Sim');
+$sqltcd = "SELECT  *,pedigree.nome as nc  FROM  `pedigree`  JOIN criadores ON pedigree.id_criador = criadores.id_criador JOIN subcategoria ON pedigree.id_raca=subcategoria.idSubcategoria join transferenciacanil using(id_ped)  WHERE transferenciacanil.id_criador_destino=$_SESSION[cid] and nasc <= $tsoneyear";
+$querytcd = mysql_query($sqltcd) or die('e3');
+
+while ($linhatcd = mysql_fetch_array($querytcd)) {
+    $i = $linhatcd['id_filhote'];
+    $nn = explode(';', $linhatcd['ninhada']);
+    $ss = explode(';', $linhatcd['sexo'], 30);
+
+    if ($ss[$i - 4] == 'Masc') {
+        $sqlp = 'select ativo from padreadoresmatrizes where id_ped = ' . $linhatcd['id_ped'] . ' and id_filhote = ' . ($i - 4);
+        $qrp = mysql_query($sqlp);
+        $ativo = mysql_fetch_assoc($qrp);
+        $rativo = '';
+        $vativo = '';
+        if ($ativo['ativo'] == null) {
+            $rativo = "Não";
+            $vativo = "-";
+        } else if ($ativo['ativo'] == 1) {
+            $rativo = "Sim";
+            $vativo = "1";
+        } else {
+            $rativo = "Inativo";
+            $vativo = "0";
+        }
+
+        if (($_POST['registro'] != '') && (substr($_POST['registro'], -1) != $i - 4)) {
+            continue;
+        };
+        if (($_POST['nome'] != '') && (strpos($nn[$i], $_POST['nome']) != true)) {
+            continue;
+        };
+
+        $pedigree = array("id_ped" => $linhatcd['id_ped'], "id_f" => $i, "nomeSubcategoria" => $linhatcd['nomeSubcategoria'], "nomecachorro" => $nn[$i], "registro" => $linhatcd['registro'], "emissao" => $linhatcd['emissao'], "ativo" => $rativo, "vativo" => $vativo);
+        array_push($pedigreeslista, $pedigree);
+    }
+}
+
+$sqltco = "SELECT  *,pedigree.nome as nc  FROM  `pedigree`  JOIN criadores ON pedigree.id_criador = criadores.id_criador JOIN subcategoria ON pedigree.id_raca=subcategoria.idSubcategoria join transferenciacanil using(id_ped)  WHERE transferenciacanil.id_criador_origem=$_SESSION[cid] and nasc <= $tsoneyear";
+$querytco = mysql_query($sqltco) or die('e4');
+
+while ($linhatco = mysql_fetch_array($querytco)) {
+    $i = $linhatco['id_filhote'];
+
+    foreach ($pedigreeslista as $key => $value) {
+        if ($value['id_ped'] == $linhatco['id_ped'] && $value['id_f'] == $i) {
+            unset($arr[$key]);
+        }
+    }
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -180,130 +283,43 @@ $v_p = array('Não', 'Não', 'Sim');
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php while ($linha = mysql_fetch_array($query)) {
-                                    $nn = explode(';', $linha['ninhada']);
-                                    $cores = explode(';', $linha['cor']);
-                                    $ss = explode(';', $linha['sexo'], 30);
 
+                                <?php foreach ($pedigreeslista as $pedigree) { ?>
 
-                                    $i = 4;
-                                    while ($i < 20) {
+                                    <tr>
+                                        <td><?= $pedigree['nomeSubcategoria'] ?></td>
+                                        <td><?= $pedigree['nomecachorro']; ?></td>
+                                        <td><?= $pedigree['registro'] . '' . ($pedigree['id_f'] - 4); ?></td>
+                                        <td><?= date("d/m/Y", $pedigree['emissao']); ?></td>
+                                        <td><?=$pedigree['ativo']?></td>
+                                        <td style="text-align:center">
+                                            <?php
+                                            if ($pedigree['vativo'] == "-") {
+                                            ?>
 
-                                        $var = $cores[$i - 4];
+                                                <a href="padreadores_novo.php?id_ped=<?php echo $pedigree['id_ped']; ?>&id_filhote=<?= ($pedigree['id_f'] - 4) ?>" title="Ativar Padreador">
+                                                    <i class="far fa-plus-square" style="font-size:15px"></i>
+                                                </a>
+                                            <?php
+                                            } else if ($pedigree['vativo'] == "1") {
+                                            ?>
+                                                <a href="padreadores_desativar.php?id_ped=<?php echo $pedigree['id_ped']; ?>&id_filhote=<?= ($pedigree['id_f'] - 4) ?>" title="Desativar Padreador">
+                                                    <i class="fas fa-ban" style="font-size:15px;color:red"></i>
+                                                </a>
+                                            <?php
 
-                                        $var = explode('*', $var);
+                                            } else if ($pedigree['vativo'] == "0") {
+                                            ?>
+                                                <a href="padreadores_ativar.php?id_ped=<?php echo $pedigree['id_ped']; ?>&id_filhote=<?= ($pedigree['id_f'] - 4) ?>" title="Ativar Padreador">
+                                                    <i class="far fa-plus-square" style="font-size:15px"></i>
+                                                </a>
+                                            <?php
+                                            } ?>
+                                        </td>
+                                    </tr>
 
-                                        if ($nn[$i] != 'Nome Filhote' && $ss[$i - 4] == 'Masc') {
-                                            $sqlp = 'select ativo from padreadoresmatrizes where id_ped = ' . $linha['id_ped'] . ' and id_filhote = ' . ($i - 4);
-                                            $qrp = mysql_query($sqlp);
-                                            $ativo = mysql_fetch_assoc($qrp);
-                                ?>
-                                            <tr>
-                                                <td><?php echo $linha['nomeSubcategoria'] . ' ' . $var[1]; ?></td>
-                                                <td><?php echo $nn[$i]; ?></td>
-                                                <td><?php echo $linha['registro'] . '' . ($i - 4); ?></td>
-                                                <td><?php echo date("d/m/Y", $linha['emissao']); ?></td>
-                                                <td>
-                                                    <?php
-                                                    if ($ativo['ativo'] == null) {
-                                                        echo 'Não';
-                                                    } else if ($ativo['ativo'] == 1) {
-                                                        echo 'Sim';
-                                                    } else if ($ativo['ativo'] == 0) {
-                                                        echo 'Inativo';
-                                                    } ?>
-                                                </td>
-                                                <td style="text-align:center">
-                                                    <?php
-                                                    if ($ativo['ativo'] == null) {
-                                                    ?>
+                                <?php } ?>
 
-                                                        <a href="padreadores_novo.php?id_ped=<?php echo $linha['id_ped']; ?>&id_filhote=<?= ($i - 4) ?>" title="Ativar Padreador">
-                                                            <i class="far fa-plus-square" style="font-size:15px"></i>
-                                                        </a>
-                                                    <?php
-                                                    } else if ($ativo['ativo'] == 1) {
-                                                    ?>
-                                                        <a href="padreadores_desativar.php?id_ped=<?php echo $linha['id_ped']; ?>&id_filhote=<?= ($i - 4) ?>" title="Desativar Padreador">
-                                                            <i class="fas fa-ban" style="font-size:15px;color:red"></i>
-                                                        </a>
-                                                    <?php
-
-                                                    } else if ($ativo['ativo'] == 0) {
-                                                    ?>
-                                                        <a href="padreadores_ativar.php?id_ped=<?php echo $linha['id_ped']; ?>&id_filhote=<?= ($i - 4) ?>" title="Ativar Padreador">
-                                                            <i class="far fa-plus-square" style="font-size:15px"></i>
-                                                        </a>
-                                                    <?php
-                                                    } ?>
-                                                </td>
-                                            </tr>
-                                        <?php
-                                        }
-                                        $i++;
-                                    }
-                                }
-
-                                //loop trocados
-
-                                while ($linhat = mysql_fetch_array($queryt) and $off + $p + 20 > $cpn) { // é a ultima pg, off+p+20 >cpn
-                                    $i = $linhat['id_filhote'];
-                                    $nn = explode(';', $linhat['ninhada']);
-                                    $ss = explode(';', $linha['sexo'], 30);
-
-                                    $sqlp = 'select ativo from padreadoresmatrizes where id_ped = ' . $linha['id_ped'] . ' and id_filhote = ' . ($i - 4) . ' and ativo = 1';
-                                    $qrp = mysql_query($sqlp);
-                                    $ativo = mysql_fetch_assoc($qrp);
-
-                                    if ($ss[$i - 4] == 'Masc') {
-                                        ?>
-                                        <tr>
-                                            <td height="25" align="center"><input type="checkbox" value="<?php echo $linhat['id_ped']; ?>" name="marcar[]" class="cinput" /></td>
-
-                                            <td><?php echo $linhat['nomeSubcategoria']; ?></td>
-                                            <td><?php echo $nn[$i]; ?></td>
-                                            <td><?php echo $linhat['registro'] . '' . ($i - 4); ?></td>
-                                            <td><?php echo date("d/m/Y", $linhat['emissao']); ?></td>
-                                            <td>
-                                                <?php
-                                                if ($ativo['ativo'] == null) {
-                                                    echo 'Não';
-                                                } else if ($ativo['ativo'] == 1) {
-                                                    echo 'Ativo';
-                                                } else if ($ativo['ativo'] == 0) {
-                                                    echo 'Inativo';
-                                                } ?>
-                                            </td>
-                                            <td style="text-align:center">
-                                                <?php
-                                                if ($ativo['ativo'] == null) {
-                                                ?>
-
-                                                    <a href="padreadores_novo.php?id_ped=<?php echo $linha['id_ped']; ?>&id_filhote=<?= ($i - 4) ?>" title="Ativar Padreador">
-                                                        <i class="far fa-plus-square" style="font-size:15px"></i>
-                                                    </a>
-                                                <?php
-                                                } else if ($ativo['ativo'] == 1) {
-                                                ?>
-                                                    <a href="padreadores_desativar.php?id_ped=<?php echo $linha['id_ped']; ?>&id_filhote=<?= ($i - 4) ?>" title="Desativar Padreador">
-                                                        <i class="fas fa-ban" style="font-size:15px;color:red"></i>
-                                                    </a>
-                                                <?php
-
-                                                } else if ($ativo['ativo'] == 0) {
-                                                ?>
-                                                    <a href="padreadores_ativar.php?id_ped=<?php echo $linha['id_ped']; ?>&id_filhote=<?= ($i - 4) ?>" title="Ativar Padreador">
-                                                        <i class="far fa-plus-square" style="font-size:15px"></i>
-                                                    </a>
-                                                <?php
-                                                } ?>
-                                            </td>
-                                        </tr>
-                                <?php
-                                    }
-                                }
-
-                                ?>
                             </tbody>
                         </table>
 

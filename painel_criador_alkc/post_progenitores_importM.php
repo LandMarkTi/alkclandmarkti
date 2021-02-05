@@ -61,14 +61,11 @@ if($fc['uso_canil']=='sulfixo')$sulf=' '.$fc['nome_completo'].''; else $pref=''.
 
 while($linha_ped=mysql_fetch_assoc($qr))
 {
-$catid=$linha_ped['id_raca'];
+	$catid=$linha_ped['id_raca'];
+	$nn=explode(';',$linha_ped['ninhada'],30);
+	$ss=explode(';',$linha_ped['sexo'],30);
+	$i=4;
 
-
-$nn=explode(';',$linha_ped['ninhada'],30);
-
-$ss=explode(';',$linha_ped['sexo'],30);
-
-$i=4;
 	while($i<20){
 		if($nn[$i]!='Nome Filhote'&& $ss[$i-4]=='Masc'){
 			$sqlm = 'select ativo from padreadoresmatrizes where id_ped = '. $linha_ped['id_ped'].' and id_filhote = '. ($i - 4).' and ativo = 1';
@@ -87,11 +84,20 @@ $i=4;
 //precisa inverter a join
 //$sql1="select * from adiciona_filhote   join  pedigree  using(id_ped) where adiciona_filhote.id_criador=".$id;
 
-$sql1="select *,GROUP_CONCAT(foto_laudos.resultado) as ld from adiciona_filhote   join  pedigree  using(id_ped) left join foto_laudos using(id_ped)  where 1 and adiciona_filhote.id_criador=".$id.' group by adiciona_filhote.id_ped,adiciona_filhote.id_filhote';//remover group
-$qr2=mysql_query($sql1)or die('eadd');
+$sql2="select *,GROUP_CONCAT(foto_laudos.resultado) as ld from adiciona_filhote   join  pedigree  using(id_ped) left join foto_laudos using(id_ped)  where 1 and adiciona_filhote.id_criador=".$id.' group by adiciona_filhote.id_ped,adiciona_filhote.id_filhote';//remover group
+$qr2=mysql_query($sql2)or die('eadd');
 while($linha_ped=mysql_fetch_assoc($qr2)){
 	$nn=explode(';',$linha_ped['ninhada']);
 	$ss=explode(';',$linha_ped['sexo']);
 	if(($ss[$linha_ped['id_filhote']-4]=='Masc'&&($raca==287||$raca==346||$raca==347||$raca==348||$raca==297||$raca==363||$raca==364||$raca==210||$raca==355||$raca==380||$raca==298||$raca==351||$raca==352||$raca==323||$raca==353||$raca==354||$raca==382))||($ss[$linha_ped['id_filhote']-4]=='Masc'&&($linha_ped['id_raca']==$raca)) )
 		echo '<option lang="2" longdesc="'.$ss[$linha_ped['id_filhote']-4].'" alt="'.$linha_ped['id_filhote'].'" title="'.str_replace("\"","",$nn[$linha_ped['id_filhote']]).' '.$linha_ped['registro'].($linha_ped['id_filhote']-4).'" value="'.str_replace("\"","",$linha_ped['id_ped']).'">'.$nn[$linha_ped['id_filhote']].' '.$linha_ped['registro'].($linha_ped['id_filhote']-4).'</option>';
+}
+
+$sqltc = "select * from transferenciacanil join pedigree using(id_ped) where 1 and transferenciacanil.id_criador_destino=" . $id;
+$qrtc = mysql_query($sql1) or die('etc');
+while ($linha_ped = mysql_fetch_assoc($qrtc)) {
+	$nn = explode(';', $linha_ped['ninhada']);
+	$ss = explode(';', $linha_ped['sexo']);
+	if (($ss[$linha_ped['id_filhote'] - 4] == 'Masc' && ($raca == 287 || $raca == 346 || $raca == 347 || $raca == 348 || $raca == 297 || $raca == 363 || $raca == 364 || $raca == 210 || $raca == 355 || $raca == 380 || $raca == 298 || $raca == 351 || $raca == 352 || $raca == 323 || $raca == 353 || $raca == 354 || $raca == 382)) || ($ss[$linha_ped['id_filhote'] - 4] == 'Masc' && ($linha_ped['id_raca'] == $raca)))
+		echo '<option lang="2" longdesc="' . $ss[$linha_ped['id_filhote'] - 4] . '" alt="' . $linha_ped['id_filhote'] . '" title="' . str_replace("\"", "", $nn[$linha_ped['id_filhote']]) . ' ' . $linha_ped['registro'] . ($linha_ped['id_filhote'] - 4) . '" value="' . str_replace("\"", "", $linha_ped['id_ped']) . '">' . $nn[$linha_ped['id_filhote']] . ' ' . $linha_ped['registro'] . ($linha_ped['id_filhote'] - 4) . '</option>';
 }

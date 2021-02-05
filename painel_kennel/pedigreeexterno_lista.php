@@ -51,7 +51,7 @@ $sqlqr = mysql_query($sql);
                         <thead>
                             <tr>
                                 <th scope="col">Data</th>
-                                <th scope="col">Kennel</th>
+                                <th scope="col">Criador</th>
                                 <th scope="col">Declara&ccedil;&atilde;o</th>
                                 <th scope="col">Documento</th>
                                 <th scope="col">Pedigree</th>
@@ -83,7 +83,7 @@ $sqlqr = mysql_query($sql);
                             ?>
                                 <tr>
                                     <td><?= date('d/m/Y', $solicitacao['datasolicitacao']) ?></td>
-                                    <td><?= $solicitacao['nome'] ?></td>
+                                    <td><?= $solicitacao['nome_completo'] ?></td>
                                     <td><a href="pedigreeexterno_declaracao.php?id=<?= $solicitacao['id'] ?>" target="_blank">Declaração</a></td>
                                     <td><a href="/painel_criador_alkc/documentoupload/<?= $solicitacao['documento'] ?>" target="_blank">Documento</a></td>
                                     <td><a href="/painel_criador_alkc/pedigreeanexo/<?= $solicitacao['pedigreeanexo'] ?>" target="_blank">Pedigree</a></td>

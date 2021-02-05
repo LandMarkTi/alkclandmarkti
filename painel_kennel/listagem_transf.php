@@ -48,12 +48,12 @@ if (!isset($_GET['inicio'])) {
 	$query = mysql_query($sql) or die(mysql_error());
 
 	//Pegando tudo pg
-
+/*
 	$sql2 = "SELECT  count(*) as cpn  FROM  `pedigree` JOIN criadores ON pedigree.id_criador = criadores.id_criador JOIN subcategoria ON pedigree.id_raca=subcategoria.idSubcategoria join pedigre_trocados USING ( id_ped ) WHERE 1 and pedigre_trocados.proprietario IS NOT NULL and ( 1" . ') ' . $and . '  ';
 	$qn = mysql_query($sql2);
 	$cpn = mysql_fetch_assoc($qn);
 	$cpn = $cpn['cpn'];
-
+*/
 	/*
 $q_rank="SELECT COUNT( * ) AS peds, s.nomeSubcategoria ,
 (SELECT count(*) FROM `pedigree` pd join criadores using(id_criador) join credenciado cc using (id_credenciado) where pd.id_raca=pp.id_raca group by pd.id_raca) as cad
@@ -211,7 +211,7 @@ while($linha=mysql_fetch_array($qrr)){$t_imp+=$linha[0]; }
 							<table cellspacing="0" id='example' width="100%">
 								<thead>
 									<tr>
-										<th></th>
+										<th><input id="checkall" type="checkbox" /></th>
 										<th>Registro</th>
 										<th>Raça</th>
 										<th>Criador</th>
@@ -230,7 +230,7 @@ while($linha=mysql_fetch_array($qrr)){$t_imp+=$linha[0]; }
 											if ($i == $linha['id_f']) {
 										?>
 												<tr>
-													<td><input name="tped[]" type="checkbox" value="<?= $linha['id_ped'] . '-' . $linha['id_f'] ?>" /></td>
+													<td><input class="transf" type="checkbox" value="<?= $linha['id_ped'] . '-' . $linha['id_f'] ?>" /></td>
 													<td><?php echo $linha['registro'] . '' . ($i - 4); ?></td>
 													<td><?php echo $linha['nomeSubcategoria']; ?></td>
 													<td><?php echo $linha['criador']; ?></td>
@@ -244,8 +244,8 @@ while($linha=mysql_fetch_array($qrr)){$t_imp+=$linha[0]; }
             </td-->
 
 													<td valign="middle" colspan="2">
-														<a href="http://www.megapedigree.com/painel_kennel/pedcode.php?id_ped=<?php echo $linha['id_ped']; ?>&id_filhote=<?= $i ?>"><img style="max-width:20px" src="http://www.megapedigree.com/painel_kennel/images/icons/Note-icon.png"></a>
-														<a href="reparar_pedigree.php?id=<?= $linha['id_ped'] ?>&f=<?= ($i - 4) ?>"><img style="max-width:20px" src="http://www.megapedigree.com/painel_geral_123/images/icons/printer.png"></a>
+														<a href="pedcode.php?id_ped=<?php echo $linha['id_ped']; ?>&id_filhote=<?= $i ?>" target="_blank"><img style="max-width:20px" src="images/icons/Note-icon.png"></a>
+														<a href="reparar_pedigree.php?id=<?= $linha['id_ped'] ?>&f=<?= ($i - 4) ?>"><img style="max-width:20px" src="/painel_geral_123/images/icons/printer.png"></a>
 													</td>
 													</td>
 												</tr>
@@ -315,19 +315,31 @@ while($linha=mysql_fetch_array($qrr)){$t_imp+=$linha[0]; }
 				$('#dataFinalEpoch').val("<?php echo time(); ?>000");
 
 				$('#etiqueta').click(function() {
-					if ($(":checkbox:checked").length < 1) {
+					if ($(".transf:checked").length < 1) {
 						alert('Selecione pelo menos 1 transferência');
 						return false;
-					} else if ($(":checkbox:checked").length > 10) {
+					} else if ($(".transf:checked").length > 10) {
 						alert('Máximo de 10 transferências por vez');
 						return false;
 					} else {
 						var registros = [];
-						$.each($(":checkbox:checked"), function() {
+						$.each($(".transf:checked"), function() {
 							registros.push($(this).val());
 						});
 						window.open('etiqueta.php?registros=' + registros.join(","));
 						return false;
+					}
+				});
+
+				$('#checkall').change(function() {
+					if (this.checked) {
+						$(".transf").each(function() {
+							this.checked = true;
+						});
+					} else {
+						$(".transf").each(function() {
+							this.checked = false;
+						});
 					}
 				});
 			});

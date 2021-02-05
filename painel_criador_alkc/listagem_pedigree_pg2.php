@@ -8,6 +8,7 @@ if ($_POST['pesquisar'] == "1") {
 
 	//if (isset($_GET['off'])) $off = (int)20 * $_GET['off'];
 	//if (isset($_GET['p'])) $p = (int)$_GET['p'] * 200;
+	$pedigreeslista = array();
 
 	$sql = "SELECT  *,pedigree.nome as nc  FROM  `pedigree`  JOIN criadores ON pedigree.id_criador = criadores.id_criador JOIN subcategoria ON pedigree.id_raca=subcategoria.idSubcategoria left join pagtos on pedigree.id_ped=pagtos.id_criador  WHERE pedigree.id_ped> 71636 and pedigree.id_criador=$_SESSION[cid]";
 	if ($_POST['subcategoria'] != "0") $sql .= " and pedigree.id_raca = " . $_POST['subcategoria'];
@@ -26,10 +27,30 @@ if ($_POST['pesquisar'] == "1") {
 	//$sql .= " order by id_ped desc limit " . ($off + $p) . ", 20 ";
 	$query = mysql_query($sql) or die('e1');
 
+	while ($linha = mysql_fetch_array($query)) {
+		$nn = explode(';', $linha['ninhada']);
+		$i = 4;
+		while ($i < 19) {
+			if ($nn[$i] != 'Nome Filhote') {
+
+				if (($_POST['registro'] != '') && (substr($_POST['registro'], -1) != $i - 4)) {
+					continue;
+				};
+				if (($_POST['nome'] != '') && (strpos($nn[$i], $_POST['nome']) != true)) {
+					continue;
+				};
+
+				$pedigree = array("id_ped" => $linha['id_ped'], "id_f" => $i, "nomeSubcategoria" => $linha['nomeSubcategoria'], "nomecachorro" => $nn[$i], "registro" => $linha['registro'], "emissao" => $linha['emissao']);
+				array_push($pedigreeslista, $pedigree);
+			}
+			$i++;
+		}
+	}
 
 	//Pegando o TOTAL DE REGISTROS da table ADM
 	$nnp = mysql_num_rows($query);
 
+	/*
 	$sql2 = "SELECT  count(*) as cpn  FROM  `pedigree` JOIN subcategoria ON pedigree.id_raca=subcategoria.idSubcategoria  WHERE  id_ped > 71636";
 	if ($_POST['subcategoria'] != "0") $sql2 .= " and pedigree.id_raca = " . $_POST['subcategoria'];
 	if ($_POST['datainicial'] != "") {
@@ -46,7 +67,7 @@ if ($_POST['pesquisar'] == "1") {
 	$qn = mysql_query($sql2);
 	$cpn = mysql_fetch_assoc($qn);
 	$cpn = $cpn['cpn'];
-
+	*/
 
 	$sqlt = "SELECT  *,pedigree.nome as nc  FROM  `pedigree`  JOIN criadores ON pedigree.id_criador = criadores.id_criador JOIN subcategoria ON pedigree.id_raca=subcategoria.idSubcategoria join adiciona_filhote using(id_ped)  WHERE adiciona_filhote.id_criador=$_SESSION[cid]";
 	if ($_POST['subcategoria'] != "0") $sqlt .= " and pedigree.id_raca = " . $_POST['subcategoria'];
@@ -60,11 +81,86 @@ if ($_POST['pesquisar'] == "1") {
 		$sqlt .= " and pedigree.emissao <= " . $datef->getTimestamp();
 	}
 	if ($_POST['registro'] != "") $sqlt .= " and pedigree.registro = '" . substr($_POST['registro'], 0, -1) . "'";
-	$queryt = mysql_query($sqlt) or die(e2);
+	$queryt = mysql_query($sqlt) or die('e2');
 
+	while ($linhat = mysql_fetch_array($queryt)) {
+		$i = $linhat['id_filhote'];
+		$nn = explode(';', $linhat['ninhada']);
+
+		if ($nn[$i] != 'Nome Filhote') {
+
+			if (($_POST['registro'] != '') && (substr($_POST['registro'], -1) != $i - 4)) {
+				continue;
+			};
+			if (($_POST['nome'] != '') && (strpos($nn[$i], $_POST['nome']) != true)) {
+				continue;
+			};
+
+			$pedigree = array("id_ped" => $linhat['id_ped'], "id_f" => $i, "nomeSubcategoria" => $linhat['nomeSubcategoria'], "nomecachorro" => $nn[$i], "registro" => $linhat['registro'], "emissao" => $linhat['emissao']);
+			array_push($pedigreeslista, $pedigree);
+		}
+	}
+
+	$sqltcd = "SELECT  *,pedigree.nome as nc  FROM  `pedigree`  JOIN criadores ON pedigree.id_criador = criadores.id_criador JOIN subcategoria ON pedigree.id_raca=subcategoria.idSubcategoria join transferenciacanil using(id_ped) WHERE transferenciacanil.id_criador_destino=$_SESSION[cid]";
+	if ($_POST['subcategoria'] != "0") $sqltcd .= " and pedigree.id_raca = " . $_POST['subcategoria'];
+	if ($_POST['datainicial'] != "") {
+		$datei = DateTime::createFromFormat('d/m/Y H:i:s', $_POST['datainicial'] . '00:00:00');
+		$sqltcd .= " and pedigree.emissao >= " . $datei->getTimestamp();
+	}
+
+	if ($_POST['datafinal'] != "") {
+		$datef = DateTime::createFromFormat('d/m/Y H:i:s', $_POST['datafinal'] . '23:59:59');
+		$sqltcd .= " and pedigree.emissao <= " . $datef->getTimestamp();
+	}
+	if ($_POST['registro'] != "") $sqltcd .= " and pedigree.registro = '" . substr($_POST['registro'], 0, -1) . "'";
+	$querytcd = mysql_query($sqltcd) or die('e3');
+
+	while ($linhatcd = mysql_fetch_array($querytcd)) {
+		$i = $linhatcd['id_filhote'];
+		$nn = explode(';', $linhatcd['ninhada']);
+
+		if ($nn[$i] != 'Nome Filhote') {
+
+			if (($_POST['registro'] != '') && (substr($_POST['registro'], -1) != $i - 4)) {
+				continue;
+			};
+			if (($_POST['nome'] != '') && (strpos($nn[$i], $_POST['nome']) != true)) {
+				continue;
+			};
+
+			$pedigree = array("id_ped" => $linhatcd['id_ped'], "id_f" => $i, "nomeSubcategoria" => $linhatcd['nomeSubcategoria'], "nomecachorro" => $nn[$i], "registro" => $linhatcd['registro'], "emissao" => $linhatcd['emissao']);
+			array_push($pedigreeslista, $pedigree);
+		}
+	}
+
+	$sqltco = "SELECT  *,pedigree.nome as nc  FROM  `pedigree`  JOIN criadores ON pedigree.id_criador = criadores.id_criador JOIN subcategoria ON pedigree.id_raca=subcategoria.idSubcategoria join transferenciacanil using(id_ped) WHERE transferenciacanil.id_criador_origem=$_SESSION[cid]";
+	if ($_POST['subcategoria'] != "0") $sqltco .= " and pedigree.id_raca = " . $_POST['subcategoria'];
+	if ($_POST['datainicial'] != "") {
+		$datei = DateTime::createFromFormat('d/m/Y H:i:s', $_POST['datainicial'] . '00:00:00');
+		$sqltco .= " and pedigree.emissao >= " . $datei->getTimestamp();
+	}
+
+	if ($_POST['datafinal'] != "") {
+		$datef = DateTime::createFromFormat('d/m/Y H:i:s', $_POST['datafinal'] . '23:59:59');
+		$sqltco .= " and pedigree.emissao <= " . $datef->getTimestamp();
+	}
+	if ($_POST['registro'] != "") $sqltco .= " and pedigree.registro = '" . substr($_POST['registro'], 0, -1) . "'";
+	$querytco = mysql_query($sqltco) or die('e4');
+
+	while ($linhatco = mysql_fetch_array($querytco)) {
+		$i = $linhatco['id_filhote'];
+
+		foreach ($pedigreeslista as $key => $value) {
+			if ($value['id_ped'] == $linhatco['id_ped'] && $value['id_f'] == $i) {
+				unset($arr[$key]);
+			}
+		}
+	}
+
+	/*
 	$nnt = mysql_num_rows($queryt);
 	$nn += (int)$nnt;
-	$v_p = array('Não', 'Não', 'Sim');
+	$v_p = array('Não', 'Não', 'Sim');*/
 }
 
 $sqlcateg = "SELECT distinct(id_raca),nomeSubcategoria FROM pedigree join subcategoria on id_raca=idSubcategoria where id_criador=$_SESSION[cid]  union SELECT distinct(id_raca),nomeSubcategoria FROM pedigree join subcategoria on id_raca=idSubcategoria where id_ped in (select id_ped from adiciona_filhote where id_criador=$_SESSION[cid])  ORDER BY nomeSubcategoria ASC";
@@ -166,131 +262,45 @@ $querycateg = mysql_query($sqlcateg) or die(mysql_error());
 									</tr>
 								</thead>
 								<tbody>
-									<?php
-									while ($linha = mysql_fetch_array($query)) {
-										$nn = explode(';', $linha['ninhada']);
-										$cores = explode(';', $linha['cor']);
 
-										$i = 4;
-										while ($i < 20) {
+								<?php foreach($pedigreeslista as $pedigree) { ?>
 
-											$var = $cores[$i - 4];
-											$var = explode('*', $var);
+									<tr>
+										<td scope="row"><?=$pedigree['nomeSubcategoria'] ?></td>
+										<td scope="row"><?=$pedigree['nomecachorro']; ?></td>
+										<td scope="row"><?= $pedigree['registro'] . '' . ($pedigree['id_f'] - 4); ?></td>
+										<td scope="row">
+											<?php
+											if ($nr >= 1) {
+												echo $v_p[$lp['tipo_perm']];
+											} else {
+												echo '';
+											}
 
-											if ($nn[$i] != 'Nome Filhote') {
+											?><img src="images/icons/atualizar.png" style="cursor:pointer" onclick="location='transferencia.php?id_ped=<?= $pedigree['id_ped'] ?>&id_f=<?= $pedigree['id_f'] ?>';"></td>
+										<td scope="row"><?=date("d/m/Y", $pedigree['emissao']); ?></td>
 
-												if (($_POST['registro'] != '') && (substr($_POST['registro'], -1) != $i - 4)) {
-													continue;
-												};
-												if (($_POST['nome'] != '') && (strpos($nn[$i], $_POST['nome']) != true)) {
-													continue;
-												};
-									?>
-												<tr>
-													<td scope="row"><?php echo $linha['nomeSubcategoria'] . ' ' . $var[1]; ?></td>
-													<td scope="row"><?php echo $nn[$i]; ?></td>
-													<td scope="row"><?php echo $linha['registro'] . '' . ($i - 4); ?></td>
-													<td scope="row">
-														<?php
-														if ($nr >= 1) {
-															echo $v_p[$lp['tipo_perm']];
-														} else {
-															echo '';
-														}
-
-														?><img src="images/icons/atualizar.png" style="cursor:pointer" onclick="location='transferencia.php?id_ped=<?= $linha['id_ped'] ?>&id_f=<?= $i ?>';"></td>
-													<td scope="row"><?php echo date("d/m/Y", $linha['emissao']); ?></td>
-
-													<td scope="row">
-														<a href="../painel_kennel/pedcode.php?id_ped=<?php echo $linha['id_ped']; ?>&id_filhote=<?= ($i) ?>&bt=2" title="Visualizar Registro"><i class="far fa-eye" style="font-size:15px;color:orange"></i></a>
-														<!--
+										<td scope="row">
+											<a href="../painel_kennel/pedcode.php?id_ped=<?php echo $pedigree['id_ped']; ?>&id_filhote=<?= $pedigree['id_f'] ?>&bt=2" title="Visualizar Registro" target="_blank"><i class="far fa-eye" style="font-size:15px;color:orange"></i></a>
+											<!--
 													<span title="Consultar Laudos/exames" onclick="location='ver_laudos.php?id_ped=<?php echo $linha['id_ped']; ?>&id_f=<?php echo $i; ?>';">
 														<i class="far fa-file-alt" style="font-size:15px"></i>
 													</span>
 													-->
-														<a href="ver_laudos.php?id_ped=<?php echo $linha['id_ped']; ?>&id_f=<?php echo $i; ?>" title="Consultar Laudos/exames"><i class="far fa-file-alt" style="font-size:15px;color:gray"></i></a>
-														<!--
+											<a href="ver_laudos.php?id_ped=<?php echo $pedigree['id_ped']; ?>&id_f=<?= $pedigree['id_f'] ?>" title="Consultar Laudos/exames"><i class="far fa-file-alt" style="font-size:15px;color:gray"></i></a>
+											<!--
 													<span title="Solicitar DNA" onclick="location='dna.php?id_ped=<?php echo $linha['id_ped']; ?>&id_f=<?php echo $i; ?>';">
 														<i class="fas fa-dna" style="font-size:15px"></i>
 													</span> -->
-														<a href="dna.php?id_ped=<?php echo $linha['id_ped']; ?>&id_f=<?php echo $i; ?>" title="Solicitar DNA"><i class="fas fa-dna" style="font-size:15px;color:black"></i></a>
-														<!--a href="pre_trans.php?id_ped=<?= $linha['id_ped'] ?>&id_f=<?= $i ?>" style="text-decoration:none;font-weight: bold;color:black;padding:4px"> T </a-->
-														<!-- <a href="../painel_kennel/cobertura_conf.php?id_ped=<?php echo $linha['id_ped']; ?>&id_f=<?= ($i) ?>"><img src="images/icons/cob2.png?dd=s" title="Cobertura" alt="Visualizar" border="0" /></a> -->
-														<a href="add_vacina.php?id_ped=<?php echo $linha['id_ped']; ?>&id_f=<?= ($i) ?>" title="Registrar Vacina"><i class="fas fa-syringe" style="font-size:15px;color:red"></i></a>
-													</td>
-												</tr>
-											<?php
-											}
-											$i++;
-										}
-									}
+											<a href="dna.php?id_ped=<?php echo $pedigree['id_ped']; ?>&id_f=<?= $pedigree['id_f'] ?>" title="Solicitar DNA"><i class="fas fa-dna" style="font-size:15px;color:black"></i></a>
+											<!--a href="pre_trans.php?id_ped=<?= $linha['id_ped'] ?>&id_f=<?= $i ?>" style="text-decoration:none;font-weight: bold;color:black;padding:4px"> T </a-->
+											<!-- <a href="../painel_kennel/cobertura_conf.php?id_ped=<?php echo $linha['id_ped']; ?>&id_f=<?= ($i) ?>"><img src="images/icons/cob2.png?dd=s" title="Cobertura" alt="Visualizar" border="0" /></a> -->
+											<a href="add_vacina.php?id_ped=<?php echo $pedigree['id_ped']; ?>&id_f=<?= $pedigree['id_f'] ?>" title="Registrar Vacina"><i class="fas fa-syringe" style="font-size:15px;color:red"></i></a>
+										</td>
+									</tr>
 
-									//loop trocados
+									<?php } ?>
 
-									while ($linhat = mysql_fetch_array($queryt) and $off + $p + 20 > $cpn) { // é a ultima pg, off+p+20 >cpn
-										$i = $linhat['id_filhote'];
-										$nn = explode(';', $linhat['ninhada']);
-
-										if ($nn[$i] != 'Nome Filhote') {
-
-											if (($_POST['registro'] != '') && (substr($_POST['registro'], -1) != $i - 4)
-											) {
-												continue;
-											};
-											if (($_POST['nome'] != '') && (strpos($nn[$i], $_POST['nome']) != true)) {
-												continue;
-											};
-											?>
-											<tr>
-												<td scope="row"><?php echo $linhat['nomeSubcategoria']; ?></td>
-												<td scope="row"><?php echo $nn[$i]; ?></td>
-												<td scope="row"><?php echo $linhat['registro'] . '' . ($i - 4); ?></td>
-												<td scope="row">-</td>
-												<td scope="row"><?php echo date("d/m/Y", $linhat['emissao']); ?></td>
-												<td scope="row" valign="middle">
-													<!--
-											<a href="../painel_kennel/pedcode.php?id_ped=<?php echo $linhat['id_ped']; ?>&id_filhote=<?= ($i) ?>&bt=2"><img src="images/icons/visualizar.png" title="Visualizar" alt="Visualizar" border="0" /></a>
-											-->
-													<a href="../painel_kennel/pedcode.php?id_ped=<?php echo $linhat['id_ped']; ?>&id_filhote=<?= ($i) ?>&bt=2" title="Visualizar Registro"><i class="far fa-eye" style="font-size:15px;color:orange"></i></a>
-													<?php if (1) { ?>
-														<!--
-												<span title="Consultar Laudos/exames" onclick="location='ver_laudos.php?id_ped=<?php echo $linhat['id_ped']; ?>&id_f=<?php echo $i; ?>';" style="cursor:pointer;color: white;
-												background-color: red;
-												padding: 5px;
-												border-radius: 7px;
-												font-size: 17px;
-												height: 8px;
-												width: 9px;
-												display: inline-block;
-												line-height: 5px;">+</span>
-												-->
-
-														<a href="ver_laudos.php?id_ped=<?php echo $linhat['id_ped']; ?>&id_f=<?php echo $i; ?>" title="Consultar Laudos/exames"><i class="far fa-file-alt" style="font-size:15px;color:gray"></i></a>
-
-														<!--
-												<span title="Solicitar DNA" onclick="location='dna.php?id_ped=<?php echo $linhat['id_ped']; ?>&id_f=<?php echo $i; ?>';" style="cursor:pointer;color: white;
-												background-color: whiteSmoke;
-												padding: 5px;
-												border-radius: 7px;
-												font-size: 17px;
-												height: 8px;
-												width: 9px;
-												display: inline-block;
-												line-height: 5px;"><img src="images/dna2.png" style="width:130%;height:130%"></span>
-												-->
-
-														<a href="dna.php?id_ped=<?php echo $linhat['id_ped']; ?>&id_f=<?php echo $i; ?>" title="Solicitar DNA"><i class="fas fa-dna" style="font-size:15px;color:black"></i></a>
-
-														<a href="pre_trans.php?id_ped=<?= $linhat['id_ped'] ?>&id_f=<?= $i ?>" style="text-decoration:none;font-weight: bold;color:black"><i class="fas fa-exchange-alt" style="font-size:15px;color:red"></i></a>
-
-													<?php } ?>
-												</td>
-											</tr>
-									<?php
-
-										}
-									}
-									?>
 								</tbody>
 							</table>
 							<!--

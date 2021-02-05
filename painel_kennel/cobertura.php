@@ -143,7 +143,7 @@ table tbody tr.unchecked:hover{
 			  </tr>
         <tr>
 		        <td height="25" align="center" style="font: 14px Verdana,Arial;">Digite o número do canil:</td>
-		        <td> <input name=criador placeholder="ex: 1234"><br><input type=submit></td>
+		        <td> <input name=criador placeholder="ex: 1234"><br><input type="submit" value="Enviar"></td>
 			  </tr>
 	<tr>
 		        <td height="25" align="center" style="font: 14px Verdana,Arial;"></td><!-- transferir_lista.php -->
