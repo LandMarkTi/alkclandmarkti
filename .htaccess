@@ -1,3 +1,1 @@
-#SetEnv ENV production
-SetEnv ENV homolog
-#SetEnv ENV development
+SetEnv ENV development

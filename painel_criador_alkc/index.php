@@ -75,7 +75,7 @@
 			<div id="login_margem_full">
 
 				<div id="login_box">
-					<div class="arial_branco12" id="login_titulo">Acesso ao Sistema do Criador <?php if (getenv('ENV') == 'development') { echo ':: DEVELOPMENT';} else if (getenv('ENV') == 'homolog') { echo ':: HOMOLOGACAO'; } ?></div>
+					<div class="arial_branco12" id="login_titulo">Acesso ao Sistema do Criador <?php if (getenv('ENV') == 'development') { echo ':: DEVELOPMENT';} else if ($_SERVER["SERVER_NAME"] == 'homologacao.megapedigree.com') { echo ':: HOMOLOGACAO'; } ?></div>
 					<div style="margin:10px; margin-top:40px;"><b class="arial_azul18">Insira seus dados para entrar no sistema.</b></div>
 
 					<div style="margin:25px;">

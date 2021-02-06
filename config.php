@@ -1,6 +1,6 @@
 <?php
 
-if (getenv('ENV') == 'production')
+if ($_SERVER["SERVER_NAME"] == 'megapedigree.com')
 {
     $hostname_conexao = "opmy0031.servidorwebfacil.com";
     $database_conexao = "megapedigree_com";
@@ -13,7 +13,7 @@ if (getenv('ENV') == 'production')
     mysql_query('SET character_set_client=utf8');
     mysql_query('SET character_set_results=utf8');
 }
-if (getenv('ENV') == 'homolog') {
+if ($_SERVER["SERVER_NAME"] == 'homologacao.megapedigree.com') {
     $hostname_conexao = "opmy0031.servidorwebfacil.com";
     $database_conexao = "megapedigree_homolog";
     $username_conexao = "megap_homolog";
